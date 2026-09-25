@@ -20495,18 +20495,6 @@
     "ast_hash": "02dfd453e36c5478c1449413f0e97876",
     "semantic_hash": ""
   },
-  ".opencode/opencode.json": {
-    "mtime": 1790362968.9804437,
-    "seen": 1790363202.7908235,
-    "ast_hash": "f2ae21510d07365eb2bce8159272c7a0",
-    "semantic_hash": ""
-  },
-  ".opencode/plugins/graphify.js": {
-    "mtime": 1790362968.9694462,
-    "seen": 1790363202.7908235,
-    "ast_hash": "b33d000860642c6f4907a877e0387a21",
-    "semantic_hash": ""
-  },
   "cloud/coder-azure-vm/main.tf": {
     "mtime": 1790341944.4878407,
     "seen": 1790363202.993767,
