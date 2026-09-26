@@ -45,15 +45,15 @@ Out of scope:
 
 ## Decision summary
 
-| Decision | Choice |
-|---|---|
-| Transport | Stdio MCP (universal across hosts) |
-| Distribution | Ship with desktop; refresh stable binary under `$AO_DATA_DIR/bin` |
-| Host setup | User pastes generic `{ command }` config; AO does not rewrite IDE files |
-| Daemon missing (default) | Hard fail with "start Agent Orchestrator" guidance |
-| Daemon missing (optional) | `--wake` (or equivalent) launches installed app, then connects |
-| Runfile discovery | `AO_RUN_FILE` if set; else packaged `~/.ao/running.json`, then `~/.ao/dev/running.json` |
-| Default host env | No `AO_RUN_FILE`; no host-specific env |
+| Decision                  | Choice                                                                                  |
+| ------------------------- | --------------------------------------------------------------------------------------- |
+| Transport                 | Stdio MCP (universal across hosts)                                                      |
+| Distribution              | Ship with desktop; refresh stable binary under `$AO_DATA_DIR/bin`                       |
+| Host setup                | User pastes generic `{ command }` config; AO does not rewrite IDE files                 |
+| Daemon missing (default)  | Hard fail with "start Agent Orchestrator" guidance                                      |
+| Daemon missing (optional) | `--wake` (or equivalent) launches installed app, then connects                          |
+| Runfile discovery         | `AO_RUN_FILE` if set; else packaged `~/.ao/running.json`, then `~/.ao/dev/running.json` |
+| Default host env          | No `AO_RUN_FILE`; no host-specific env                                                  |
 
 ## Approaches considered
 
@@ -119,11 +119,11 @@ AO daemon (desktop-owned)
 
 ### Tools (v1)
 
-| Tool | Purpose | Daemon surface |
-|---|---|---|
-| `list_tasks` | List board worker sessions | `GET /api/v1/sessions` (filter orchestrators / terminated by default) |
-| `create_task` | Create project or standalone worker | Delegate or `POST /api/v1/sessions` |
-| `update_task` | Rename only | `PATCH /api/v1/sessions/{id}` with `displayName` |
+| Tool          | Purpose                             | Daemon surface                                                        |
+| ------------- | ----------------------------------- | --------------------------------------------------------------------- |
+| `list_tasks`  | List board worker sessions          | `GET /api/v1/sessions` (filter orchestrators / terminated by default) |
+| `create_task` | Create project or standalone worker | Delegate or `POST /api/v1/sessions`                                   |
+| `update_task` | Rename only                         | `PATCH /api/v1/sessions/{id}` with `displayName`                      |
 
 Kanban column / `displayStatus` remain derived and are returned as read-only
 fields on list results where available. No MCP tool moves cards between
@@ -242,12 +242,12 @@ architecture to work.
 
 ## Dev vs production
 
-| Concern | Development | Production |
-|---|---|---|
-| Entrypoint | `node …/packages/ao-mcp/dist/index.js` or local build | `$AO_DATA_DIR/bin/ao-mcp` |
-| Runfile | Auto-discover incl. `~/.ao/dev` | Prefer `~/.ao/running.json` |
-| Wake | Off; start `npm run dev` / forge yourself | Optional `--wake` against installed app |
-| Host env | No required `AO_RUN_FILE` | No `AO_RUN_FILE` |
+| Concern    | Development                                           | Production                              |
+| ---------- | ----------------------------------------------------- | --------------------------------------- |
+| Entrypoint | `node …/packages/ao-mcp/dist/index.js` or local build | `$AO_DATA_DIR/bin/ao-mcp`               |
+| Runfile    | Auto-discover incl. `~/.ao/dev`                       | Prefer `~/.ao/running.json`             |
+| Wake       | Off; start `npm run dev` / forge yourself             | Optional `--wake` against installed app |
+| Host env   | No required `AO_RUN_FILE`                             | No `AO_RUN_FILE`                        |
 
 ## Error handling
 
