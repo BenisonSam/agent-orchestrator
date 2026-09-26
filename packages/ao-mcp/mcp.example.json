@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ao": {
+      "command": "node",
+      "args": ["<absolute-path-to-repo>/packages/ao-mcp/dist/index.js"]
+    }
+  }
+}
