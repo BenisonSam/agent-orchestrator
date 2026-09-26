@@ -20506,5 +20506,77 @@
     "seen": 1790363202.993767,
     "ast_hash": "eaea5824f057c2652bfa32631b0da537",
     "semantic_hash": ""
+  },
+  "packages/ao-mcp/mcp.example.json": {
+    "mtime": 1790382304.5337217,
+    "seen": 1790382443.8464074,
+    "ast_hash": "ec192c870d8d0af2234f0c45238ba4c6",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/package.json": {
+    "mtime": 1790382304.7261117,
+    "seen": 1790382443.8464074,
+    "ast_hash": "49ed078287923bd18deab09529d43f6d",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/client.test.ts": {
+    "mtime": 1790382305.4701319,
+    "seen": 1790382443.8464074,
+    "ast_hash": "fb8b6fec1fa17218b898d6726e8d0bd6",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/client.ts": {
+    "mtime": 1790382306.428105,
+    "seen": 1790382443.8464074,
+    "ast_hash": "5c5e0b567581f464d45a67165d03a321",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/index.ts": {
+    "mtime": 1790382305.3960698,
+    "seen": 1790382443.8464074,
+    "ast_hash": "b897e5167f2b9551ec7c867b06e6fc3d",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/runfile.test.ts": {
+    "mtime": 1790382305.3960698,
+    "seen": 1790382443.8464074,
+    "ast_hash": "e656d501145d67ec9a53bdb8a4269f1f",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/runfile.ts": {
+    "mtime": 1790382306.428105,
+    "seen": 1790382443.8464074,
+    "ast_hash": "53c93a469aec387bd754bd0017279929",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/server.ts": {
+    "mtime": 1790382305.4137836,
+    "seen": 1790382443.8464074,
+    "ast_hash": "0d6a5103860074a263c346c796af408a",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/smoke.ts": {
+    "mtime": 1790382305.4112737,
+    "seen": 1790382443.8464074,
+    "ast_hash": "79859ec727ebaddd2f7f88814dd77532",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/tools.ts": {
+    "mtime": 1790382306.284856,
+    "seen": 1790382443.8464074,
+    "ast_hash": "4d23c498082087604f396354090fcd57",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/tsconfig.json": {
+    "mtime": 1790382304.118228,
+    "seen": 1790382443.8464074,
+    "ast_hash": "7f6c1f6b360517be99afc7511e826046",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/vitest.config.ts": {
+    "mtime": 1790382304.4539363,
+    "seen": 1790382443.8464074,
+    "ast_hash": "294cd42544648f5284b355f38a810295",
+    "semantic_hash": ""
   }
 }
