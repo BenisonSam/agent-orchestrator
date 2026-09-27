@@ -1,17 +1,17 @@
-# Graph Report - agent-orchestrator  (2026-09-26)
+# Graph Report - agent-orchestrator  (2026-09-27)
 
 ## Corpus Check
-- 3451 files · ~4,103,441 words
+- 3466 files · ~4,110,765 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 43 file(s) not represented in the graph (top: (none) 15, .xml 8, .Dockerfile 6)
 
 ## Summary
-- 39056 nodes · 186236 edges · 778 communities (664 shown, 114 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 11341 edges (avg confidence: 0.85)
+- 39163 nodes · 186433 edges · 734 communities (621 shown, 113 thin omitted)
+- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 11351 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6da17cfe`
+- Built from commit: `737f2fa4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,40 +27,40 @@
 - SessionInspector.tsx
 - SessionRecord
 - SessionID
-- cloud-cp/types.ts
+- @tanstack/react-query
 - workspace.ts
 - ChatWorkspace.tsx
 - PullRequest
-- Observer
-- agent/kimi/kimi_test.go
+- scm/observer.go
 - .string
+- doRequest
 - useShellTerminals.ts
-- ReviewInvocation
-- ref_node_path
+- ReviewCancelSpec
+- ref_node_crypto
 - session_manager/manager_test.go
 - ref_node_fs
-- code-highlight.ts
+- WorkspaceDiffView.tsx
 - chat/api.ts
-- useTheme
+- react-native
 - hooks/useConversation.ts
 - controllers/dto.go
-- net/http.Request
+- net/http.ResponseWriter
 - AgentModelInfo
 - conversation
 - session/service_test.go
 - newTestStore
 - protocol.gen.go
-- newFakeConversation
+- sidebar-navigation-shell.tsx
 - main/browser-profile-import.ts
 - browser-view-host.ts
 - main.ts
-- writeRunFileFor
-- net/http.ResponseWriter
+- setConfigEnv
+- writeError
 - .cancel
 - orchestratorView.ts
 - worker/protocol.go
 - migrate
-- apiErrorMessage
+- api-client.ts
 - SessionView.tsx
 - pair.tsx
 - SessionInterfaceTransition
@@ -69,74 +69,74 @@
 - ID
 - auto-updater.ts
 - NotificationRecord
-- fake-bridge.ts
+- Sidebar.test.tsx
 - ChatTimelineItems.tsx
-- useThemedStyles
+- useTheme
 - log/slog.Logger
 - ao-cloud/main.go
 - interface_transition_test.go
 - APIDeps
-- newHarness
-- i18n/index.ts
+- controller_test.go
+- apiErrorMessage
 - settings.tsx
-- cli/session.go
-- api-client.ts
+- github.com/spf13/cobra.Command
+- lib/telemetry.ts
 - lifecycle/manager_test.go
-- setConfigEnv
-- ActivityState
+- ReviewInvocation
+- Manager
 - lib/api.ts
 - newTestDriver
 - project/service_test.go
 - acp/driver_test.go
-- NotFound
+- workspace_files.go
 - scm/observer_test.go
-- dispatcherStoreFake
+- Coordinator
 - session_manager/agent_switching_test.go
 - Service
 - gitlab/provider_test.go
-- executeCLI
-- newTestCodexAccountManager
+- ChatConversation
+- agent/codex_accounts_test.go
 - tmux_test.go
 - browser-annotations.ts
 - AgentAuthStatus
 - forge.config.ts
 - preload.ts
-- cloud/internal/config/config.go
-- .fetch
+- net/http.Client
+- LaunchSpec
 - telemetry-policy.ts
-- New
+- workspace_integration_test.go
 - NotificationCenter.tsx
-- github.com/spf13/cobra.Command
+- ao/main.go
 - contract/kanban.go
 - runtime.ts
 - Collector
-- Supervisor
-- ChatEvent
-- build-mac-repair-installer.node-test.mjs
+- .BuildInteractive
+- ChatUserMessage
+- ref_node_child_process
 - CodexAccountSwitch
-- CostBackfiller
+- CodexCapacityObservation
 - browser-profiles.ts
 - internal/review/review_test.go
-- agent/catalog_test.go
+- AgentHarness
 - shellterm/service_test.go
-- mustNoError
+- github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store
 - conversation
 - dependencies
 - codex_secure_fs_windows.go
 - conptyConn
 - src/types.ts
 - seededChatConversation
-- AgentLogo.tsx
+- Sandbox
 - conversation
 - importer/importer_test.go
 - pr_ref.go
 - cloud-auth.ts
 - mustNoError
-- newTestService
+- systeminstall/systeminstall_test.go
 - agent-browser-runtime.ts
 - frontend/package.json
 - deviceProvider.ts
-- NewCache
+- ActivityState
 - context.CancelFunc
 - Runtime
 - readinessCoordinator
@@ -144,25 +144,25 @@
 - Client
 - AgentModelCatalog
 - workspace
-- installCopilotHooks
+- copilotHooksPath
 - normalizeNotification
 - net/http.Response
-- New
+- agentauth/service_test.go
 - Snapshot
 - mobile/package.json
 - cli/project.go
-- SCMObservation
-- net/http.Client
-- cli/review_test.go
+- shared/browser-profile-import.ts
+- resource_handlers_repository_probe_test.go
+- .ExitCode
 - Server
 - coder/client_test.go
-- ref_node_os
+- remotes-main.ts
 - codexCapacityCoordinator
 - agentruntime/command.go
 - notifications.tsx
-- backOr
+- ChatInputResponse
 - ProgressController
-- scmObservationFromGraphQL
+- SCMObservation
 - github/provider_test.go
 - providerRuntime
 - Issue
@@ -173,33 +173,33 @@
 - tunnel_test.go
 - os.File
 - composer.go
-- auto-updater.test.ts
+- browser-download-manager.ts
 - gitworktree/commands.go
-- New
-- provider-auth-flow.ts
-- qrScramble.ts
+- conpty/runtime_test.go
+- ao-mcp/src/client.ts
+- ConnectMobileContent.tsx
 - github.com/coder/websocket.Conn
-- persistenthost/host_test.go
+- persistenthost/host.go
 - MatcherGroup
 - .runHook
-- cli/browser.go
+- cli/browser_test.go
 - io.Writer
-- provisioning.go
+- resource_handlers_autolink_test.go
 - Inventory
 - app-state.ts
-- session/[id].tsx
-- newChatManager
-- stale-app-copies.ts
+- pushdevices_test.go
+- chat_spawn_test.go
+- projects.mdx
 - test-cloud-local.sh
 - Manager
 - client
 - NewLauncher
 - githubapp/client.go
-- ChatSettingsModal.android.tsx
+- cloud-cp-proxy.ts
 - codex_secure_file.go
 - startDaemon
 - os/exec.Cmd
-- Runtime
+- EncodeMessage
 - EventSink
 - mobile_test.go
 - .request
@@ -207,102 +207,102 @@
 - fakeAgent
 - switchTestAgent
 - New
-- Target
+- Service
 - UsageSourceContext
 - Agent Orchestrator Architecture
 - AgentBrowserCDPBridge
 - BridgeService
 - dependencies
-- io.Reader
+- conn
 - ao-pi-reviewer.ts
 - openAgentSwitchFailureFixture
 - doctor_test.go
 - usage/watcher_test.go
 - parser_test.go
-- ref_node_child_process
-- Endpoints
+- ref_node_os
+- LocalEndpoints
 - catalogsync.go
-- CodexAccounts
-- ownership_test.go
+- Conflict
+- New
 - net.Conn
-- ReportRecord
-- workspacewatch/watcher.go
+- ProjectID
+- workspacewatch/watcher_test.go
 - codexAccountCatalog
-- Provider
+- SCMReviewRequest
 - TelemetryEvent
 - gitlab/tracker_test.go
-- .runDoctor
-- acp_relay_test.go
+- doctor.go
+- acpRelay
 - conpty/host_test.go
 - Event
-- .enrollFaultTx
+- newAuthUnderTest
 - deployment.py
 - Dashboard-Surfaced Legacy Import Offer — Implementation Plan
 - Agent-switch failure-point runbook
 - src/client.ts
 - build-tmux.mjs
-- TopbarOpenEditorButton.tsx
+- New
 - Tracker
-- github/tracker_test.go
+- newTrackerForTest
 - sentryobs.go
 - session_manager/prompt.go
 - Design system — Agent Orchestrator
 - workerRequest
 - providers.go
 - README.md
-- steerHarness
+- shell-env.ts
 - Plan
 - browser-runtime-link.ts
 - crushConfigFile
-- New
+- Tracker
 - TunnelRuntime
-- sync.Once
+- browserruntime/listen_unix.go
 - ShellTerminalRecord
 - UsageModelAggregate
-- HashPassword
+- NewLANManager
 - ResolveLocal
 - Deployments
 - devDependencies
 - scm-models.ts
-- devimport/service.go
+- dev_test.go
 - .authStatusFor
 - resolvePreviewTarget
 - .Validate
 - coder-azure-vm/main.tf
 - WorkerClient
-- sync.Mutex
+- managedPreviewExitFunc
 - annotate-preload.ts
 - reconciler_test.go
 - Agent Switching Failure-Only Observability Design
 - main/tray.ts
 - cloud-client/package.json
-- schema
-- AgentSwitchFault
+- gencodexproto/main.go
+- stale-app-copies.ts
 - Agent Orchestrator — Mobile
 - Development Guide
 - mdx.tsx
 - main/editor-handoff.ts
 - Service
-- mountTelemetry
-- Service
+- MobileDevicesController
+- remove_test.go
 - RuntimeCleanupOutcome
 - .GetAgentHooks
 - compilerOptions
 - ptyregistry_test.go
 - .reconcileGlobalInner
-- AgentSwitchEventMetadata
-- daemon
-- e2e/harness_test.go
+- CommandPalette.test.tsx
+- workspaceRoute
+- index.tsx
 - withTempHome
 - ThreadItem
 - gitlab/cache.go
-- fakeStream
-- operation
-- buildProjectConfig
-- EncodeMessage
-- New
+- acp_relay_test.go
+- SessionUUID
+- buildProjectRecord
+- .InspectTerminalSurface
+- previewserver/process_unix_test.go
 - Run
-- listDirs
+- copilotLocalAuthStatus
 - workertransport/workspace_review_test.go
 - README.zh-CN.md
 - product-ui/package.json
@@ -310,27 +310,27 @@
 - NotificationsController
 - qwenAuthStatusFromSettings
 - e2e_test.go
-- cli/spawn_test.go
+- cursorDataDir
 - linkpreview/service.go
 - ao-mcp/package.json
 - dev-connect-agent-credential.py
 - startCoordinatorTest
 - NewPolicyCoordinator
-- DeliveryResult
-- agent/copilot/copilot_test.go
+- menu-focus.ts
+- .GetAgentHooks
 - catalogsync_test.go
 - Service
-- host_conpty_linux.go
-- newReadinessCoordinator
+- linuxPTYConn
+- provider-auth-flow.ts
 - SCMMergeRequest
-- root_test.go
+- cli.mdx
 - observe/observer_test.go
-- WorkspaceConfig
+- .destroy
 - MigrationDetails
-- github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store
-- newCodexLaunchReadinessFixture
+- codexSubagentFixture
+- CodexAccounts
 - cli/review.go
-- Coordinator
+- kimiWorkdirKey
 - PushDevice
 - lookPathFound
 - docs/package.json
@@ -339,7 +339,7 @@
 - json
 - backend/internal/skillassets/skillassets_test.go
 - verifyCheckpointTranscript
-- start_test.go
+- Endpoints
 - Dispatcher
 - SCMRepo
 - Workspace
@@ -355,11 +355,11 @@
 - test/client.test.ts
 - compilerOptions
 - compilerOptions
-- build_test.go
-- NewTracker
+- .InspectTerminalSurface
+- lineDelta
 - aoActivity
 - Queries
-- broker_test.go
+- installReviewerConfig
 - Backend Code Structure
 - components.json
 - ref_vitest
@@ -371,11 +371,11 @@
 - README.ja.md
 - README.ko.md
 - README.pt-BR.md
-- coordinatorCredentialFake
-- RateLimitSnapshot
-- SCMIdentity
+- selfupdate_test.go
+- capacityObservationFromEnvelope
+- Provider
 - MobileStatusResponse
-- fakeSender
+- extensionMethodReader
 - session_switch_test.go
 - env.go
 - roleprompt/prompt.go
@@ -384,10 +384,10 @@
 - Status
 - ao/package.json
 - generate-mobile-store-screenshots-inference-style.py
-- describe
+- Reviewer
 - CodexAccountCapabilities
 - darwinPTYConn
-- newPreviewCommand
+- newAdapter
 - coder/main.tf
 - Orchestration: spawn, list, send, report, kill
 - configure-monitoring.py
@@ -399,49 +399,49 @@
 - CloudApiError
 - generate-mobile-store-screenshots.py
 - AO Desktop Dev
-- previewserver/process_unix.go
+- .putPAT
 - primeLocalAuthStatus
-- .get
+- .setCloudOffering
 - LANManager
 - systemexec/process_windows.go
 - pull_request_handlers.go
-- terminalStreams
+- NewManagedTunnel
 - dependencies
 - browser-act-matcher.ts
-- containsSubsequence
+- vibeLocalAuthStatus
 - aiderLocalAuthStatus
 - autohandHookEntry
-- runACPTurnSurvivesDaemonRestart
+- termtheme.go
 - removeLegacyWorkspaceHooks
 - fakeLAN
-- buildProgressiveTargetContinuationBody
-- mustDispatcher
+- Amp, Pi, and Auggie Kanban Status Design
+- Invitation
 - Persistent ACP Chat hosts: findings and verification
 - One-Click Vendor Installer Design
 - result
 - prepare-agent-browser.mjs
-- composerSuggestions.ts
-- .runCodexLogin
-- session_switch.go
+- Plugin
+- io.Reader
+- Save
 - resolveWindowsShell
 - PostHogSink
-- resolveTarget
+- AgentAvailability
 - Turn
 - Interface handoff: patterns from Superset, ACP, Claude, and Codex
 - Cloud Workspace Review Parity Design
 - evidence.json
 - page.tsx
 - useImageAttachments.ts
-- syntaxHighlight.ts
+- HighlightedCodeText.tsx
 - devDependencies
-- Plugin
+- useSidebarUpdateDismissal.ts
 - Process
 - ampLocalAuthStatus
 - .DetectTerminalActivity
 - ConfigRequirements
 - LocalSQLiteSink
 - NewPoller
-- gateway_test.go
+- PrepareEnvironment
 - PullRequestSummary
 - cloud-staging.sh
 - deploy-dev.sh
@@ -452,12 +452,12 @@
 - content/dashboard.mdx
 - quickstart.mdx
 - app/layout.tsx
-- cli/browser_test.go
+- contains
 - piAuthJSONStatus
 - cursoracp/version_test.go
-- previewserver/process_unix_test.go
-- cli_test.go
-- RetentionJanitor
+- InstallScriptCommand
+- Gate
+- McpServerStatus
 - writeLegacyRoot
 - EnsureIdentityFor
 - Subcommands
@@ -471,12 +471,12 @@
 - compilerOptions
 - AGENTS.md
 - Default
-- droidFactoryAuthStatus
-- sortedVersionedBinMatches
+- cancelAfterAdmissionContext
+- WorkerGitHubPAT
 - UserInput
-- newReaper
-- .Start
-- Service
+- scripts
+- copyWorkspaceAssets
+- decodeSpawnAttachments
 - Consequences
 - PostHog Cost Controls
 - Failure Point Taxonomy
@@ -485,15 +485,15 @@
 - IdempotentRequestOptions
 - spec.go
 - github.com/aoagents/agent-orchestrator/backend/internal/ports.PermissionMode
-- versionProbe
+- stubbornAliveRuntime
 - validateVersionOutput
 - validateVersionOutput
 - tenureTracker
 - queryTailscale
-- codex_secure_fs_unix.go
+- cachedGooseBinaryStillValid
 - ao preview
 - Subcommands
-- ensureOverlay
+- Desktop and daemon
 - Coder flow on Azure
 - deploy-staging.sh
 - promote-production.sh
@@ -507,17 +507,17 @@
 - macOS differential update experiment
 - compilerOptions
 - auggieLocalAuthStatus
-- TestChatSteerKeepsTheTurnAndItsWork
-- New
-- CachedAgentModelCatalog
-- sanitizeRemoteValue
-- agentruntime/process_windows.go
+- devDependencies
+- clearClaudeCredentialEnv
+- sync.RWMutex
+- sanitize_command_test.go
+- @aoagents/ao-mcp
 - backend/internal/skillassets/using-ao/SKILL.md
 - gitdefault/resolver_test.go
 - validate_service
-- ConfigLayerSource
+- transitionSurfaceAgent
 - Cloud development
-- Cloud-shared refactor
+- exitedProcessStream
 - Constraints
 - Correctness Prerequisites
 - Recovery Semantics
@@ -530,7 +530,7 @@
 - devDependencies
 - diff-selection.ts
 - renderer/lib/hosts.ts
-- writeJSON
+- .inspectDaemon
 - enrich
 - .openCanonicalSession
 - ao-darwin-arm64/package.json
@@ -542,7 +542,7 @@
 - New
 - ContextMeter.tsx
 - crushLocalAuthStatus
-- spawn
+- .DetectTerminalActivity
 - TrackerIntakeConfig
 - AppInfo
 - fakeLAN
@@ -557,7 +557,7 @@
 - daemon-build.sh
 - Bug triage
 - configuredClineProvider
-- windowsCommandLineUTF16Len
+- FanoutSink
 - planFrom
 - AgentExitDetectionMode
 - ao orchestrator
@@ -577,9 +577,9 @@
 - src/schema.ts
 - mobile/tsconfig.json
 - gooseLocalAuthStatus
-- report-problem.ts
-- agentruntime/command_test.go
-- formatIssueContext
+- TestAliveReportsZombieAsDead
+- BuildLaunchCommand
+- gatedServer
 - museLocalAuthStatus
 - ao doctor
 - ao import
@@ -598,26 +598,26 @@
 - remote-access.mdx
 - per-role-agents.mdx
 - scripts
-- AgentInstallJobRecord
+- runtimeMessageSender
 - install-check.sh
 - boot-real.sh
 - .getTranscript
-- Queries
-- TestChatCompactionIsRefusedWhileATurnIsInFlight
+- ./client
+- DenylistSink
 - parsePolicy
-- ReviewerChatStart
+- newCodexSwitchResponse
 - resolveDataDir
 - projectRoleRules
 - publish-coder-workspace.sh
 - providerRefusal
 - ClientRequest
 - annotate-preload.test.ts
-- Plugin
+- chi.Router
 - TerminalActivityDetector
 - Domain Glossary
 - .GetAgentHooks
-- cli/agent.go
-- fakeSessionLifecycle
+- DynamicToolSpec
+- Options
 - Pi
 - Desktop model search review evidence
 - Frontend Visibility
@@ -633,8 +633,8 @@
 - repository
 - Social profile artwork
 - nonNullableSlices
-- net/url.URL
-- LaunchConfig
+- dependencies
+- Driver
 - refusedError
 - storedEditRejection
 - storedSteerRejection
@@ -643,8 +643,8 @@
 - provision-coder-azure.sh
 - rollback-release.sh
 - verify-image-contract.sh
-- ChangeLog
-- ProjectImportConflictError
+- developmentCredentialValidator
+- .Register
 - codeErr
 - changelog.mdx
 - codex.mdx
@@ -653,7 +653,7 @@
 - trackers/github.mdx
 - worktree.mdx
 - commandError
-- lineBuffer
+- .Register
 - removeRetryExhaustedError
 - preview-icon.sh
 - dependencies
@@ -661,33 +661,33 @@
 - chatProviderFailure
 - retryableError
 - commandError
-- Server
+- .Register
 - unknownCodexAccountError
 - pr-description/SKILL.md
 - titlebar-brand.spec.ts
 - unsupportedAgentError
-- Dispatcher
+- workspaceDiffsResponse
 - discardWriter
-- CodexAccountService
-- Plugin
-- writeConversationError
+- ShellTerminal
+- workspaceFileSearchResponse
+- net/http.Request
 - markRequestBodyRequired
 - newStore
 - vite.renderer.config.ts
-- kiroAgentPath
+- agent/kiro/kiro_test.go
 - autohandConfigAuthStatus
 - requiredFromJSONTag
 - Poller
-- animateAdjustmentPanel
+- .Register
 - .GetAgentHooks
-- gencodexproto/main.go
+- .Register
 - apiError
-- .Merge
+- IsMarkdownPath
 - bake-coder-azure-image.sh
 - provision-coder-azure-template.sh
 - publish-nodeops-template.sh
 - fake-claude.sh
-- BenchmarkCheckpointSettleWindow
+- restoreStubStore
 - chat-ui-improvements-checklist.md
 - pr-4924/README.md
 - pr-4925/README.md
@@ -715,66 +715,22 @@
 - ReviewerReusePolicy
 - SemanticMessageAcceptanceSignaler
 - StartupInputReadinessSignaler
-- SubmitActivitySignaler
-- WaitingInputComposerReadiness
+- userProviderCredentialStore
+- writerFunc
 - agentSwitchQuarantinedError
 - optional-private-checkout.sh
-- orchestrator.go
 - daemonResponseBody
-- aggregateReviewState
-- estimatedCost
-- TunnelRunner
-- SelectedCapabilityRoot
-- prstatus.go
 - CLIStatus
-- BinarySpec
-- kilocodePluginPath
-- cli/pr.go
-- relocation.ts
-- PolicyOptions
-- client_transport_test.go
-- expo_test.go
 - reconcileHook
-- validateAndCanonicalizeSourceSemanticHandoff
-- renderComposer
-- GHTokenSource
-- GLabTokenSource
-- transcriptResolver
-- DoctorLaunchProbes
+- ClaudeSessionID
+- .GetRestoreCommand
 - .DetectTerminalActivity
-- .authStatus
-- .ObserveWorkspace
+- WorkspaceInfo
 - TestRestoreReviewerClaimsNewLaunchBeforeRestoreHooksWithFencedStore
-- desktop-version-floor.ts
-- .Run
-- mergeabilityObservationFromLocal
-- .report
-- .Cancel
-- browser-annotation-overlay.ts
 - StatusFromText
-- qwenWorkerRemoteInputCommand
-- SCMReviewRequest
-- InstallCapabilities
-- toSessionChildResponse
-- fakePlugin
-- stubDeviceRoster
-- TestGetAgentHooksStripsLegacyAOEntries
 - .PruneChangeLogBefore
-- .sendMessage
-- ConfiguredHookHandler
 - ThreadTokenUsage
-- WebSearchToolConfig
 - fakePushRegistry
-- fakeRoster
-- fakeDeviceRoster
-- fakePreviewSessions
-- detachSysProcAttr
-- liveSet
-- TestRestoreReviewerPreservesHookOwnedActivityStateAfterRestore
-- McpElicitationSchema
-- noopCodexLease
-- ServeYAML
-- McpResourceReadResponse
 
 ## God Nodes (most connected - your core abstractions)
 1. `SessionID` - 1533 edges
@@ -789,16 +745,16 @@
 10. `useTheme()` - 223 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Implementation details` --references--> `daemonEnv()`  [INFERRED]
-  docs/daemon-environment.md → frontend/src/main.ts
-- `Relevant code` --references--> `daemonEnv()`  [INFERRED]
-  docs/daemon-environment.md → frontend/src/main.ts
+- `Pull requests and reviews` --references--> `execute()`  [INFERRED]
+  frontend/src/docs/content/cli.mdx → backend/internal/adapters/reviewer/pi/assets/ao-pi-reviewer.ts
+- `2.5 — Agent step in cloud create flow, reusing `CreateProjectAgentSheet` (finding 6)` --references--> `chooseDirectory()`  [INFERRED]
+  docs/superpowers/specs/2026-09-11-cloud-onboarding-design.md → frontend/src/main.ts
+- `1.4 Signing / notarization / auto-update` --references--> `initAutoUpdates()`  [INFERRED]
+  docs/ao-start-bootstrapper-and-npm-deprecation.md → frontend/src/main.ts
 - `Secrets` --references--> `git()`  [INFERRED]
   cloud/docs/deployment.md → frontend/src/main/import-folder-scan.test.ts
 - `Daemon control` --references--> `git()`  [INFERRED]
   docs/cli/README.md → frontend/src/main/import-folder-scan.test.ts
-- `Accepted stack` --references--> `git()`  [INFERRED]
-  docs/stack.md → frontend/src/main/import-folder-scan.test.ts
 
 ## Import Cycles
 - 4-file cycle: `backend/internal/httpd/apispec/apispec_test.go -> backend/internal/httpd/apispec/parity_test.go -> backend/internal/httpd/mobile_routes_test.go -> backend/internal/httpd/controllers/agent_auth.go -> backend/internal/httpd/apispec/apispec_test.go`
@@ -822,59 +778,59 @@
 - 5-file cycle: `backend/internal/httpd/apispec/apispec_test.go -> backend/internal/httpd/apispec/parity_test.go -> backend/internal/httpd/controllers/codex_accounts_test.go -> backend/internal/httpd/mobile_routes_test.go -> backend/internal/httpd/controllers/agent_auth.go -> backend/internal/httpd/apispec/apispec_test.go`
 - 5-file cycle: `backend/internal/httpd/apispec/apispec_test.go -> backend/internal/httpd/apispec/parity_test.go -> backend/internal/httpd/controllers/conversation_history_test.go -> backend/internal/httpd/mobile_routes_test.go -> backend/internal/httpd/controllers/agent_auth.go -> backend/internal/httpd/apispec/apispec_test.go`
 
-## Communities (778 total, 114 thin omitted)
+## Communities (734 total, 113 thin omitted)
 
 ### Community 0 - "go_pkg_context"
 Cohesion: 0.05
-Nodes (185): spawnFunc, steeringResponse, DeriveFunc, commandRunner, notImplementedResponse, auggieHookSpec, autohandHookSpec, contains() (+177 more)
+Nodes (178): spawnFunc, steeringResponse, DeriveFunc, commandRunner, notImplementedResponse, auggieHookSpec, autohandHookSpec, contains() (+170 more)
 
 ### Community 1 - "testing.T"
 Cohesion: 0.00
-Nodes (1427): TestRunSyncThenValidate(), Derive(), TestAiderDerivesCompletionNotification(), TestAmpPiAndAuggieDispatchActivity(), TestContinueDerivesClaudeCompatibleNeedsInput(), TestCursorDerivesManagedHookActivity(), TestGrokDerivesClaudeCompatibleActivity(), TestMuseDerivesManagedHookActivity() (+1419 more)
+Nodes (1377): TestRunSyncThenValidate(), Derive(), TestAiderDerivesCompletionNotification(), TestAmpPiAndAuggieDispatchActivity(), TestContinueDerivesClaudeCompatibleNeedsInput(), TestCursorDerivesManagedHookActivity(), TestGrokDerivesClaudeCompatibleActivity(), TestMuseDerivesManagedHookActivity() (+1369 more)
 
 ### Community 2 - "context.Context"
 Cohesion: 0.00
-Nodes (379): ClientExtensionBridge, blockingExclusiveCodexGate, fakeCodexAccountClient, managedExecutableResolver, AgentModelCatalog, Plugin, Plugin, Plugin (+371 more)
+Nodes (357): blockingExclusiveCodexGate, fakeAuthAgent, startupPresenceAgent, Plugin, Plugin, Plugin, Plugin, CLIStatusWithTimeout() (+349 more)
 
 ### Community 3 - "time.Time"
 Cohesion: 0.01
-Nodes (405): CodexActiveLogin, CodexLoginTerminalDisplay, sessionUsage, AgentSwitchFailurePolicy, stubDeviceLive, mergeabilityFromGraphQL(), reserveWindow(), SessionCleanupRecord (+397 more)
+Nodes (268): CodexActiveLogin, CodexLoginTerminalDisplay, sessionUsage, stubDeviceLive, asRefusal(), conversation, historyEventID(), refuse() (+260 more)
 
 ### Community 4 - "ChatSessionScreen.tsx"
-Cohesion: 0.04
-Nodes (92): openSessionShell(), SessionInterfaceTransition, ChatLinkProvider(), Centered(), ChatSessionScreen(), ConversationBanners(), dismissKeyboardBeforeSheet(), InlineBanner() (+84 more)
+Cohesion: 0.03
+Nodes (106): b64(), restoreSession(), confirmForget(), closeShellTerminal(), SessionInterfaceTransition, ChatLinkProvider(), ChatSessionScreen(), ConversationBanners() (+98 more)
 
 ### Community 5 - "LaunchConfig"
 Cohesion: 0.01
-Nodes (210): Capability, blockingPresenceAgent, blockingResolverAgent, blockingSubsequentResolverAgent, concurrentResolverAgent, countingResolverAgent, fakeAgent, identityPendingAgent (+202 more)
+Nodes (283): Capability, blockingResolverAgent, fakeAgent, readinessTestAgent, AppendModelFlag(), Base, ModelConfigSpec(), StandardSessionInfo() (+275 more)
 
 ### Community 6 - "cn"
 Cohesion: 0.01
-Nodes (461): 3. App architecture expressed visually, Brand → home, Route rules, Shell, Shell resize grips, PHASE 5 — Desktop UI (Electron/React), Task 8: shadcn Dialog primitive, Task 9: QR generator + Connect Mobile modal (+453 more)
+Nodes (463): PHASE 5 — Desktop UI (Electron/React), Task 8: shadcn Dialog primitive, Task 9: QR generator + Connect Mobile modal, MigrationState, UpdateStatus, agentSwitchProgressSteps, AgentSwitchProgressTrack(), AppBrowserLinkContext (+455 more)
 
 ### Community 7 - "AgentSwitch"
 Cohesion: 0.01
-Nodes (155): AgentNativeSession, enqueueAgentSwitchWorkerShutdownTimeout(), TestEnqueueAgentSwitchWorkerShutdownTimeoutCreatesOneDaemonAggregate(), AgentSwitchFailureTaxonomy(), AllAgentSwitchFailurePoints(), buildAgentSwitchFailureTaxonomy(), AgentSwitchCallOutcome, AgentSwitchClassifierCallsite (+147 more)
+Nodes (280): AgentNativeSession, agentSwitchEventMetadata(), enqueueAgentSwitchWorkerShutdownTimeout(), TestEnqueueAgentSwitchWorkerShutdownTimeoutCreatesOneDaemonAggregate(), AgentSwitchDedupeKey(), AgentSwitchFailureCode(), AgentSwitchFailureTaxonomy(), AgentSwitchIssueFingerprint() (+272 more)
 
 ### Community 8 - "SessionInspector.tsx"
 Cohesion: 0.01
-Nodes (463): tokens(), OrchestratorIcon(), OrchestratorActivityIndicator(), ChildRow(), ProductExternalLink(), ProjectBoardActions(), PRCardStatusSummary(), PRSummaryMeta() (+455 more)
+Nodes (480): Current commands, Daemon control, Product commands, frame(), frontend_src_renderer_assets_agents_agy, frontend_src_renderer_assets_agents_aider, frontend_src_renderer_assets_agents_amp, frontend_src_renderer_assets_agents_auggie (+472 more)
 
 ### Community 9 - "SessionRecord"
 Cohesion: 0.01
-Nodes (316): fakeAgents, fakeSessions, fakeProjectLookup, fakeSessionUsageLookup, fakeStore, setKiroAgentDefaults(), writeKiroHooks(), ProjectStore (+308 more)
+Nodes (190): fakeSessions, Deps, fakeProjectLookup, fakeSessionUsageLookup, SessionUsageLookup, fakeStore, projectStore, persistentChatHostKeepSet() (+182 more)
 
 ### Community 10 - "SessionID"
 Cohesion: 0.01
-Nodes (237): ActivitySignal, ActivityState, Coordinator, fakeTrigger, notifyingTrigger, Result, Store, Trigger (+229 more)
+Nodes (271): ActivitySignal, ActivityState, Coordinator, fakeTrigger, notifyingTrigger, Result, Store, Trigger (+263 more)
 
-### Community 11 - "cloud-cp/types.ts"
-Cohesion: 0.01
-Nodes (367): Autostop and explicit resume, Coder sandbox provider, Configuration, Customer access required, Template contract, RFC-3339, Global Constraints, Session File Tabs Implementation Plan (+359 more)
+### Community 11 - "@tanstack/react-query"
+Cohesion: 0.02
+Nodes (185): Autostop and explicit resume, Coder sandbox provider, Configuration, Customer access required, Template contract, RFC-3339, Task 15: Replace the simplified Cloud shell and wire file-tab options, CloudCpProxyRequestInit (+177 more)
 
 ### Community 12 - "workspace.ts"
 Cohesion: 0.01
-Nodes (307): 0.5 Demo mode — showing this flow before the backend is reachable, 0. What this fixes, 1. Scope decision — what ships now vs. later, 2.2 — Verify GitHub PAT on save (finding 2) — `cloud/` — ✅ done, 2.3 — Verify repo reachability at create (finding 3) — `cloud/` — ✅ done (scoped), 2.4 — Gate/server mismatch fix (finding 1) — `frontend/` + `cloud/`, 2.6 — Orchestrator button "add a coding agent" state (finding 6, second net), 2.7 — Scope guidance + link in the PAT UI (finding 2, cosmetic but cheap) (+299 more)
+Nodes (415): Global Constraints, Session Kill State Isolation Implementation Plan, Task 1: Isolate topbar kill state by session, Design, Intended Behavior, Problem, Session Kill State Isolation, Testing (+407 more)
 
 ### Community 13 - "ChatWorkspace.tsx"
 Cohesion: 0.01
@@ -882,91 +838,91 @@ Nodes (326): client, render(), root, Choose The Workspace, assistantSaid, ChatCo
 
 ### Community 14 - "PullRequest"
 Cohesion: 0.01
-Nodes (128): CIState, PullRequest, PullRequestCheck, PullRequestComment, PullRequestReview, PullRequestReviewThread, ReviewDecision, MergeReadinessOf() (+120 more)
+Nodes (152): TestMergeInheritsDaemonEnvironmentAndAppliesOverlay(), TestMergeWindowsPATHExecutesBundledAO(), TestMergePreservesVariableSpellingForBash(), CIState, PRFacts, PullRequest, PullRequestCheck, PullRequestComment (+144 more)
 
-### Community 15 - "Observer"
-Cohesion: 0.06
-Nodes (41): applyStoredFailedLogTails(), cacheDelete(), candidatesForHeadRepo(), checkoutSessionRepos(), checkProviderKey(), chunks(), ciObservationFromLocal(), dispatchOrder() (+33 more)
+### Community 15 - "scm/observer.go"
+Cohesion: 0.05
+Nodes (65): applyStoredFailedLogTails(), boundedCooldown(), cacheDelete(), candidatesForHeadRepo(), checkoutSessionRepos(), checkProviderKey(), chunks(), ciObservationFromLocal() (+57 more)
 
-### Community 16 - "agent/kimi/kimi_test.go"
-Cohesion: 0.03
-Nodes (95): kimiAuthHomes(), kimiCodeHome(), kimiConfigAuthStatus(), kimiConfigOAuthCredentialPaths(), kimiCredentialsAuthStatus(), kimiLocalAuthStatus(), kimiOAuthCredentialPath(), kimiProviderEnvHasCredential() (+87 more)
-
-### Community 17 - ".string"
+### Community 16 - ".string"
 Cohesion: 0.01
-Nodes (499): SignalCoverage, CoverageForHarness(), FullySupportsHarness(), TestDeriverTokensAreKnownHarnesses(), TestFullySupportsHarnessRequiresCompleteCoverage(), TestSignalCoverageForHarness(), TestAmpPluginReportsCurrentActiveThreadAndInjectsPrompt(), TestGetAgentHooksGitignoresSystemPromptPlugin() (+491 more)
+Nodes (207): TestAmpPluginReportsCurrentActiveThreadAndInjectsPrompt(), TestGetAgentHooksGitignoresSystemPromptPlugin(), TestGetAgentHooksInstallsSystemPromptPlugin(), TestGetAgentHooksPreservesForeignPluginFiles(), TestGetAgentHooksSystemPromptFileTakesPrecedenceOverInline(), TestGetAgentHooksUsesInlineSystemPromptWithoutFile(), ampPluginPath(), ampSystemPromptPluginSource() (+199 more)
+
+### Community 17 - "doRequest"
+Cohesion: 0.01
+Nodes (390): Config, parseTelemetryRemote(), telemetryEmitsSpawned(), NewAPI(), newAPIWithLogger(), TestAttachmentCapableSendUsesExtendedTimeoutOnlyForUploads(), TestAttachmentUploadRouteUsesExtendedTimeout(), TestSwitchAgentRouteUsesOrdinaryTimeoutAndReturnsAccepted() (+382 more)
 
 ### Community 18 - "useShellTerminals.ts"
 Cohesion: 0.03
-Nodes (103): BoardWelcome(), ProjectBoardEmpty(), GitHubOnboardingNotice(), HomePage(), latestProjectTimestamp(), mostRecentStandaloneSession(), ProjectRow(), relativeProjectTime() (+95 more)
+Nodes (95): GitHubOnboardingNotice(), HomePage(), latestProjectTimestamp(), mostRecentStandaloneSession(), ProjectRow(), relativeProjectTime(), sortProjectsByActivity(), standaloneSessionTimestamp() (+87 more)
 
-### Community 19 - "ReviewInvocation"
-Cohesion: 0.01
-Nodes (138): agent, Options, Reviewer, Reviewer, Reviewer, Reviewer, Reviewer, AtomicWriteFile() (+130 more)
+### Community 19 - "ReviewCancelSpec"
+Cohesion: 0.02
+Nodes (49): Reviewer, Reviewer, Reviewer, Reviewer, Reviewer, appendEnvironment(), interactiveArgv(), New() (+41 more)
 
-### Community 20 - "ref_node_path"
+### Community 20 - "ref_node_crypto"
 Cohesion: 0.03
-Nodes (102): Conductor audit and permanent legacy safety, Current implementation, HTTP 416 boundary, Local verification, Outstanding rollout acceptance, PR #4906 verification and rollout stop, Separate historical and dependency evidence, Isolated macOS differential v2 implementation (+94 more)
+Nodes (108): Conductor audit and permanent legacy safety, Current implementation, HTTP 416 boundary, Local verification, Outstanding rollout acceptance, PR #4906 verification and rollout stop, Separate historical and dependency evidence, Isolated macOS differential v2 implementation (+100 more)
 
 ### Community 21 - "session_manager/manager_test.go"
 Cohesion: 0.02
-Nodes (332): New(), New(), physicalAbs(), TestWorkspaceCreatesBranchlessPerSessionDirectories(), TestWorkspaceCreatesStandaloneSessionDirectory(), TestWorkspaceDestroyPreservesNonEmptyDirectory(), TestWorkspaceDestroyReclaimReportsAlreadyAbsentDirectory(), TestWorkspaceRejectsUnsafeSessionIDs() (+324 more)
+Nodes (328): New(), New(), physicalAbs(), TestWorkspaceCreatesBranchlessPerSessionDirectories(), TestWorkspaceCreatesStandaloneSessionDirectory(), TestWorkspaceDestroyPreservesNonEmptyDirectory(), TestWorkspaceDestroyReclaimReportsAlreadyAbsentDirectory(), TestWorkspaceRejectsUnsafeSessionIDs() (+320 more)
 
 ### Community 22 - "ref_node_fs"
 Cohesion: 0.02
-Nodes (97): dest, destNext, nested, nestedNext, root, releaseMutationPatterns, repositoryRoot, WorkflowSource (+89 more)
+Nodes (118): dest, destNext, nested, nestedNext, root, releaseMutationPatterns, repositoryRoot, WorkflowSource (+110 more)
 
-### Community 23 - "code-highlight.ts"
-Cohesion: 0.07
-Nodes (43): HighlightedCode, renderTokens(), useHighlighted(), DiffHighlight, groupHunks(), highlightSide(), Hunk, HunkLine (+35 more)
+### Community 23 - "WorkspaceDiffView.tsx"
+Cohesion: 0.01
+Nodes (213): Global Constraints, Session File Tabs Implementation Plan, Task 1: Shared language-aware entry icon, Task 3: Docked Files rail opens center tabs, Task 4: Integrate session-scoped center files without unmounting the agent, Task 5: Read-only branch context, Task 6: Verification and native Electron review, Architecture (+205 more)
 
 ### Community 24 - "chat/api.ts"
 Cohesion: 0.02
-Nodes (135): PHASE 6 — Mobile app (Expo), Task 10: ServerConfig password + auth headers, Task 11: QR scanning + pairing + password popup, b64(), makeStyles(), SessionPreviewScreen(), ApiError, apiRequest() (+127 more)
+Nodes (162): ApiError, apiRequest(), acknowledgeSessionInterfaceTransitionNotice(), cancelQueuedConversationTurn(), cancelSessionInterfaceTransition(), CHAT_HISTORY_PAGE_SIZE, CHAT_INITIAL_PAGE_SIZE, compactConversation() (+154 more)
 
-### Community 25 - "useTheme"
+### Community 25 - "react-native"
 Cohesion: 0.03
-Nodes (198): Shell(), AppearanceRow(), AgentPickerSheet(), makeStyles(), AttachmentChoice(), ChatAttachmentMenu(), makeStyles(), ChatAttachmentMenu() (+190 more)
+Nodes (167): AgentLogo(), makeStyles(), centeredConversationMenu, composerSheetContentStyle, OpenChatLink, APPROVALS, ComposerGlass(), composerGlassSupported (+159 more)
 
 ### Community 26 - "hooks/useConversation.ts"
 Cohesion: 0.01
-Nodes (228): File Structure and Ownership, Task 11: Add Focus-Owned Frontend Visibility Failure Reporting, Task 12: Publish Runbooks, Prove Release Gates, and Raise the Single PR, Task 1: Correct Chat Activation's Source-to-Target Generation CAS, Task 2: Make Runtime Ownership Proof Three-State and Retain Ambiguity, Task 3: Define the Stable Taxonomy and Canonical Privacy Event, Task 4: Add the Durable Policy, Receipt, Outbox, and Atomic Store Contract, Task 5: Build the Acknowledged, Deterministic Sentry Envelope Sender (+220 more)
+Nodes (217): File Structure and Ownership, Task 10: Enforce Single Reporting Ownership Across Saga, HTTP, and Renderer, Task 11: Add Focus-Owned Frontend Visibility Failure Reporting, Task 12: Publish Runbooks, Prove Release Gates, and Raise the Single PR, Task 1: Correct Chat Activation's Source-to-Target Generation CAS, Task 2: Make Runtime Ownership Proof Three-State and Retain Ambiguity, Task 3: Define the Stable Taxonomy and Canonical Privacy Event, Task 4: Add the Durable Policy, Receipt, Outbox, and Atomic Store Contract (+209 more)
 
 ### Community 27 - "controllers/dto.go"
 Cohesion: 0.01
-Nodes (257): newCodexCapabilitiesResponse(), newCodexCapabilityResponse(), newCodexSwitchResponse(), accountPayload(), activityDetailPayload(), branchMaterializationPayload(), conversationContentSummary(), conversationSnapshotResponse() (+249 more)
+Nodes (299): accountPayload(), branchMaterializationPayload(), conversationContentSummary(), conversationModelsResponse(), conversationSnapshotResponse(), mcpServersPayload(), modelReroutePayload(), optionalTimestamp() (+291 more)
 
-### Community 28 - "net/http.Request"
-Cohesion: 0.04
-Nodes (85): NameFromWorkspacePath(), TestNameFromWorkspacePathRejectsTraversal(), ParseSessionMode(), SanitizeControlChars(), TestSanitizeControlChars(), methodNotAllowedJSON(), NotImplemented(), writeBrowserError() (+77 more)
+### Community 28 - "net/http.ResponseWriter"
+Cohesion: 0.05
+Nodes (60): ParseSessionMode(), TestParseSessionModeRejectsUnknownInsteadOfFallingBack(), SanitizeControlChars(), TestSanitizeControlChars(), methodNotAllowedJSON(), NotImplemented(), writeBrowserError(), newCodexAccountResponse() (+52 more)
 
 ### Community 29 - "AgentModelInfo"
-Cohesion: 0.05
-Nodes (64): applyClaudeConfiguredDefault(), Base(), CatalogFingerprint(), claudeCodeDiscoveryFingerprint(), claudeCodeModels(), claudeFallbackModels(), compareVersions(), Discover() (+56 more)
+Cohesion: 0.08
+Nodes (39): applyClaudeConfiguredDefault(), claudeCodeModels(), claudeFallbackModels(), compareVersions(), looksLikeModelID(), modelVersion(), normalize(), parseAgyModels() (+31 more)
 
 ### Community 30 - "conversation"
-Cohesion: 0.02
-Nodes (103): parkedInput, persistentDecision, persistentInteractionCommand, toolState, turnDiffAccumulator, acpFilePatch(), activityKindFromTool(), activityStatusFromTool() (+95 more)
+Cohesion: 0.03
+Nodes (61): toolState, acpFilePatch(), activityKindFromTool(), activityStatusFromTool(), approvalToolDetail(), claudeRateLimits(), cloneMeta(), copyDetail() (+53 more)
 
 ### Community 31 - "session/service_test.go"
 Cohesion: 0.02
-Nodes (220): TestClaimPRMetadataOnlyPreservesWorkspaceOnPRBranch(), TestClaimPRHTTPSPortOriginStillClaimable(), TestClaimPRReviewCompletenessFollowsReviewFetch(), TestClaimPRSSHPortPreserved(), TestClaimPRExplicitCanonicalRepository(), TestClaimPRRejectsInvalidPersistedCanonicalIdentity(), TestClaimPRWorkspaceBoundaries(), TestClaimPRWorkspaceRepositories() (+212 more)
+Nodes (219): TestClaimPRMetadataOnlyPreservesWorkspaceOnPRBranch(), TestClaimPRHTTPSPortOriginStillClaimable(), TestClaimPRReviewCompletenessFollowsReviewFetch(), TestClaimPRSSHPortPreserved(), TestClaimPRExplicitCanonicalRepository(), TestClaimPRRejectsInvalidPersistedCanonicalIdentity(), TestClaimPRWorkspaceBoundaries(), TestClaimPRWorkspaceRepositories() (+211 more)
 
 ### Community 32 - "newTestStore"
 Cohesion: 0.03
-Nodes (240): ComputeAgentSwitchRequestFingerprint(), AppendNativeCheckpoint(), TestNativeCheckpointKeepsUnknownStopsAndSubmissionMultiplicity(), TestNativeCheckpointOverflowAndCorruptionStayFailClosed(), UsageTokenMetrics, MustOpen(), MustOpenAt(), TestOpenReturnsCurrentIsolatedStores() (+232 more)
+Nodes (241): ComputeAgentSwitchRequestFingerprint(), TestComputeAgentSwitchRequestFingerprintNormalizesAndIncludesModel(), checkLegacyDatabasePath(), Open(), MustOpen(), MustOpenAt(), TestOpenReturnsCurrentIsolatedStores(), TestInterruptActiveAgentInstallJobs() (+233 more)
 
 ### Community 33 - "protocol.gen.go"
 Cohesion: 0.01
-Nodes (232): GetAccountTokenUsageResponse, AccountLoginCompletedNotification, AccountTokenUsageDailyBucket, AccountTokenUsageSummary, AddCreditsNudgeCreditType, AddCreditsNudgeEmailStatus, AdditionalContextEntry, AdditionalContextKind (+224 more)
+Nodes (233): GetAccountTokenUsageResponse, CapabilityRootLocation, AccountLoginCompletedNotification, AccountTokenUsageDailyBucket, AccountTokenUsageSummary, AddCreditsNudgeCreditType, AddCreditsNudgeEmailStatus, AdditionalContextEntry (+225 more)
 
-### Community 34 - "newFakeConversation"
-Cohesion: 0.06
-Nodes (102): TestNativeForkHandoffRetainsEachExchangeOnce(), ConversationContextResetProviderItemID(), TestConversationContextResetProviderItemID(), ChatHistoryMismatchDimensions(), ChatHistoryMismatchOnlyUntrustedText(), TestRunBackgroundTaskUsesNativeDriverAndTerminatesIt(), TestFailedBranchShutdownPreservesSurvivingHostCredentials(), TestChatUIRegressionProviderHistoryRecoveryDeduplicatesReplayWithoutWorktreeMutation() (+94 more)
+### Community 34 - "sidebar-navigation-shell.tsx"
+Cohesion: 0.05
+Nodes (70): DashboardSession, BoardRowTransition(), keepUnchanged(), sameJson(), BANNER_MS, BREATHE_MS, CROSSFADE_MS, DRAWER_SPRING (+62 more)
 
 ### Community 35 - "main/browser-profile-import.ts"
-Cohesion: 0.03
-Nodes (103): BrowserHistoryEntry, BrowserHistoryFile, BrowserHistoryStore, BrowserHistoryStoreOptions, compact(), fittedHistory(), HISTORY_VERSION, isRecord() (+95 more)
+Cohesion: 0.06
+Nodes (73): booleanValue(), BrowserDescriptor, BrowserFamily, BrowserProfileImportOptions, BrowserProfileImportService, ChromiumCookieDecryptor, chromiumSameSite(), chromiumTimestamp() (+65 more)
 
 ### Community 36 - "browser-view-host.ts"
 Cohesion: 0.03
@@ -974,59 +930,59 @@ Nodes (131): ACT_VERBS, activeEntry(), agentNavState(), agentTabResult(), agentT
 
 ### Community 37 - "main.ts"
 Cohesion: 0.02
-Nodes (192): 1.4 Signing / notarization / auto-update, 1.5 `~/.ao` state and app lifecycle, Task 5 — Frontend: call `/shutdown` before kill (`main.ts`), annotatePreloadPath(), toggleAppDevTools(), appendDaemonOutput(), applyRuntimeAppIcon(), isUpdateRestartRequested() (+184 more)
+Nodes (158): 1.5 `~/.ao` state and app lifecycle, Task 5 — Frontend: call `/shutdown` before kill (`main.ts`), annotatePreloadPath(), toggleAppDevTools(), appendDaemonOutput(), applyRuntimeAppIcon(), isUpdateRestartRequested(), setRendererSink() (+150 more)
 
-### Community 38 - "writeRunFileFor"
-Cohesion: 0.07
-Nodes (65): TestClaimCommandsCheckoutOutput(), TestClaimCommandsCanonicalRepository(), TestDevImportProjectsDaemonError(), orchestratorCommandServer(), TestOrchestratorList_JSONOutputDecodes(), TestOrchestratorList_TableOutput(), TestReportRoundTrip(), TestReportModesAndBoundaries() (+57 more)
-
-### Community 39 - "net/http.ResponseWriter"
+### Community 38 - "setConfigEnv"
 Cohesion: 0.03
-Nodes (102): HashPassword(), HashToken(), NewOpaqueToken(), VerifyPassword(), DecodeProjectCoderConfig(), ProjectCoderConfig, MergeProjectCoderConfig(), ToBrokerRepository() (+94 more)
+Nodes (228): TestAgentProcessSuperviseReportsExitAndPreservesOutput(), TestAgentListEnsuresDisplayReadinessByDefault(), TestAgentListJSONEmitsRawCatalog(), TestAgentListRefreshAndStatuses(), TestCanonicalConfigPreservesExistingSettings(), TestClaimCommandsCheckoutOutput(), TestClaimCommandsHelpDocumentsMetadataOnly(), TestClaimCommandsCanonicalRepository() (+220 more)
+
+### Community 39 - "writeError"
+Cohesion: 0.03
+Nodes (94): NewOpaqueToken(), DecodeProjectCoderConfig(), ProjectCoderConfig, MergeProjectCoderConfig(), ToBrokerRepository(), normalizeAgentCredentialSecret(), Server, toOrganizations() (+86 more)
 
 ### Community 40 - ".cancel"
-Cohesion: 0.01
-Nodes (294): Config, TestContextCancellation(), TestContextCancellation(), ampUsageAuthStatus(), mockAmpAuthProbeRunner(), TestAmpUsageAuthStatusAuthorizedWhenSignedIn(), TestAmpUsageAuthStatusUnknownWhenNotConfirmed(), TestContextCancellation() (+286 more)
+Cohesion: 0.02
+Nodes (277): readinessWaitContext, TestContextCancellation(), TestContextCancellation(), TestContextCancellation(), TestContextCancellationIsRespected(), TestResolveBinaryHonorsCancellation(), TestGetLaunchCommandContextCanceled(), TestGetPromptDeliveryStrategyContextCanceled() (+269 more)
 
 ### Community 41 - "orchestratorView.ts"
-Cohesion: 0.02
-Nodes (155): AGENT_BLOCKED, agentBlocked(), BOARD_ZONES, BoardSection, BoardZone, boardZoneOf(), compactProjectLabel(), compareActivity() (+147 more)
+Cohesion: 0.03
+Nodes (105): AGENT_BLOCKED, agentBlocked(), BOARD_ZONES, BoardSection, BoardZone, boardZoneOf(), compactProjectLabel(), compareActivity() (+97 more)
 
 ### Community 42 - "worker/protocol.go"
-Cohesion: 0.03
-Nodes (149): pullRequestBridgeRequest, reviewBridgeRequest, configIdentity(), discardLogger(), mustGit(), TestCheckpointBridgeRunsOnPoke(), TestCheckpointBridgeSafetyNetFires(), TestPreserveAndApplyRoundTrip() (+141 more)
+Cohesion: 0.04
+Nodes (144): pullRequestBridgeRequest, reviewBridgeRequest, configIdentity(), discardLogger(), mustGit(), TestCheckpointBridgeRunsOnPoke(), TestCheckpointBridgeSafetyNetFires(), TestPreserveAndApplyRoundTrip() (+136 more)
 
 ### Community 43 - "migrate"
-Cohesion: 0.02
-Nodes (162): asString(), kilocodeAuthJSONStatus(), kilocodeDataDir(), kilocodeDBAuthStatus(), kilocodeDBHasAuthorizedAccount(), kilocodeLocalAuthStatus(), TestKilocodeAuthJSONStatusAuthorizedWithProviderKey(), TestKilocodeAuthJSONStatusUnknownWhenEmpty() (+154 more)
+Cohesion: 0.03
+Nodes (146): opencodeAuthJSONStatus(), opencodeDataDir(), opencodeDBAuthStatus(), opencodeDBCount(), opencodeDBHasAuthorizedAccount(), opencodeLocalAuthStatus(), clearOpenCodeAuthEnv(), TestOpenCodeAuthStatusUnknownWithZeroCredentials() (+138 more)
 
-### Community 44 - "apiErrorMessage"
+### Community 44 - "api-client.ts"
 Cohesion: 0.01
-Nodes (241): components, $defs, operations, paths, webhooks, AgentModelPicker(), AgentModelPickerProps, deriveRepoHost() (+233 more)
+Nodes (323): 2.5 — Agent step in cloud create flow, reusing `CreateProjectAgentSheet` (finding 6), components, $defs, operations, paths, webhooks, AgentAvatar(), AgentModelPicker() (+315 more)
 
 ### Community 45 - "SessionView.tsx"
 Cohesion: 0.02
-Nodes (127): Task 2: Center workspace tab strip and tab-state reducer, ResumeAgentControl(), interfaceTransitionHistoryRecoveryPolicy(), interfaceTransitionOffersHistoryRecovery(), SessionInterfaceActionGroup(), SessionInterfaceSwitchButton(), SessionInterfaceSwitchDialog(), SessionInterfaceTransitionNotice() (+119 more)
+Nodes (154): 3. App architecture expressed visually, Brand → home, Route rules, Shell, Shell resize grips, Task 2: Center workspace tab strip and tab-state reducer, approvedReview, commonGetsResponder() (+146 more)
 
 ### Community 46 - "pair.tsx"
 Cohesion: 0.03
-Nodes (141): CameraGate(), Corner(), makeStyles(), PairScreen(), finish(), onCameraReady(), onScan(), pair() (+133 more)
+Nodes (148): PHASE 6 — Mobile app (Expo), Task 10: ServerConfig password + auth headers, Task 11: QR scanning + pairing + password popup, CameraGate(), Corner(), makeStyles(), PairScreen(), finish() (+140 more)
 
 ### Community 47 - "SessionInterfaceTransition"
 Cohesion: 0.03
-Nodes (45): SessionInterfaceTransition, SessionInterfaceTransitionHistoryPolicy, SessionInterfaceTransitionMessage, SessionInterfaceTransitionPhase, SessionInterfaceTransitionPolicy, SessionMode, ChatStart, ChatStarted (+37 more)
+Nodes (46): SessionInterfaceTransition, SessionInterfaceTransitionHistoryPolicy, SessionInterfaceTransitionMessage, SessionInterfaceTransitionPhase, SessionInterfaceTransitionPolicy, SessionMode, AgentInterfaceHandoff, ChatStart (+38 more)
 
 ### Community 48 - "TerminalPane.tsx"
 Cohesion: 0.02
-Nodes (101): BoardArchivePanel, ActiveTerminalEntry, AttachedTerminal(), bannerText(), blurTerminal(), cacheDescriptor(), CachedTerminalEntry, cloudTerminalKind() (+93 more)
+Nodes (98): ActiveTerminalEntry, bannerText(), blurTerminal(), cacheDescriptor(), CachedTerminalEntry, cloudTerminalKind(), KEYBOARD_SCROLL_PROVIDERS, parkTerminal() (+90 more)
 
 ### Community 49 - "RuntimeHandle"
 Cohesion: 0.03
 Nodes (48): fakeRuntime, Runtime, newHybridRuntime(), TestHybridRuntimeCreatesDirectHandle(), TestHybridRuntimeFallsBackToTmuxWhenDirectCreateFails(), TestHybridRuntimeReportsBothCreationFailures(), TestHybridRuntimeRestartCanFallBackToTmux(), TestHybridRuntimeRestartPreservesBackend() (+40 more)
 
 ### Community 50 - "ID"
-Cohesion: 0.03
-Nodes (70): ResourceProfile, Sandbox, Reconciler, newReconcileGate(), repairReason(), firstNonEmpty(), launchEnvironment(), New() (+62 more)
+Cohesion: 0.05
+Nodes (54): ResourceProfile, firstNonEmpty(), launchEnvironment(), New(), normalizeState(), path(), SandboxName(), shellQuote() (+46 more)
 
 ### Community 51 - "auto-updater.ts"
 Cohesion: 0.04
@@ -1034,215 +990,215 @@ Nodes (150): frontend_scripts_mac_differential_rollout, frontend_scripts_mac_dif
 
 ### Community 52 - "NotificationRecord"
 Cohesion: 0.02
-Nodes (48): newModeAwareMessenger(), NotificationEvent, NotificationListStatus, NotificationRecord, NotificationStatus, NotificationType, drainNotificationEvents(), Intent (+40 more)
+Nodes (55): NotificationEvent, NotificationListStatus, NotificationRecord, NotificationStatus, NotificationType, drainNotificationEvents(), Intent, decodeCursor() (+47 more)
 
-### Community 53 - "fake-bridge.ts"
-Cohesion: 0.03
-Nodes (63): themeStyles, installRetryConversation(), snapshot(), messages, turns, fakePlatform(), PLATFORMS, sessionA (+55 more)
+### Community 53 - "Sidebar.test.tsx"
+Cohesion: 0.02
+Nodes (81): themeStyles, Window, installRetryConversation(), snapshot(), messages, turns, fakePlatform(), PLATFORMS (+73 more)
 
 ### Community 54 - "ChatTimelineItems.tsx"
 Cohesion: 0.02
 Nodes (128): ACCENT_ACTION_PILL, ACCENT_ACTION_SEGMENT, ACCENT_ACTION_SHELL, QUIET_ACTION_PILL, ACTIVITY_SUMMARY_BUTTON_CLASS, binaryName(), commandBinaryLabel(), commandCategory (+120 more)
 
-### Community 55 - "useThemedStyles"
-Cohesion: 0.03
-Nodes (143): TerminalInput(), packages_mobile_lib_chat_ansi_caretnotation, commandOutputText(), packages_mobile_lib_chat_ansi_stripansi, jumpToLatestColors(), userMessageSurfaceStyle(), ChatMarkdown, inline() (+135 more)
+### Community 55 - "useTheme"
+Cohesion: 0.02
+Nodes (201): TerminalInput(), makeStyles(), SessionPreviewScreen(), CardRow(), DisconnectRow(), AgentPickerSheet(), makeStyles(), packages_mobile_lib_chat_ansi_caretnotation (+193 more)
 
 ### Community 56 - "log/slog.Logger"
-Cohesion: 0.03
-Nodes (108): PermissionPolicy, TurnSettingsValidator, New(), New(), New(), New(), claudeACPModelConfig(), New() (+100 more)
+Cohesion: 0.01
+Nodes (286): LaunchConfig, Config, New(), TestManifest(), New(), ProviderCatalogFingerprint(), New(), TestGetLaunchCommandRespectsCanceledContext() (+278 more)
 
 ### Community 57 - "ao-cloud/main.go"
-Cohesion: 0.10
-Nodes (83): developmentCredentialValidator, HasAgentCapability(), TestAgentProfileJSONKeepsPolicyInAvailability(), TestHasAgentCapability(), TestSCMContractJSONUsesProviderNeutralFields(), normalizeOrganizationRole(), GitHubUserInstallation, ownerRepoFromCloneURL() (+75 more)
+Cohesion: 0.12
+Nodes (65): TestAgentProfileJSONKeepsPolicyInAvailability(), scmRepoRoot(), TestSCMContractJSONUsesProviderNeutralFields(), TestSharedSCMVocabulariesAndCloudReadRoutesMatch(), typescriptStringArray(), GitHubUserInstallation, ownerRepoFromCloneURL(), TestOwnerRepoFromCloneURL() (+57 more)
 
 ### Community 58 - "interface_transition_test.go"
-Cohesion: 0.03
-Nodes (137): Config, New(), SessionUUID(), TestManifestID(), TestInspectTerminalSurfaceOnlyProvesUntouchedClaudeComposer(), New(), TestClaudeInstallReplacesContinueHooks(), sendLiveTurn() (+129 more)
+Cohesion: 0.04
+Nodes (123): Config, New(), TestManifestID(), TestInspectTerminalSurfaceOnlyProvesUntouchedClaudeComposer(), New(), TestClaudeInstallReplacesContinueHooks(), New(), TestReviewCommandEmitsConfiguredCodexEffort() (+115 more)
 
 ### Community 59 - "APIDeps"
 Cohesion: 0.02
-Nodes (68): Config, parseTelemetryRemote(), telemetryEmitsSpawned(), attachmentUploadRoute(), chi.Router, NewAPI(), newAPIWithLogger(), chi.Router (+60 more)
+Nodes (51): attachmentUploadRoute(), chi.Router, chi.Router, AgentAuthController, AgentAuthService, chi.Router, AgentCatalog, AgentsController (+43 more)
 
-### Community 60 - "newHarness"
-Cohesion: 0.03
-Nodes (135): NewChatProviderFailure(), TestChatProviderFailureNormalizesProviderCopy(), assertTurnStaysQueued(), TestFailedPrimaryTurnHoldsQueuedWork(), TestRecoveredPrimaryTurnHoldsQueuedWork(), TestPersistentCompletionIsAcknowledgedBeforeQueuedTurnDispatch(), TestPersistentProjectionNeverAcknowledgesPastFailedOutput(), TestProviderPreservationReportRequiresLiveController() (+127 more)
+### Community 60 - "controller_test.go"
+Cohesion: 0.01
+Nodes (373): claudeNestedMap(), claudePromptResponseFailure(), TestClaudePromptResponseFailureIgnoresAssistantAuthProse(), TestClaudePromptResponseFailureRequiresStructuredLoginAction(), TestNativeForkHandoffRetainsEachExchangeOnce(), ConversationContextResetProviderItemID(), TestConversationContextResetProviderItemID(), ChatHistoryMismatchDimensions() (+365 more)
 
-### Community 61 - "i18n/index.ts"
-Cohesion: 0.05
-Nodes (65): readUiSettings(), readUiSettingsUnlocked(), runSettingsOperation(), settingsOperationQueue, UI_SETTINGS_FILE_NAME, writeUiSettings(), writeUiSettingsUnlocked(), TerminalShellRows() (+57 more)
+### Community 61 - "apiErrorMessage"
+Cohesion: 0.04
+Nodes (83): AgentProviderGroup(), AccountActivity(), CapacityBucketGroup(), CapacityBucketValue, capacityNoticeFor(), capacityWindowLabel(), CapacityWindowRow(), CapacityWindowValue (+75 more)
 
 ### Community 62 - "settings.tsx"
-Cohesion: 0.04
-Nodes (114): updates, buildInfo(), CardRow(), DisconnectRow(), confirmForget(), FeatureRequestRow(), InlinePanel(), LayoutGridRow() (+106 more)
+Cohesion: 0.03
+Nodes (148): notifications, updates, AppearanceRow(), buildInfo(), FeatureRequestRow(), InlinePanel(), LayoutGridRow(), makeStyles() (+140 more)
 
-### Community 63 - "cli/session.go"
-Cohesion: 0.09
-Nodes (55): addSessionProjectFlag(), apiPath(), cleanupLabel(), cleanupLabelByID(), cleanupLabels(), confirmSessionCleanup(), emptyDash(), filterAndSortSessions() (+47 more)
+### Community 63 - "github.com/spf13/cobra.Command"
+Cohesion: 0.05
+Nodes (90): filterAndSortOrchestrators(), commandContext, commandContext, newOrchestratorCommand(), newOrchestratorListCommand(), orchestratorLineParts(), writeOrchestratorList(), atMostOneArg() (+82 more)
 
-### Community 64 - "api-client.ts"
-Cohesion: 0.02
-Nodes (152): Changes in PR #5126, Consolidate orchestrator startup and errors, Desktop project onboarding contract review, Distinguish registration from launch readiness, Further findings and design direction, One branch-selection policy across entry points, Root cause across stages, Validate journeys, not just components (+144 more)
+### Community 64 - "lib/telemetry.ts"
+Cohesion: 0.03
+Nodes (87): DiscordIcon(), EmailIcon(), GithubIcon(), ReportProblemContent(), isLoopbackHostname(), ORCHESTRATOR_SPAWN_SOURCES, collectReportProblemDiagnostics(), currentRoutePath() (+79 more)
 
 ### Community 65 - "lifecycle/manager_test.go"
 Cohesion: 0.03
-Nodes (239): startLifecycle(), TestWiring_MergeConflictNudgeReArmsAfterConflictClears(), TestWiring_StartLifecycleThreadsMessengerIntoLCM(), TestActivityProjectionExhaustionReturnsError(), TestActivityProjectionFailurePreservesBlockedToolCorrelation(), TestActivityProjectionRetryUsesOriginalStopSignal(), TestColdChatSpawnStillResetsActivity(), TestMarkChatReconnectedPreservesActivityAndRecency() (+231 more)
+Nodes (242): startLifecycle(), TestWiring_MergeConflictNudgeReArmsAfterConflictClears(), TestWiring_StartLifecycleThreadsMessengerIntoLCM(), TestActivityProjectionExhaustionReturnsError(), TestActivityProjectionFailurePreservesBlockedToolCorrelation(), TestActivityProjectionRetryUsesOriginalStopSignal(), TestColdChatSpawnStillResetsActivity(), TestMarkChatReconnectedPreservesActivityAndRecency() (+234 more)
 
-### Community 66 - "setConfigEnv"
-Cohesion: 0.09
-Nodes (66): TestAgentProcessSuperviseReportsExitAndPreservesOutput(), activityServer(), assertActivityRequest(), capturedAgentSessionID(), capturedState(), TestClaudeSubmissionContextMatchesDurableNonce(), TestClaudeSubmissionRetryReusesContextNonce(), TestHooks_ActivityAlsoReportsNativeSessionID() (+58 more)
+### Community 66 - "ReviewInvocation"
+Cohesion: 0.04
+Nodes (32): agent, Options, Command(), writeReviewerSettings(), insertBeforeInteractive(), reviewerEnv(), cursorPrompt(), insertBeforePrompt() (+24 more)
 
-### Community 67 - "ActivityState"
-Cohesion: 0.01
-Nodes (115): activitySink, fakeSink, Observer, outputReader, sessionSource, DeriveActivityState(), notificationState(), sessionEndState() (+107 more)
+### Community 67 - "Manager"
+Cohesion: 0.02
+Nodes (90): activitySink, fakeSink, Observer, outputReader, sessionSource, Activity, IsActionableReviewComment(), SessionMetadata (+82 more)
 
 ### Community 68 - "lib/api.ts"
-Cohesion: 0.04
-Nodes (100): makeStyles(), spawnErrorCopy(), SpawnModal(), AgentAvailability, availabilityOf(), defaultAgent(), isSelectable(), PRIORITY (+92 more)
+Cohesion: 0.03
+Nodes (118): connection(), makeStyles(), MobileSessionRoute(), activityLastAt(), activityString(), AgentModelInfo, AOSettings, ATTACHMENT_REQUEST_TIMEOUT_MS (+110 more)
 
 ### Community 69 - "newTestDriver"
-Cohesion: 0.03
-Nodes (96): codexProcessEnv(), envSlice(), installedCodexVersion(), envValue(), frame, newTestDriver(), nextEvent(), npmCodexLauncherWithNodeOutsidePATH() (+88 more)
+Cohesion: 0.04
+Nodes (76): codexProcessEnv(), envSlice(), installedCodexVersion(), envValue(), frame, newTestDriver(), nextEvent(), npmCodexLauncherWithNodeOutsidePATH() (+68 more)
 
 ### Community 70 - "project/service_test.go"
 Cohesion: 0.05
-Nodes (117): New(), buildAgentResolver(), newSessionMessenger(), logTrackerDisabled(), newMultiTracker(), TestProjectRepoResolver_ResolvesRegisteredProject(), TestStartSession_SpawnDoesNotPanicWhenNoTrackerToken(), TestStartTrackerIntake_RunsEvenWithoutEnabledProjects() (+109 more)
+Nodes (113): New(), activeTurnSteering(), buildAgentResolver(), newSessionMessenger(), startSession(), startupSignalGatesInput(), urgentNudgeWaitingInputSafe(), TestProjectRepoResolver_ResolvesRegisteredProject() (+105 more)
 
 ### Community 71 - "acp/driver_test.go"
 Cohesion: 0.08
 Nodes (78): legacyKimiAgent, parameterizedModelAliases(), resolveLegacyModelChoice(), New(), awaitSkillCount(), booleanConfigOption(), delayedCancelSpawn(), fakeLegacyKimiSpawn() (+70 more)
 
-### Community 72 - "NotFound"
-Cohesion: 0.01
-Nodes (315): Error, PRFacts, SessionWorktreeRecord, CurrentHeadReviewRun, AgentSwitch, Session, Conflict(), Forbidden() (+307 more)
+### Community 72 - "workspace_files.go"
+Cohesion: 0.02
+Nodes (194): runGooseIdentityCommand(), mergedEnvironment(), modelCommand(), environmentContains(), TestModelCommandUsesProjectWorkingDirectory(), TestBackgroundCommandHasNoConsole(), runPrimeCommand(), versionProbe() (+186 more)
 
 ### Community 73 - "scm/observer_test.go"
-Cohesion: 0.07
-Nodes (113): TestPoll_ExistingAndExplicitAttachmentsStayStable(), TestPoll_IdentityRecoveryRetriesMissedDiscoveries(), ciSemanticHash(), commitKey(), domainFromObservation(), firstTime(), identityKey(), metadataSemanticHash() (+105 more)
+Cohesion: 0.09
+Nodes (99): TestPoll_ExistingAndExplicitAttachmentsStayStable(), TestPoll_IdentityRecoveryRetriesMissedDiscoveries(), ciSemanticHash(), commitKey(), identityKey(), metadataSemanticHash(), New(), prKey() (+91 more)
 
-### Community 74 - "dispatcherStoreFake"
-Cohesion: 0.07
-Nodes (10): dispatcherStoreFake, policyStoreFake, AgentSwitchFailureAttempt, AgentSwitchFailureClaim, AgentSwitchFailureClaimRequest, AgentSwitchFailureOutboxStore, AgentSwitchFailurePolicy, AgentSwitchFailureReceiptResolution (+2 more)
+### Community 74 - "Coordinator"
+Cohesion: 0.03
+Nodes (26): authorityRead, Coordinator, dispatcherPolicyFake, dispatcherStoreFake, PolicyCoordinator, PolicyOptions, PolicyStore, policyStoreFake (+18 more)
 
 ### Community 75 - "session_manager/agent_switching_test.go"
-Cohesion: 0.04
-Nodes (119): buildSourceHandoffRequest(), chatSwitchActivationMessageID(), chatSwitchProviderBoundaryID(), TestSwitchAgentRealChatServiceSQLiteActivationCAS(), awaitSwitchAgentCall(), awaitSwitchTestSignal(), blockTargetPreflight(), buildTargetContinuationMessage() (+111 more)
+Cohesion: 0.05
+Nodes (116): buildSourceHandoffRequest(), awaitSwitchAgentCall(), awaitSwitchTestSignal(), blockTargetPreflight(), buildTargetContinuationMessage(), callSwitchAgent(), cleanupBlockedSwitchCall(), fakeMessenger (+108 more)
 
 ### Community 76 - "Service"
-Cohesion: 0.01
-Nodes (123): ClientApprovalRequest, stableExtensionBridge, ActivityRecorder, New(), cloneCapabilities(), conversation, cloneSkills(), conversation (+115 more)
+Cohesion: 0.02
+Nodes (65): ActivityRecorder, choiceOffered(), cloneConfigOptions(), conversation, ConversationOwner, ReviewConversationOwner(), SessionConversationOwner(), ChatConfigOption (+57 more)
 
 ### Community 77 - "gitlab/provider_test.go"
-Cohesion: 0.03
-Nodes (117): newCache(), TestCache_ConcurrentAccess(), TestCache_GetAfterTTLExpiry(), TestCache_SetGetWithinTTL(), TestDoGETRawBoundedLargeTrace(), TestDoGETRawBoundedNormalTrace(), TestDoGETRawErrorBodyCapped(), TestDoGETRawErrorBodyCappedExact() (+109 more)
+Cohesion: 0.04
+Nodes (108): TestDoGETRawBoundedLargeTrace(), TestDoGETRawBoundedNormalTrace(), TestDoGETRawErrorBodyCapped(), TestDoGETRawErrorBodyCappedExact(), trim(), NewClient(), TestPaginationDifferentAPIBaseRejected(), TestPaginationHTTPSDowngradeRejected() (+100 more)
 
-### Community 78 - "executeCLI"
-Cohesion: 0.07
-Nodes (62): TestAgentProcessSuperviseRejectsInvalidGeneration(), TestBrowserRequiresSessionAndValidWait(), TestCanonicalConfigPreservesExistingSettings(), TestClaimCommandsHelpDocumentsMetadataOnly(), TestProjectSetConfigCanonicalRepo(), devImportServer(), TestDevImportProjectsDryRunCallsLiveDaemon(), TestDevImportProjectsHelpDescribesDaemonBackedImport() (+54 more)
+### Community 78 - "ChatConversation"
+Cohesion: 0.04
+Nodes (43): cloneCapabilities(), process, newConversation(), capabilities(), DiscoverModels(), conversation, launchApprovalSettings(), parseCodexVersion() (+35 more)
 
-### Community 79 - "newTestCodexAccountManager"
+### Community 79 - "agent/codex_accounts_test.go"
 Cohesion: 0.06
-Nodes (102): apiKeySwitchFixture, testCodexDeviceAccount, testCodexDeviceSeed, testCodexDeviceStateSeed, TestCodexAccountStoreAndDeviceReconciliationNeverOpenProvider(), TestCodexBootstrapPermanentSafetyFailure(), TestCodexDeviceReconciliationFailureKeepsSavedAccountsReadable(), TestCodexDeviceReconciliationReportsMalformedCredentialSafely() (+94 more)
+Nodes (106): apiKeySwitchFixture, fakeCodexLoginTerminal, noopCodexLease, testCodexDeviceAccount, testCodexDeviceSeed, testCodexDeviceStateSeed, CodexAccountObservation, TestCodexAccountStoreAndDeviceReconciliationNeverOpenProvider() (+98 more)
 
 ### Community 80 - "tmux_test.go"
 Cohesion: 0.03
-Nodes (123): sendEnterArgs(), sendKeysLiteralArgs(), attachEnv(), chunks(), Runtime, TestRuntimeIntegration(), TestRuntimeIntegrationAdoptsLegacyDefaultWhenNamedSocketDoesNotExist(), TestRuntimeIntegrationExactSessionParsing() (+115 more)
+Nodes (110): sendEnterArgs(), sendKeysLiteralArgs(), attachEnv(), chunks(), Runtime, TestRuntimeIntegration(), TestRuntimeIntegrationAdoptsLegacyDefaultWhenNamedSocketDoesNotExist(), TestRuntimeIntegrationExactSessionParsing() (+102 more)
 
 ### Community 81 - "browser-annotations.ts"
-Cohesion: 0.07
-Nodes (38): ADJUSTMENT_LABELS, ariaName(), BrowserAdjustmentProperty, BrowserAnnotationCancelReason, BrowserAnnotationCompleteInput, BrowserAnnotationComputedStyle, BrowserAnnotationContext, BrowserAnnotationDiscardInput (+30 more)
+Cohesion: 0.03
+Nodes (76): BrowserAgentActivityState, BrowserDevToolsPlacement, BrowserDevToolsState, BrowserNavState, BrowserRect, BrowserTabState, frontend_src_renderer_hooks_usebrowserview_browsernavstate, claimLayoutRevision() (+68 more)
 
 ### Community 82 - "AgentAuthStatus"
 Cohesion: 0.03
-Nodes (39): fakeAuthAgent, mutableAuthAgent, Plugin, Plugin, Plugin, Plugin, Plugin, grokConfigAuthStatus() (+31 more)
+Nodes (47): Plugin, Plugin, codexAuthStatusFromOutput(), TestCodexAuthStatusFromOutputRequiresAffirmativeEvidence(), Plugin, droidConfiguredSecret(), droidFactoryAuthStatus(), droidLocalAuthStatus() (+39 more)
 
 ### Community 83 - "forge.config.ts"
 Cohesion: 0.04
-Nodes (49): 1.1 App identity and release target, 1.2 Release / build pipeline, 1.3 Versioning, 1.6 npm delivery of the Go binary (the packaging gap), 1. Ground truth (what the code actually is today), ACP_RUNTIME_NODE_ENTITLEMENTS, AUTH_PROTOCOL, config (+41 more)
+Nodes (51): 1.1 App identity and release target, 1.2 Release / build pipeline, 1.3 Versioning, 1.4 Signing / notarization / auto-update, 1.6 npm delivery of the Go binary (the packaging gap), 1. Ground truth (what the code actually is today), Task 4: esbuild bundle into `frontend/resources/ao-mcp`, ACP_RUNTIME_NODE_ENTITLEMENTS (+43 more)
 
 ### Community 84 - "preload.ts"
-Cohesion: 0.02
-Nodes (147): appShortcutChannel(), attachAppShortcuts(), BeforeInput, BeforeInputContents, mainShortcutChannels, ShortcutTargetContents, BrowserAgentActivityState, BrowserDevToolsInput (+139 more)
+Cohesion: 0.04
+Nodes (82): appShortcutChannel(), attachAppShortcuts(), BeforeInput, BeforeInputContents, mainShortcutChannels, ShortcutTargetContents, coerceBinding(), coerceKeybindingOverrides() (+74 more)
 
-### Community 85 - "cloud/internal/config/config.go"
-Cohesion: 0.05
-Nodes (43): loadWorkerBinaries(), main(), newSandboxReconciler(), provisioningDefaults(), readSSHPubKeys(), run(), main(), boolEnv() (+35 more)
+### Community 85 - "net/http.Client"
+Cohesion: 0.04
+Nodes (72): cachedOrganization, cachedProfile, OIDCVerifier, OrganizationResolver, ProfileResolver, boundedAgentSwitchHTTPClient(), AgentSwitchDestination, NewAgentSwitchFailureSender() (+64 more)
 
-### Community 86 - ".fetch"
-Cohesion: 0.13
-Nodes (12): FetchResult, NewProductionFetcher(), normalizeContextError(), readHTTPResponse(), CatalogFetcher, safeProviderPath(), validateRuntimeManifest(), blockingDaemonPricingFetcher (+4 more)
+### Community 86 - "LaunchSpec"
+Cohesion: 0.06
+Nodes (23): ReviewerChatProfile, aoShimScript(), looksLikeAuthFailure(), outputContainsAny(), prependPathDir(), previousReviewHistoryText(), reviewerChatID(), reviewerHandleID() (+15 more)
 
 ### Community 87 - "telemetry-policy.ts"
 Cohesion: 0.05
-Nodes (54): Task 6: Establish One Crash-Durable Consent Authority Across Processes, DaemonTelemetryControlUnavailableError, DaemonTelemetryPolicyAcknowledgement, DaemonTelemetryPolicyClient, Fetcher, parseAcknowledgement(), Authority, DaemonPolicyClient (+46 more)
+Nodes (55): Task 6: Establish One Crash-Durable Consent Authority Across Processes, rename(), DaemonTelemetryControlUnavailableError, DaemonTelemetryPolicyAcknowledgement, DaemonTelemetryPolicyClient, Fetcher, parseAcknowledgement(), Authority (+47 more)
 
-### Community 88 - "New"
-Cohesion: 0.05
-Nodes (100): revParseVerifyArgs(), TestDestroyDefersRemovalFailureWhenTheDirectoryStillExists(), TestDestroyDiscardStillRefusesDirtyWorktree(), TestDestroyDiscardsWorktreeWithoutUnlinkingInline(), TestDestroyDoesNotDeferPermanentRemovalFailure(), TestDestroyFallsBackToGitWhenTheMoveIsImpossible(), TestDestroyReportsAMissingProjectRepoAsUnavailable(), TestDestroySerializesGitCommandsPerRepository() (+92 more)
+### Community 88 - "workspace_integration_test.go"
+Cohesion: 0.10
+Nodes (62): TestDestroyDiscardStillRefusesDirtyWorktree(), TestDestroyDiscardsWorktreeWithoutUnlinkingInline(), TestDestroyFallsBackToGitWhenTheMoveIsImpossible(), TestDestroyReportsAMissingProjectRepoAsUnavailable(), TestDirtyProbeRunsAgainstTheIsolatedDirectory(), TestForceDestroyDiscardsWorktree(), TestNewSweepsLeftoverDiscards(), writeIgnoredTree() (+54 more)
 
 ### Community 89 - "NotificationCenter.tsx"
-Cohesion: 0.05
-Nodes (76): NotificationCenter(), NotificationCenterProps, NotificationCopy, NotificationEmpty(), notificationIcon(), notificationIconClass(), NotificationItem, notificationMentions() (+68 more)
+Cohesion: 0.03
+Nodes (110): ChatImageSource, ChatImageSourceContext, ChatImageSourceProvider(), NotificationCenter(), NotificationCenterProps, NotificationCopy, NotificationEmpty(), notificationIcon() (+102 more)
 
-### Community 90 - "github.com/spf13/cobra.Command"
-Cohesion: 0.06
-Nodes (55): main(), commandContext, commandContext, newAgentProcessCommand(), newAgentProcessSuperviseCommand(), commandContext, newClaudeLoginCommand(), TestClaudeLoginRunsEverySupportedLoginMethod() (+47 more)
+### Community 90 - "ao/main.go"
+Cohesion: 0.04
+Nodes (64): main(), commandContext, commandContext, newAgentProcessCommand(), newAgentProcessSuperviseCommand(), TestAgentProcessSuperviseRejectsInvalidGeneration(), newCompletionCommand(), commandContext (+56 more)
 
 ### Community 91 - "contract/kanban.go"
-Cohesion: 0.05
-Nodes (85): SessionStatus, buildStacks(), live(), TestBuildStacksMarksBlockedChildren(), TestBuildStacksMergedParentUnblocksChild(), TestDeriveStatusAllClosedNoneMergedFallsToActivity(), TestDeriveStatusAllMergeableReportsMergeable(), TestDeriveStatusAllMergedReportsMerged() (+77 more)
+Cohesion: 0.04
+Nodes (97): SessionStatus, deriveKanbanPresentation(), toContractKanbanPRFacts(), toContractKanbanSessionFacts(), buildStacks(), live(), TestBuildStacksMarksBlockedChildren(), TestBuildStacksMergedParentUnblocksChild() (+89 more)
 
 ### Community 92 - "runtime.ts"
 Cohesion: 0.04
-Nodes (72): SessionMode, Base, CATEGORY, classifyError(), ClassifyInput, CODE, FaultOwner, KIND (+64 more)
+Nodes (73): SessionMode, Base, CATEGORY, classifyError(), ClassifyInput, CODE, FaultOwner, KIND (+65 more)
 
 ### Community 93 - "Collector"
+Cohesion: 0.03
+Nodes (76): LegacyUsageEvent, LegacyUsageRepair, ModelUsageEvent, SourceCursorState, UsageBillingProviderSource, UsageBindingRecord, UsageBindingState, UsageCostCandidate (+68 more)
+
+### Community 94 - ".BuildInteractive"
+Cohesion: 0.10
+Nodes (29): Dir(), Install(), TestInstallClobbersPreviousCopy(), TestInstallMaterializesSkillTree(), TestInstallRequiresDataDir(), RepoRef, CredentialResponse, LaunchContext (+21 more)
+
+### Community 95 - "ChatUserMessage"
 Cohesion: 0.04
-Nodes (45): UsageBindingRecord, UsageBindingState, UsageSourceKind, UsageSourceRecord, SupportedHarness(), boundedUsageMetadata(), codexParentThreadID(), codexParserAttribution() (+37 more)
+Nodes (35): conversation, approvalReply(), compactionSummary(), formatTokens(), conversation, notification, isNoActiveTurn(), TestCompactionClaimsNoFiguresItDoesNotHave() (+27 more)
 
-### Community 94 - "Supervisor"
-Cohesion: 0.05
-Nodes (41): Dir(), Install(), TestInstallClobbersPreviousCopy(), TestInstallMaterializesSkillTree(), TestInstallRequiresDataDir(), RepoRef, CredentialResponse, LaunchContext (+33 more)
-
-### Community 95 - "ChatEvent"
+### Community 96 - "ref_node_child_process"
 Cohesion: 0.04
-Nodes (31): approvalReply(), compactionSummary(), formatTokens(), conversation, notification, process, isNoActiveTurn(), TestCompactionClaimsNoFiguresItDoesNotHave() (+23 more)
-
-### Community 96 - "build-mac-repair-installer.node-test.mjs"
-Cohesion: 0.05
-Nodes (50): Architecture, Decision, Delivered coverage, Desktop UI localization foundation, Key conventions, Scope boundaries, Verification, buildRepairInstaller() (+42 more)
+Nodes (60): aoActivityExtension(), bestEffort(), nativeSessionId(), report(), Architecture, Decision, Delivered coverage, Desktop UI localization foundation (+52 more)
 
 ### Community 97 - "CodexAccountSwitch"
-Cohesion: 0.10
-Nodes (10): codexAccountSwitchCoordinator, coordinatorSwitchStoreFake, CodexAccountSwitch, CodexAccountSwitchPhase, CodexAccountSwitchConfig, CodexAccountSwitchStore, codexAccountSwitchDurableContext(), codexAccountSwitchFromGen() (+2 more)
+Cohesion: 0.04
+Nodes (19): codexAccountSwitchCoordinator, coordinatorCredentialFake, coordinatorSwitchStoreFake, TestWiring_SessionLifecycleInterfaceInvokedByDaemon(), CodexAccountSwitch, CodexAccountSwitchInstallationState, CodexAccountSwitchPhase, CodexAccountSwitchSource (+11 more)
 
-### Community 98 - "CostBackfiller"
-Cohesion: 0.06
-Nodes (36): LegacyUsageEvent, LegacyUsageRepair, UsageBillingProviderSource, UsageCostCandidate, UsageCostUpdate, ObservedBillingProviderSource(), genericTokensEqual(), matchLegacyEvents() (+28 more)
+### Community 98 - "CodexCapacityObservation"
+Cohesion: 0.03
+Nodes (40): blockingPresenceAgent, blockingSubsequentResolverAgent, concurrentResolverAgent, countingResolverAgent, fakeCodexAccountClient, identityPendingAgent, invalidatingAgent, mutableAuthAgent (+32 more)
 
 ### Community 99 - "browser-profiles.ts"
 Cohesion: 0.05
-Nodes (67): Amp, Amp, Pi, and Auggie Kanban Status Design, Architecture, Auggie, Event Mapping, Failure Handling, Goal, Pi (+59 more)
+Nodes (57): Event Mapping, BrowserProfileIpc, BrowserProfileIpcHost, BrowserProfileIpcOptions, BrowserProfileMenu, BrowserProfileMenuItem, EMPTY_PROFILE_STATE, invalid() (+49 more)
 
 ### Community 100 - "internal/review/review_test.go"
-Cohesion: 0.10
-Nodes (73): Store, liveWorker(), newEngineForTest(), prAt(), TestAutoReviewHeadBlockedCapsFailedAutoRetriesPerHeadAndHarness(), TestAutoTriggerDoesNotAppendPRToLiveRunningReviewer(), TestAutoTriggerReconcilesDeadReviewerBeforeRunningGate(), TestAutoTriggerRevalidatesSessionPolicyUnderLock() (+65 more)
-
-### Community 101 - "agent/catalog_test.go"
 Cohesion: 0.09
-Nodes (67): TestEnsureAgentReadinessReturnsTypedValidationEnvelopes(), assertIdleWithoutRetries(), cachedModelRecord(), harnessAgent(), harnessAuthAgent(), signInRequiredDiscoverer(), successfulModelDiscoverer(), TestChangedInputsAndQueuedInvalidationBypassPersistedRetryBackoff() (+59 more)
+Nodes (81): Store, liveWorker(), newEngineForTest(), prAt(), TestAutoReviewHeadBlockedCapsFailedAutoRetriesPerHeadAndHarness(), TestAutoTriggerDoesNotAppendPRToLiveRunningReviewer(), TestAutoTriggerReconcilesDeadReviewerBeforeRunningGate(), TestAutoTriggerRevalidatesSessionPolicyUnderLock() (+73 more)
+
+### Community 101 - "AgentHarness"
+Cohesion: 0.04
+Nodes (88): fakeAgents, SignalCoverage, CoverageForHarness(), FullySupportsHarness(), TestDeriverTokensAreKnownHarnesses(), TestFullySupportsHarnessRequiresCompleteCoverage(), TestSignalCoverageForHarness(), New() (+80 more)
 
 ### Community 102 - "shellterm/service_test.go"
 Cohesion: 0.06
-Nodes (85): NewActivationFence(), TestActivationFenceAdmissionHonorsContext(), TestActivationFenceAdmitsWaitersInArrivalOrder(), TestActivationFenceNeverAdmitsAlreadyCanceledContext(), TestActivationFenceReturnsTokenWhenCancellationWinsAfterAdmission(), NewService(), nextShellTerminalTitle(), gateIsFree() (+77 more)
+Nodes (88): NewActivationFence(), TestActivationFenceAdmissionHonorsContext(), TestActivationFenceAdmitsWaitersInArrivalOrder(), TestActivationFenceNeverAdmitsAlreadyCanceledContext(), TestActivationFenceReturnsTokenWhenCancellationWinsAfterAdmission(), NewService(), nextShellTerminalTitle(), gateIsFree() (+80 more)
 
-### Community 103 - "mustNoError"
-Cohesion: 0.09
-Nodes (93): assertCodexBudgetMarker(), codexParserStateWithChildren(), newCodexBudgetFixture(), onlyBudgetSource(), onlyUsageBindingForBudget(), setCodexDiscoveredChildren(), TestCollectorCodexBudgetBoundsRecursiveDiscoveryAndReconcilePath(), TestCollectorCodexBudgetCountsLogicalIDsAndAllowsExistingGenerations() (+85 more)
+### Community 103 - "github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store"
+Cohesion: 0.08
+Nodes (95): assertCodexBudgetMarker(), codexParserStateWithChildren(), newCodexBudgetFixture(), onlyBudgetSource(), onlyUsageBindingForBudget(), setCodexDiscoveredChildren(), TestCollectorCodexBudgetBoundsRecursiveDiscoveryAndReconcilePath(), TestCollectorCodexBudgetCountsLogicalIDsAndAllowsExistingGenerations() (+87 more)
 
 ### Community 104 - "conversation"
 Cohesion: 0.04
-Nodes (45): ClientExtensionHandler, historyCapture, interruptAttempt, nestedMessageState, parkedPermission, preparedTurn, choiceOffered(), cloneConfigOptions() (+37 more)
+Nodes (45): ClientExtensionHandler, historyCapture, interruptAttempt, legacyACPResponse, legacyACPTransport, legacyModelInfo, legacySessionModelState, lockedWriteCloser (+37 more)
 
 ### Community 105 - "dependencies"
 Cohesion: 0.03
@@ -1261,172 +1217,172 @@ Cohesion: 0.02
 Nodes (82): AgentAuthenticationState, AgentAvailability, AgentCapability, AgentInstallationState, AgentOrganizationPolicy, AOPullRequestReviewState, AOReviewRun, AOReviewRunStatus (+74 more)
 
 ### Community 109 - "seededChatConversation"
-Cohesion: 0.15
-Nodes (26): activateTestBranch(), appendBranchPrompt(), assertMessageTexts(), seedBranchTurns(), seededChatConversation(), TestActivateConversationBranchMovesProviderAndGenerationTogether(), TestActivateConversationBranchRollsBackWhenSessionCannotMove(), TestBranchActivationScopesNativeHistoryFacts() (+18 more)
+Cohesion: 0.16
+Nodes (25): activateTestBranch(), appendBranchPrompt(), assertMessageTexts(), seedBranchTurns(), seededChatConversation(), TestActivateConversationBranchMovesProviderAndGenerationTogether(), TestActivateConversationBranchRollsBackWhenSessionCannotMove(), TestBranchActivationScopesNativeHistoryFacts() (+17 more)
 
-### Community 110 - "AgentLogo.tsx"
-Cohesion: 0.21
-Nodes (17): AgentLogo(), makeStyles(), backdropFor(), BackdropPolarity, chipColorFor(), HARNESS_CHIP, harnessInitial(), hasLogo() (+9 more)
+### Community 110 - "Sandbox"
+Cohesion: 0.08
+Nodes (14): Sandbox, Reconciler, newReconcileGate(), repairReason(), Provider, Recreator, fixedResolver, lifecycleResolver (+6 more)
 
 ### Community 111 - "conversation"
-Cohesion: 0.08
-Nodes (19): readProviderConfig(), validateProviderConfig(), writeProviderConfig(), newConversation(), TestConversationProtocolMismatchSignalsReadyAndStopped(), conversation, plugin, New() (+11 more)
+Cohesion: 0.14
+Nodes (8): readProviderConfig(), validateProviderConfig(), writeProviderConfig(), newConversation(), TestConversationProtocolMismatchSignalsReadyAndStopped(), conversation, conversation, providerConfig
 
 ### Community 112 - "importer/importer_test.go"
-Cohesion: 0.12
-Nodes (54): importRemoteExists(), New(), setImportOriginURL(), childStatusByPath(), gitRepoWithCommitNoOrigin(), gitRepoWithCommitWithOrigin(), gitRepoWithOrigin(), isImportGitMutation() (+46 more)
+Cohesion: 0.13
+Nodes (52): New(), childStatusByPath(), gitRepoWithCommitNoOrigin(), gitRepoWithCommitWithOrigin(), gitRepoWithOrigin(), isImportGitMutation(), newFakeStore(), setTestUpstream() (+44 more)
 
 ### Community 113 - "pr_ref.go"
 Cohesion: 0.30
 Nodes (9): cliParsePRURL(), cliPRURLFromParts(), cliRepoFromURL(), commandContext, isCLIGitHubHost(), isNumericPRRef(), TestCLIParsePRURL(), TestCLIRepoFromURL() (+1 more)
 
 ### Community 114 - "cloud-auth.ts"
-Cohesion: 0.04
-Nodes (91): authGeneration(), authGenerations, authMutations, AuthStore, beginCloudSignIn(), CALLBACK_HTML(), closeLoopbackServer(), completeCloudSignIn() (+83 more)
+Cohesion: 0.05
+Nodes (75): authGeneration(), authGenerations, authMutations, AuthStore, beginCloudSignIn(), CALLBACK_HTML(), closeLoopbackServer(), completeCloudSignIn() (+67 more)
 
 ### Community 115 - "mustNoError"
-Cohesion: 0.12
-Nodes (73): seedDaemonClaudeUsage(), codexSessionMetaLine(), TestIngestorMarksUnresolvedCodexSpawnPartialAtStableFinalEOF(), TestIngestorSignalsReconcileOnlyForNewlyCommittedCodexChild(), TestPipelineIngestsDiscoveredClaudeContinuation(), writeLine(), appendJSONLRecord(), assertCodexParserState() (+65 more)
+Cohesion: 0.11
+Nodes (74): seedDaemonClaudeUsage(), codexSessionMetaLine(), TestIngestorMarksUnresolvedCodexSpawnPartialAtStableFinalEOF(), TestIngestorSignalsReconcileOnlyForNewlyCommittedCodexChild(), TestPipelineIngestsDiscoveredClaudeContinuation(), writeLine(), appendJSONLRecord(), assertCodexParserState() (+66 more)
 
-### Community 116 - "newTestService"
-Cohesion: 0.06
-Nodes (74): TestAgentInstallPlansNeverUseShellEvaluationOrSudo(), TestAgentPlansCancelsCapabilitySnapshotWithRequest(), TestAgentPlansCoverEveryHarnessOnce(), TestAgentPlanSelectsAvailableFallback(), TestAgentPlansExposeEveryViableServerOwnedMethod(), TestAgentPlansSnapshotsCapabilitiesOnce(), TestAgentTargetsAreValidButPrerequisitesAreNotHarnessRows(), TestGooseWindowsUsesPowerShellInstallerCommand() (+66 more)
+### Community 116 - "systeminstall/systeminstall_test.go"
+Cohesion: 0.08
+Nodes (75): TestAgentInstallPlansNeverUseShellEvaluationOrSudo(), TestAgentPlansCancelsCapabilitySnapshotWithRequest(), TestAgentPlansCoverEveryHarnessOnce(), TestAgentPlanSelectsAvailableFallback(), TestAgentPlansExposeEveryViableServerOwnedMethod(), TestAgentPlansSnapshotsCapabilitiesOnce(), TestGooseWindowsUsesPowerShellInstallerCommand(), TestHomebrewPlanFailsClosedWhenInstalledPackageProbeFails() (+67 more)
 
 ### Community 117 - "agent-browser-runtime.ts"
-Cohesion: 0.05
-Nodes (61): ao browser, Commands, Core workflow, Control-plane state and cluster behavior, Deliberate exclusions, Durable messages and replay, Durable session creation, Replica lifecycle (+53 more)
+Cohesion: 0.06
+Nodes (54): Control-plane state and cluster behavior, Deliberate exclusions, Durable messages and replay, Durable session creation, Replica lifecycle, Sandbox resume and lifecycle projection, Version and environment boundaries, Worker workspace and terminal transport (+46 more)
 
 ### Community 118 - "frontend/package.json"
-Cohesion: 0.01
-Nodes (231): allowScripts, electron@33.4.11, author, description, homepage, clsx, jsdom, lucide-react (+223 more)
+Cohesion: 0.02
+Nodes (176): allowScripts, electron@33.4.11, author, description, homepage, clsx, jsdom, lucide-react (+168 more)
 
 ### Community 119 - "deviceProvider.ts"
 Cohesion: 0.07
-Nodes (22): CODING_VOCABULARY, createDeviceVoiceProvider(), abortSession(), close(), fail(), settle(), transcriptOf(), ERROR_MESSAGES (+14 more)
+Nodes (21): CODING_VOCABULARY, createDeviceVoiceProvider(), abortSession(), close(), fail(), settle(), transcriptOf(), ERROR_MESSAGES (+13 more)
 
-### Community 120 - "NewCache"
-Cohesion: 0.06
-Nodes (60): newUsagePricingRuntime(), daemonClaudePricingSnapshot(), daemonUsageProvider(), TestUsagePricingRuntimeCatalogFailureIsNonfatal(), TestUsagePricingRuntimePublishesLKGBeforeStartReturnsAndWaitsOnShutdown(), TestUsagePricingRuntimeRepairsHistoryAfterLaterCatalogActivation(), waitForDaemonUsageProvider(), NewCache() (+52 more)
+### Community 120 - "ActivityState"
+Cohesion: 0.05
+Nodes (43): DeriveActivityState(), TestDeriveActivityState(), DeriveActivityState(), TestDeriveActivityState(), DeriveActivityState(), TestDeriveActivityState(), DeriveActivityState(), TestDeriveActivityState() (+35 more)
 
 ### Community 121 - "context.CancelFunc"
-Cohesion: 0.05
-Nodes (33): chi.Router, mountTerminalMux(), terminalMuxHandler(), Stream, reattachBackoff(), releaseInput(), releasePendingInput(), Source (+25 more)
+Cohesion: 0.04
+Nodes (35): chi.Router, mountTerminalMux(), terminalMuxHandler(), Attacher, Stream, reattachBackoff(), releaseInput(), releasePendingInput() (+27 more)
 
 ### Community 122 - "Runtime"
 Cohesion: 0.06
 Nodes (52): capturePaneArgs(), capturePaneStyledArgs(), exactSessionTarget(), hasSessionArgs(), killSessionArgs(), listPanePIDsArgs(), newSessionArgs(), paneCurrentPathArgs() (+44 more)
 
 ### Community 123 - "readinessCoordinator"
-Cohesion: 0.08
-Nodes (24): readinessCall, readinessCallKey, readinessCoordinator, readinessCoordinatorConfig, readinessEntry, readinessInvalidation, EffectiveAgentReadiness(), AgentInstallationObservation (+16 more)
+Cohesion: 0.07
+Nodes (34): readinessCall, readinessCallKey, readinessCoordinator, readinessCoordinatorConfig, readinessEntry, readinessInvalidation, EffectiveAgentReadiness(), AgentAuthenticationObservation (+26 more)
 
 ### Community 124 - "import-folder-scan.ts"
 Cohesion: 0.04
-Nodes (65): 2. Capability gateway foundation for interactive TUI reviewers, Acceptance tests for adapter rollout, Consequences, Context, Decision, Required isolation provider, Daemon environment: the GUI-launch PATH/credentials problem, Implementation details (+57 more)
+Nodes (68): 2. Capability gateway foundation for interactive TUI reviewers, Acceptance tests for adapter rollout, Consequences, Context, Decision, Required isolation provider, Daemon environment: the GUI-launch PATH/credentials problem, Implementation details (+60 more)
 
 ### Community 125 - "Client"
-Cohesion: 0.07
-Nodes (11): Client, CreatePullRequestInput, Installation, installationAccessToken, installationRepositoryServer, PullRequestResponse, PullRequestReview, Repository (+3 more)
+Cohesion: 0.06
+Nodes (18): aggregateCIState(), Service, mapMergeability(), pullRequestLifecycleState(), providerRepository(), CheckRun, Client, CreatePullRequestInput (+10 more)
 
 ### Community 126 - "AgentModelCatalog"
-Cohesion: 0.07
-Nodes (29): cancelAwareModelDiscoverer, decodedCatalog, fakeModelDiscoverer, modelCatalogCall, modelLoadMode, ProjectLookup, catalog(), customModelEntryMode() (+21 more)
+Cohesion: 0.04
+Nodes (77): cancelAwareModelDiscoverer, decodedCatalog, fakeModelDiscoverer, modelCatalogCall, modelLoadMode, ProjectLookup, Base(), BinaryVersion() (+69 more)
 
 ### Community 127 - "workspace"
 Cohesion: 0.06
-Nodes (45): WorkspaceDiffFile, WorkspaceDiffFileRequest, WorkspaceFile, WorkspaceListRequest, WorkspaceReadRequest, WorkspaceWriteRequest, WorkspaceReviewCommit, WorkspaceReviewDiffsRequest (+37 more)
+Nodes (53): WorkspaceDiffFile, WorkspaceDiffFileRequest, WorkspaceFile, WorkspaceListRequest, WorkspaceReadRequest, WorkspaceWriteRequest, WorkspaceReviewCommit, WorkspaceReviewDiffsRequest (+45 more)
 
-### Community 128 - "installCopilotHooks"
-Cohesion: 0.27
-Nodes (9): copilotHookCommandExists(), Plugin, installCopilotHooks(), isCopilotManagedHook(), readCopilotHooks(), removeCopilotManagedHooks(), writeCopilotHooks(), copilotHookEntry (+1 more)
+### Community 128 - "copilotHooksPath"
+Cohesion: 0.20
+Nodes (14): countCopilotHookCommand(), TestGetAgentHooksInstallsCopilotHooks(), TestInstallAgentProfileDoesNotInstallLifecycleHooks(), TestUninstallHooksRemovesCopilotHooks(), copilotHookCommandExists(), copilotHooksPath(), Plugin, installCopilotHooks() (+6 more)
 
 ### Community 129 - "normalizeNotification"
 Cohesion: 0.04
-Nodes (70): FileUpdateChange, GuardianApprovalReview, GuardianApprovalReviewAction, GuardianApprovalReviewStatus, PatchChangeKindType, ThreadActiveFlag, ThreadStatusType, codexDecisionKind() (+62 more)
+Nodes (67): FileUpdateChange, GuardianApprovalReview, GuardianApprovalReviewAction, GuardianApprovalReviewStatus, PatchChangeKindType, ThreadActiveFlag, ThreadStatusType, codexDecisionKind() (+59 more)
 
 ### Community 130 - "net/http.Response"
-Cohesion: 0.06
-Nodes (37): classifyError(), githubMessage(), TokenSource, isRateLimited(), NewClient(), rateLimited(), classifyError(), gitlabMessage() (+29 more)
+Cohesion: 0.04
+Nodes (53): classifyError(), githubMessage(), TokenSource, isRateLimited(), NewClient(), rateLimited(), classifyError(), gitlabMessage() (+45 more)
 
-### Community 131 - "New"
-Cohesion: 0.14
-Nodes (19): ExecutableFinder, executableFinderFunc, TerminalOpener, foundExecutables(), ExecutableFinder, TestPlanMissingExecutableIsUnavailable(), TestPlansMatchAuthenticationMatrix(), TestUnknownPlanReturnsStableTargetError() (+11 more)
+### Community 131 - "agentauth/service_test.go"
+Cohesion: 0.10
+Nodes (27): AgentBinaryResolver, ExecutableFinder, executableFinderFunc, LaunchMode, managedExecutableResolver, Service, TerminalOpener, foundExecutables() (+19 more)
 
 ### Community 132 - "Snapshot"
 Cohesion: 0.04
-Nodes (55): mutableInstallAgent, canonicalBillingProvider(), atomicReplaceFile(), ensurePrivateDir(), installImmutableFile(), readBoundedFile(), CanonicalModelID(), CanonicalProviderID() (+47 more)
+Nodes (61): canonicalBillingProvider(), atomicReplaceFile(), ensurePrivateDir(), installImmutableFile(), readBoundedFile(), NewProductionFetcher(), normalizeContextError(), readHTTPResponse() (+53 more)
 
 ### Community 133 - "mobile/package.json"
 Cohesion: 0.03
-Nodes (62): CONNECT_SHEET_OPTIONS, SHEET_ROUTES, withHaptic(), MinimalBackButton(), ONBOARDING_SKIPPED_KEY, OnboardingInput, shouldOnboard(), OnboardingGate() (+54 more)
+Nodes (64): CONNECT_SHEET_OPTIONS, SHEET_ROUTES, Shell(), withHaptic(), MinimalBackButton(), ONBOARDING_SKIPPED_KEY, OnboardingInput, shouldOnboard() (+56 more)
 
 ### Community 134 - "cli/project.go"
+Cohesion: 0.05
+Nodes (66): agentInventory, agentInfoByID(), commandContext, newAgentCommand(), newAgentListCommand(), readinessInventory(), TestReadinessInventoryProjectsAuthNotApplicableAsLegacyAuthorized(), writeAgentList() (+58 more)
+
+### Community 135 - "shared/browser-profile-import.ts"
 Cohesion: 0.07
-Nodes (42): agentInventory, writeClaimPRCheckout(), buildProjectConfig(), formatProjectConfig(), parseEnvPairs(), reviewersForFlags(), TestBuildProjectConfigTrackerIntakeFlags(), writeProjectDetails() (+34 more)
+Nodes (31): BrowserHistoryEntry, BrowserHistoryFile, BrowserHistoryStore, BrowserHistoryStoreOptions, compact(), fittedHistory(), HISTORY_VERSION, isRecord() (+23 more)
 
-### Community 135 - "SCMObservation"
+### Community 136 - "resource_handlers_repository_probe_test.go"
+Cohesion: 0.08
+Nodes (33): newAgentCredentialValidator(), TestCodexAuthJSONValidationIsOpaqueButRequiresDocument(), githubPATRequest(), Server, newGitHubPATTestServer(), TestPutGitHubPATAcceptsAWorkingToken(), TestPutGitHubPATRejectsAnInvalidToken(), TestPutGitHubPATReportsGitHubUnavailableSeparatelyFromInvalid() (+25 more)
+
+### Community 137 - ".ExitCode"
 Cohesion: 0.07
-Nodes (30): buildCheckContextsQuery(), buildReviewThreadsQuery(), buildSCMBatchQuery(), graphQLString(), pageInfoEndCursor(), repoFullName(), scmPRFields(), TestSCMBatchQueryRequestsStablePullRequestID() (+22 more)
-
-### Community 136 - "net/http.Client"
-Cohesion: 0.04
-Nodes (78): cachedOrganization, cachedProfile, OIDCVerifier, OrganizationResolver, ProfileResolver, boundedAgentSwitchHTTPClient(), AgentSwitchDestination, NewAgentSwitchFailureSender() (+70 more)
-
-### Community 137 - "cli/review_test.go"
-Cohesion: 0.11
-Nodes (43): TestPRMergeOmitsMissingMethodFromOutput(), TestPRMergePostsToDaemon(), TestPRMergeRejectsInvalidNumber(), TestPRMergeRequiresExactlyOneArgument(), TestPRMergeSurfacesDaemonError(), TestPRResolveCommentsAllowsNoIDs(), TestPRResolveCommentsPostsIDs(), TestPRResolveCommentsRequiresPRNumber() (+35 more)
+Nodes (64): TestExitCode(), TestPRMergeOmitsMissingMethodFromOutput(), TestPRMergePostsToDaemon(), TestPRMergeRejectsInvalidNumber(), TestPRMergeRequiresExactlyOneArgument(), TestPRMergeSurfacesDaemonError(), TestPRResolveCommentsAllowsNoIDs(), TestPRResolveCommentsPostsIDs() (+56 more)
 
 ### Community 138 - "Server"
-Cohesion: 0.03
-Nodes (65): notFoundJSON(), authMiddleware(), bearerToken(), connectionToken(), isIdentityProbe(), maybeSetPreviewAuthCookie(), newLockout(), previewFilesCookiePath() (+57 more)
+Cohesion: 0.05
+Nodes (26): notFoundJSON(), codexAccountOriginMiddleware(), corsMiddleware(), exactAllowedOrigins(), isCodexAccountPath(), isLoopbackOrigin(), isLANControlBlockedPath(), isLANControlBlockedRequest() (+18 more)
 
 ### Community 139 - "coder/client_test.go"
-Cohesion: 0.05
-Nodes (79): shellQuote(), bootstrapArchive(), bootstrapCommand(), bootstrapCommandForArchive(), bootstrapLaunchArchive(), buildBootstrapArchive(), environmentFile(), New() (+71 more)
+Cohesion: 0.03
+Nodes (106): workspaceLayout(), bootstrapArchive(), bootstrapCommand(), bootstrapCommandForArchive(), bootstrapLaunchArchive(), buildBootstrapArchive(), environmentFile(), Template (+98 more)
 
-### Community 140 - "ref_node_os"
+### Community 140 - "remotes-main.ts"
 Cohesion: 0.10
-Nodes (31): FetchImpl, probeRemote(), RemoteHealth, remoteRequest(), RemoteRequestInit, daemonProbe, entry, Disconnect (+23 more)
+Nodes (31): FetchImpl, probeRemote(), RemoteHealth, remoteRequest(), RemoteRequestInit, RemoteResponse, daemonProbe, entry (+23 more)
 
 ### Community 141 - "codexCapacityCoordinator"
-Cohesion: 0.07
-Nodes (44): accountCapacityState, capacityReadCall, codexCapacityCoordinator, capacityObservationFromEnvelope(), chatRateLimitsFromCapacity(), normalizeCapacityBucket(), normalizeCapacityWindow(), normalizeResetCredits() (+36 more)
+Cohesion: 0.16
+Nodes (16): accountCapacityState, capacityReadCall, codexCapacityCoordinator, CompactCodexCapacity(), CodexCapacitySnapshot, CodexCapacityState, classifyCodexCapacityReadFailure(), codexAccountManager (+8 more)
 
 ### Community 142 - "agentruntime/command.go"
-Cohesion: 0.23
-Nodes (23): Harness, LaunchConfig, PermissionPolicy, RestoreConfig, appendClaudeSystemPrompt(), appendClaudeToolArgs(), appendCodexCommon(), buildClaudeLaunch() (+15 more)
+Cohesion: 0.18
+Nodes (28): Harness, LaunchConfig, PermissionPolicy, RestoreConfig, SessionMode, appendClaudeSystemPrompt(), appendClaudeToolArgs(), appendCodexCommon() (+20 more)
 
 ### Community 143 - "notifications.tsx"
-Cohesion: 0.07
-Nodes (63): notifications, makeStyles(), NotificationRow(), NotificationSectionHeader(), NotificationsScreen(), markAll(), open(), restoreSession() (+55 more)
+Cohesion: 0.09
+Nodes (31): makeStyles(), NotificationRow(), NotificationSectionHeader(), NotificationsScreen(), markAll(), open(), sessionState(), markAllNotificationsRead() (+23 more)
 
-### Community 144 - "backOr"
-Cohesion: 0.10
-Nodes (41): AgentSheetRoute(), onRefresh(), ChatSettingsRoute(), ComposerPickerRoute(), ConnectSheetRoute(), ConversationActionsRoute(), ConversationMapRoute(), ConversationRenameRoute() (+33 more)
+### Community 144 - "ChatInputResponse"
+Cohesion: 0.07
+Nodes (19): ClientApprovalRequest, ClientExtensionBridge, parkedInput, persistentDecision, persistentInteractionCommand, stableExtensionBridge, stableACPRequestID(), validateInputResponse() (+11 more)
 
 ### Community 145 - "ProgressController"
 Cohesion: 0.06
 Nodes (42): AppKit, Codable, CoreGraphics, Darwin, Decodable, Equatable, Foundation, processAlive() (+34 more)
 
-### Community 146 - "scmObservationFromGraphQL"
-Cohesion: 0.06
-Nodes (48): appendStatusContextNodes(), authorAvatarURL(), authorLogin(), ciSummaryFromRollupState(), latestCommitOID(), mergeCommitOID(), normalizePRState(), parseGitHubTime() (+40 more)
+### Community 146 - "SCMObservation"
+Cohesion: 0.03
+Nodes (85): appendStatusContextNodes(), authorAvatarURL(), authorLogin(), buildCheckContextsQuery(), buildReviewThreadsQuery(), buildSCMBatchQuery(), ciSummaryFromRollupState(), graphQLString() (+77 more)
 
 ### Community 147 - "github/provider_test.go"
-Cohesion: 0.14
-Nodes (59): StaticTokenSource, TestMergePullRequest_MapsGitHubFailures(), TestMergePullRequest_RejectsIncompleteGuard(), TestMergePullRequest_UsesSquashAndExpectedHead(), TestRequestReview_PostsRequestedReviewer(), TestResolveReviewThread_RejectsMissingResolutionConfirmation(), TestResolveReviewThread_RejectsUnconfirmedMutation(), TestResolveReviewThread_RejectsUnresolvedMutation() (+51 more)
+Cohesion: 0.13
+Nodes (61): StaticTokenSource, TestMergePullRequest_MapsGitHubFailures(), TestMergePullRequest_RejectsIncompleteGuard(), TestMergePullRequest_UsesSquashAndExpectedHead(), TestRequestReview_PostsRequestedReviewer(), TestResolveReviewThread_RejectsMissingResolutionConfirmation(), TestResolveReviewThread_RejectsUnconfirmedMutation(), TestResolveReviewThread_RejectsUnresolvedMutation() (+53 more)
 
 ### Community 148 - "providerRuntime"
 Cohesion: 0.06
-Nodes (38): decodeCommands(), frame, newEventJournal(), newProviderClient(), providerStatePath(), reasoningEffort(), resultFrame(), RunProvider() (+30 more)
+Nodes (33): decodeCommands(), frame, newEventJournal(), newProviderClient(), providerStatePath(), resultFrame(), RunProvider(), runProvider() (+25 more)
 
 ### Community 149 - "Issue"
-Cohesion: 0.06
-Nodes (39): cloneIssues(), issueFromGH(), mapStateFromGitHub(), parseGitHubID(), parseGitHubRepo(), TestParseID(), issueFromGitLab(), mapStateFromGitLab() (+31 more)
+Cohesion: 0.10
+Nodes (21): TestTrackerIntakeConfig_ValidateRejectsUnknownProvider(), startTrackerIntake(), TestLazyTracker_ConstructionDeferredAndStickyOnlyOnSuccess(), Issue, ListFilter, TrackerID, TrackerProvider, TrackerRepo (+13 more)
 
 ### Community 150 - "AbsolutePathBuf"
 Cohesion: 0.04
-Nodes (57): AbsolutePathBuf, AppSummary, AppTemplateSummary, AppTemplateUnavailableReason, FsChangedNotification, FsCopyParams, FsCreateDirectoryParams, FsGetMetadataParams (+49 more)
+Nodes (65): AbsolutePathBuf, AppSummary, AppTemplateSummary, AppTemplateUnavailableReason, ConfigLayer, ConfigLayerMetadata, ConfigLayerSource, ConfigLayerSourceType (+57 more)
 
 ### Community 151 - "shared/agent-switch-observability.ts"
 Cohesion: 0.07
@@ -1434,71 +1390,71 @@ Nodes (36): AgentSwitchVisibilityController, createAgentSwitchVisibilitySender()
 
 ### Community 152 - "codexAccountManager"
 Cohesion: 0.09
-Nodes (22): accountAuthCall, accountAuthState, accountUsageState, codexAccountRecord, codexAuthenticationEvidence, AgentAuthenticationObservation, AgentAuthenticationState, CodexAccountClientFactory (+14 more)
+Nodes (13): accountAuthCall, accountAuthState, accountUsageState, codexAccountLoginTerminalService, codexAccountRecord, codexAuthenticationEvidence, CodexAccountClientFactory, CodexAccountContext (+5 more)
 
 ### Community 153 - "Thread"
 Cohesion: 0.05
-Nodes (59): AppToolsConfig, AskForApproval, Turn, ActivePermissionProfile, AnalyticsConfig, AppConfig, ApprovalsReviewer, AppsConfig (+51 more)
+Nodes (63): AppToolsConfig, AskForApproval, Turn, ActivePermissionProfile, AnalyticsConfig, AppConfig, ApprovalsReviewer, AppsConfig (+55 more)
 
 ### Community 154 - "tunnel_test.go"
-Cohesion: 0.07
-Nodes (45): ParseCloudflaredVersion(), ReadTunnelPID(), ReapStaleTunnel(), RemoveOwnTunnelPIDFile(), RemoveTunnelPIDFile(), ResolveCloudflared(), splitLines(), feedLines() (+37 more)
+Cohesion: 0.06
+Nodes (55): CloudflaredArgs(), LocalCloudflaredLookup(), ManagedCloudflaredPath(), newTunnelPIDOwner(), ParseCloudflaredVersion(), ReadTunnelPID(), ReapStaleTunnel(), RemoveOwnTunnelPIDFile() (+47 more)
 
 ### Community 155 - "os.File"
-Cohesion: 0.11
-Nodes (29): defaultSpawnHost(), readUnixSpawnDiagnostics(), stopFailedUnixSpawn(), startProcess(), nextFinalizationRetry(), parserCheckpointAfterRead(), parserCheckpointSampleAt(), parserCheckpointsEqual() (+21 more)
+Cohesion: 0.10
+Nodes (32): cleanupStartedHostFailure(), interactiveTerminalEnv(), stripEnvAssignments(), TestInteractiveTerminalEnvDropsAmbientNoColorAndAdvertisesTrueColor(), TestInteractiveTerminalEnvPreservesExplicitNoColor(), TestStripEnvAssignments(), defaultSpawnHost(), readUnixSpawnDiagnostics() (+24 more)
 
 ### Community 156 - "composer.go"
-Cohesion: 0.06
-Nodes (52): claudeActiveFrameVisible(), claudeComposerState(), claudeConfirmationFrameVisible(), claudeHorizontalRule(), claudeNavigationMenuFrameVisible(), claudeNumberedOption(), Plugin, previousClaudeSurfaceLine() (+44 more)
+Cohesion: 0.18
+Nodes (24): codexComposerFrame(), applySGRBold(), applySGRDim(), consumeEscape(), horizontalRuleWidth(), isPromptChromeLabel(), LastBorderedPromptComposerState(), LastBorderedPromptIsEmptyOrDimPlaceholder() (+16 more)
 
-### Community 157 - "auto-updater.test.ts"
-Cohesion: 0.06
-Nodes (24): AutoUpdaterMock, createAutoUpdaterMock(), importAutoUpdater(), ImportOptions, UpdaterEventHandler, UpdateSettings, UpdateSettingsReader, BrowserDownloadManager (+16 more)
+### Community 157 - "browser-download-manager.ts"
+Cohesion: 0.11
+Nodes (16): BrowserDownloadManager, BrowserDownloadManagerOptions, collisionSafePath(), createBrowserDownloadManager(), DownloadItemLike, DownloadSessionLike, DownloadShell, isInsideDirectory() (+8 more)
 
 ### Community 158 - "gitworktree/commands.go"
+Cohesion: 0.11
+Nodes (21): addAllTempIndexArgs(), checkRefFormatBranchArgs(), cherryPickNoCommitArgs(), commitTreeArgs(), configuredBaseRefCandidates(), deleteRefArgs(), fetchBranchArgs(), ignoredCountArgs() (+13 more)
+
+### Community 159 - "conpty/runtime_test.go"
+Cohesion: 0.15
+Nodes (44): TestLinuxRuntimeDestroyReapsTermIgnoringProcessTreeEndToEnd(), SetRunFilePath(), New(), deadPID(), fakeSpawnerFor(), fakePTY, isolateRegistry(), livePID() (+36 more)
+
+### Community 160 - "ao-mcp/src/client.ts"
+Cohesion: 0.04
+Nodes (50): Behavior that must not regress, Cloud-shared refactor, Explicitly deferred/private, File map, Import rules, Public boundaries, Shared readiness, Verification (+42 more)
+
+### Community 161 - "ConnectMobileContent.tsx"
 Cohesion: 0.08
-Nodes (24): addAllTempIndexArgs(), checkRefFormatBranchArgs(), cherryPickNoCommitArgs(), commitTreeArgs(), configuredBaseRefCandidates(), deleteRefArgs(), ignoredCountArgs(), revParseHeadArgs() (+16 more)
-
-### Community 159 - "New"
-Cohesion: 0.06
-Nodes (71): Runtime, nameHandle(), readUntil(), runtimeForFixture(), TestAttachReplaysScrollback(), TestAttachReportsHostedCommandExit(), TestAttachResizeReachesPTY(), TestAttachUnknownSession() (+63 more)
-
-### Community 160 - "provider-auth-flow.ts"
-Cohesion: 0.05
-Nodes (37): claudeAuthFlow, codexAuthFlow, extractClaudeOAuthToken(), findCodexAuthFile(), firstExecutable(), flows, githubAuthFlow, knownBinDirs() (+29 more)
-
-### Community 161 - "qrScramble.ts"
-Cohesion: 0.21
-Nodes (13): PairingQr, hex(), PAIRING_LINK_BASE_FOR_SCRAMBLE, pseudoRandom(), scrambleCode(), scramblePairingCodes(), buildPairingOffer(), pairingCodeUrl() (+5 more)
+Nodes (32): frontend_src_renderer_assets_ao_logo, { mobileStatus }, ConnectMobileContent(), fetchMobileStatus(), MobileStatus, mobileStatusQueryKey, mobileStatusRefetchInterval(), pairingPayload() (+24 more)
 
 ### Community 162 - "github.com/coder/websocket.Conn"
 Cohesion: 0.12
 Nodes (16): defaultString(), Server, keepTerminalAlive(), retryTerminalRequest(), terminalScope(), terminalStreamClose(), writeTerminalMessage(), Supervisor (+8 more)
 
-### Community 163 - "persistenthost/host_test.go"
-Cohesion: 0.07
-Nodes (71): TestMain(), TestMain(), TestMain(), TestMain(), newACPRelay(), acquireHostLock(), attach(), bindConnToContext() (+63 more)
+### Community 163 - "persistenthost/host.go"
+Cohesion: 0.06
+Nodes (75): TestMain(), TestMain(), TestMain(), TestMain(), newACPRelay(), acquireHostLock(), attach(), bindConnToContext() (+67 more)
 
 ### Community 164 - "MatcherGroup"
-Cohesion: 0.07
-Nodes (34): auggieHookDir(), auggieHookScriptName(), auggieHookScriptPath(), auggieHookScriptSource(), auggieHooksManager(), Plugin, installAuggieHookScripts(), countClaudeHookCommand() (+26 more)
+Cohesion: 0.08
+Nodes (32): countClaudeHookCommand(), matcherForCommand(), TestGetAgentHooksInstallsClaudeHooks(), TestGetAgentHooksMigratesSessionStartMatcher(), TestUninstallHooksRemovesClaudeHooks(), countGooseHookCommand(), TestGetAgentHooksInstallsGooseHooks(), TestUninstallHooksRemovesGooseHooks() (+24 more)
 
 ### Community 165 - ".runHook"
-Cohesion: 0.06
-Nodes (45): SupportsHarness(), TestSupportsHarness(), capHookField(), HookToolName(), terminalFailure(), TerminalFailureCorrelation(), TestHookToolName(), activityMeta() (+37 more)
+Cohesion: 0.07
+Nodes (42): SupportsHarness(), TestSupportsHarness(), capHookField(), HookToolName(), terminalFailure(), TerminalFailureCorrelation(), TestHookToolName(), activityMeta() (+34 more)
 
-### Community 166 - "cli/browser.go"
-Cohesion: 0.14
-Nodes (25): annotationsMissing(), browserUntrustedText(), currentBrowserIdentity(), exactArgs(), commandContext, commandContext, newBrowserCommand(), numberInt() (+17 more)
+### Community 166 - "cli/browser_test.go"
+Cohesion: 0.09
+Nodes (45): annotationsMissing(), browserUntrustedText(), currentBrowserIdentity(), exactArgs(), commandContext, commandContext, newBrowserCommand(), numberInt() (+37 more)
 
 ### Community 167 - "io.Writer"
-Cohesion: 0.07
-Nodes (31): Adapter, Adapter, aoStateDir(), assetArch(), assetName(), desktopExecPath(), downloadURL(), commandContext (+23 more)
+Cohesion: 0.05
+Nodes (56): Adapter, commandContext, TestTransportDistinguishesEmptyResponses(), transportContext(), transportServer(), aoStateDir(), assetArch(), assetName() (+48 more)
 
-### Community 168 - "provisioning.go"
-Cohesion: 0.07
-Nodes (41): createSessionRequestHTTP(), TestCreateSessionAutoLinksWorkerToProjectOrchestrator(), TestCreateSessionDoesNotAutoLinkOrchestrator(), TestCreateSessionLeavesWorkerStandaloneWithoutOrchestrator(), bothProviderProvisioning(), childRequest(), childRequestBody(), Server (+33 more)
+### Community 168 - "resource_handlers_autolink_test.go"
+Cohesion: 0.23
+Nodes (18): createSessionRequestHTTP(), TestCreateSessionAutoLinksWorkerToProjectOrchestrator(), TestCreateSessionDoesNotAutoLinkOrchestrator(), TestCreateSessionLeavesWorkerStandaloneWithoutOrchestrator(), bothProviderProvisioning(), childRequest(), childRequestBody(), Server (+10 more)
 
 ### Community 169 - "Inventory"
 Cohesion: 0.07
@@ -1508,65 +1464,65 @@ Nodes (14): Info, Inventory, ProbeResult, Readiness, authorizedCodexInventory(),
 Cohesion: 0.05
 Nodes (41): 0. Goal, 10. Acceptance criteria / test matrix, 11. Open decisions (decide before the affected task), 12. Task breakdown (for AO execution, dependency-ordered), 2. Decisions locked, 3. Scope, 4. Core invariants (load-bearing), 5. The marker contract: `~/.ao/app-state.json` (+33 more)
 
-### Community 171 - "session/[id].tsx"
-Cohesion: 0.07
-Nodes (38): connection(), makeStyles(), MobileSessionRoute(), getSession(), OrchestratorLink, shouldPoll(), ScreenState, screenStateFor() (+30 more)
+### Community 171 - "pushdevices_test.go"
+Cohesion: 0.12
+Nodes (37): LoadRegistry(), PushDevicesPath(), TestAnnounceDoesNotBlankExistingToken(), TestDeadTokenPruningKeepsThePairedRow(), TestDeleteMissingTokenIsNoop(), TestEveryMutationRollsBackWhenTheWriteFails(), TestLegacyRowMergesWhenAnnounceLandsBeforeRegistration(), TestLoadRegistryMissingIsEmpty() (+29 more)
 
-### Community 172 - "newChatManager"
-Cohesion: 0.05
-Nodes (46): NewAuthority(), TestAuthorityUsesLaunchScopedSessionSecrets(), TestAuthorityValidatesDurableVerifierAcrossDaemonReplacement(), fakeRuntime, fakeStore, Manager, newChatManager(), seedChatResumeSession() (+38 more)
+### Community 172 - "chat_spawn_test.go"
+Cohesion: 0.08
+Nodes (48): NewAuthority(), TestAuthorityUsesLaunchScopedSessionSecrets(), TestAuthorityValidatesDurableVerifierAcrossDaemonReplacement(), backgroundTaskPermissions(), fakeRuntime, fakeStore, Manager, newChatManager() (+40 more)
 
-### Community 173 - "stale-app-copies.ts"
-Cohesion: 0.06
-Nodes (43): AO CLI Catalog, Conventions, 1.7 The Go `ao` CLI surface (already wired), Choose A Reviewer, Common Problems, Current configuration fields, Give Agents Project Rules, Local Reference (+35 more)
+### Community 173 - "projects.mdx"
+Cohesion: 0.09
+Nodes (23): AO CLI Catalog, Conventions, 1.7 The Go `ao` CLI surface (already wired), Choose A Reviewer, Common Problems, Current configuration fields, Give Agents Project Rules, Local Reference (+15 more)
 
 ### Community 174 - "test-cloud-local.sh"
 Cohesion: 0.08
 Nodes (43): cloud-local-down.sh script, cloud-local-reset.sh script, AO_CLOUD_DEVELOPMENT_SKIP_CREDENTIAL_VALIDATION, AO_CLOUD_PORT, AO_CLOUD_POSTGRES_PORT, AO_CLOUD_PROVIDER_SECRET_KEY, AO_CLOUD_WORKER_SIGNING_KEY, compose() (+35 more)
 
 ### Community 175 - "Manager"
-Cohesion: 0.19
-Nodes (8): Manager, OnExitFunc, Status, stoppedStatus(), fakeManagedPreviewServer, serverRun, sessionOperation, State
+Cohesion: 0.09
+Nodes (26): Manager, OnExitFunc, Status, interpolatePort(), isLoopbackHost(), loadConfiguration(), newLineBuffer(), previewEnvironment() (+18 more)
 
 ### Community 176 - "client"
-Cohesion: 0.07
-Nodes (21): checkpointer, applyPreservedRef(), client, newCheckpointer(), rehydrateSession(), sha256Hex(), client, client (+13 more)
+Cohesion: 0.03
+Nodes (42): checkpointer, applyPreservedRef(), client, newCheckpointer(), rehydrateSession(), sha256Hex(), runCheckpointBridge(), runCheckpointBridgeWithInterval() (+34 more)
 
 ### Community 177 - "NewLauncher"
 Cohesion: 0.07
 Nodes (46): NewLauncher(), launchSpec(), newTestLauncher(), TestLauncherAlive(), TestLauncherCancelCanSendReviewerInput(), TestLauncherCancelCanSendReviewerMessage(), TestLauncherCancelRequiresReviewerSupport(), TestLauncherCancelSendsEscapeForKiro() (+38 more)
 
 ### Community 178 - "githubapp/client.go"
-Cohesion: 0.08
-Nodes (44): Client, Service, newAppTestClient(), newCheckoutTestService(), primaryContext(), TestGitHubRepositoryFullName(), TestIssueCheckoutGrantBroadensToExtraRepos(), TestIssueCheckoutGrantExcludesInaccessibleExtra() (+36 more)
+Cohesion: 0.07
+Nodes (46): Client, Service, newAppTestClient(), newCheckoutTestService(), primaryContext(), TestGitHubRepositoryFullName(), TestIssueCheckoutGrantBroadensToExtraRepos(), TestIssueCheckoutGrantExcludesInaccessibleExtra() (+38 more)
 
-### Community 179 - "ChatSettingsModal.android.tsx"
-Cohesion: 0.06
-Nodes (53): APPROVALS, capitalize(), ChatSettingsSheet(), Choice, choiceLabel(), ChoicePage(), EffortSlider(), FastModeRow() (+45 more)
+### Community 179 - "cloud-cp-proxy.ts"
+Cohesion: 0.11
+Nodes (27): ActiveStream, buildHeaders(), CLOUD_CP_CLOSE_STREAM_CHANNEL, CLOUD_CP_OPEN_STREAM_CHANNEL, CLOUD_CP_REQUEST_CHANNEL, CLOUD_CP_STREAM_ERROR_MARKER, CloudCpProxy, CloudCpProxyOptions (+19 more)
 
 ### Community 180 - "codex_secure_file.go"
-Cohesion: 0.07
-Nodes (39): codexFileInfoWithSystem, codexFileMutationError, codexFileReplacement, codexFileState, codexStorageIOError, isCanonicalUUIDv4(), removePrivateCredential(), codexAccountManager (+31 more)
+Cohesion: 0.06
+Nodes (47): codexFileMutationError, codexFileReplacement, codexFileState, codexStorageIOError, managedHomePrivate(), removePrivateCredential(), cleanupCodexFileStaging(), codexFileMutationCommitted() (+39 more)
 
 ### Community 181 - "startDaemon"
-Cohesion: 0.21
-Nodes (40): TestChatCompactionReclaimsContextAndSaysSo(), readAttachmentPreview(), TestChatAttachmentIsStagedIntoTheWorktreeAndReadableByTheAgent(), TestChatAttachmentSurvivesDaemonRestartRecovery(), TestChatSkillsAreRefusedForATUISession(), TestChatSkillsComeFromTheProvider(), chatSession(), contains() (+32 more)
+Cohesion: 0.05
+Nodes (108): compactionMarkers(), TestChatCompactionIsRefusedWhileATurnIsInFlight(), TestChatCompactionReclaimsContextAndSaysSo(), readAttachmentPreview(), TestChatAttachmentIsStagedIntoTheWorktreeAndReadableByTheAgent(), TestChatAttachmentSurvivesDaemonRestartRecovery(), TestChatSkillsAreRefusedForATUISession(), TestChatSkillsComeFromTheProvider() (+100 more)
 
 ### Community 182 - "os/exec.Cmd"
-Cohesion: 0.09
-Nodes (25): configureProcessGroup(), killProcessTree(), configureProcessGroup(), killProcessTree(), configureProviderProcess(), killProviderProcess(), configureProviderProcess(), killProviderProcess() (+17 more)
+Cohesion: 0.07
+Nodes (39): replaceGooseTestEnv(), TestGooseIdentityPipeHolder(), configureProcessGroup(), killProcessTree(), configureProcessGroup(), killProcessTree(), configureProviderProcess(), killProviderProcess() (+31 more)
 
-### Community 183 - "Runtime"
-Cohesion: 0.09
-Nodes (28): armClientDeadline(), clientGetOutput(), clientGetStyledOutput(), clientIsAlive(), clientKill(), clientReadOutput(), clientSendInput(), clientSendMessage() (+20 more)
+### Community 183 - "EncodeMessage"
+Cohesion: 0.06
+Nodes (48): Runtime, armClientDeadline(), clientGetOutput(), clientGetStyledOutput(), clientIsAlive(), clientKill(), clientReadOutput(), clientSendInput() (+40 more)
 
 ### Community 184 - "EventSink"
-Cohesion: 0.03
-Nodes (115): TestRuntimeIntegrationLegacyDefaultSocketDestroyEnforcesDetachOnDestroy(), TestRuntimeIntegrationLegacyDefaultSocketExternalKillEnforcesDetachOnDestroy(), NewAggregatingSink(), TestAggregatingSinkClosedTwiceDoesNotFlushAgain(), TestAggregatingSinkClosesFlushesBufferedEvents(), TestAggregatingSinkFoldsBurstIntoOneRollupOnFlush(), TestAggregatingSinkPassesThroughUnaggregatedNamesImmediately(), TestAggregatingSinkTracksEventNamesIndependently() (+107 more)
+Cohesion: 0.02
+Nodes (171): TestRuntimeIntegrationLegacyDefaultSocketDestroyEnforcesDetachOnDestroy(), TestRuntimeIntegrationLegacyDefaultSocketExternalKillEnforcesDetachOnDestroy(), NewAggregatingSink(), TestAggregatingSinkClosedTwiceDoesNotFlushAgain(), TestAggregatingSinkClosesFlushesBufferedEvents(), TestAggregatingSinkFoldsBurstIntoOneRollupOnFlush(), TestAggregatingSinkPassesThroughUnaggregatedNamesImmediately(), TestAggregatingSinkTracksEventNamesIndependently() (+163 more)
 
 ### Community 185 - "mobile_test.go"
-Cohesion: 0.11
-Nodes (37): newSecureBridge(), TestDisableClearsServeWhenSecurePairingEnabled(), TestDisableLeavesServeAloneWhenSecurePairingNeverEnabled(), TestEnableResolvesAConnectorInstalledSinceBoot(), TestEnableWithoutAConnectorStillWorks(), TestMobileAdvertisesNothingWhileTheBridgeIsOff(), TestMobileDisableStopsTheTunnel(), TestMobileEnableReturnsPassword() (+29 more)
+Cohesion: 0.12
+Nodes (37): newSecureBridge(), TestDisableClearsServeWhenSecurePairingEnabled(), TestDisableLeavesServeAloneWhenSecurePairingNeverEnabled(), TestEnableResolvesAConnectorInstalledSinceBoot(), TestEnableWithoutAConnectorStillWorks(), TestMobileAdvertisesNothingWhileTheBridgeIsOff(), TestMobileDisableFinishesCleanupAfterStopErrorWhenListenerStopped(), TestMobileDisablePreservesEnabledStateWhenStopErrorLeavesListenerRunning() (+29 more)
 
 ### Community 186 - ".request"
 Cohesion: 0.14
@@ -1577,24 +1533,24 @@ Cohesion: 0.04
 Nodes (45): backgroundImage, foregroundImage, monochromeImage, adaptiveIcon, googleServicesFile, package, permissions, predictiveBackGestureEnabled (+37 more)
 
 ### Community 188 - "fakeAgent"
-Cohesion: 0.04
-Nodes (46): fakeAgent, refreshableConversation, acpInputResponse(), schemaMap(), lengthPrefixedTuple(), TestACPOpaqueIDNamespaceIsUnambiguous(), conversation, conversation (+38 more)
+Cohesion: 0.03
+Nodes (60): fakeAgent, refreshableConversation, acpInputResponse(), contentText(), schemaMap(), lengthPrefixedTuple(), TestACPOpaqueIDNamespaceIsUnambiguous(), TestHistoricalUserContentSuppressesOnlyMarkedInternalReplayResources() (+52 more)
 
 ### Community 189 - "switchTestAgent"
-Cohesion: 0.07
-Nodes (14): canonicalClaudeNativeSessionID(), Plugin, findCodexTranscript(), Plugin, validateCodexNativeSessionID(), homeDefault(), Resolve(), NativeSessionAvailability (+6 more)
+Cohesion: 0.06
+Nodes (18): canonicalClaudeNativeSessionID(), Plugin, findCodexTranscript(), Plugin, validateCodexNativeSessionID(), homeDefault(), Resolve(), ContinuationCapabilities (+10 more)
 
 ### Community 190 - "New"
 Cohesion: 0.09
-Nodes (30): New(), TestAuthenticatedIdentityForProvider_DelegatesHostToSubProvider(), TestAuthenticatedIdentityForProvider_DelegatesToCorrectSubProvider(), TestAuthenticatedIdentityForProvider_UnknownProviderReturnsError(), TestFetchPullRequests_AllProvidersFail(), TestFetchPullRequests_FailedPlaceholderCarriesHostAndRepo(), TestFetchPullRequests_FailedProviderErrorCarriedAsMetadata(), TestFetchPullRequests_OneProviderFailsOthersSucceed() (+22 more)
+Nodes (28): New(), TestAuthenticatedIdentityForProvider_DelegatesHostToSubProvider(), TestAuthenticatedIdentityForProvider_DelegatesToCorrectSubProvider(), TestAuthenticatedIdentityForProvider_UnknownProviderReturnsError(), TestFetchPullRequests_AllProvidersFail(), TestFetchPullRequests_FailedPlaceholderCarriesHostAndRepo(), TestFetchPullRequests_FailedProviderErrorCarriedAsMetadata(), TestFetchPullRequests_OneProviderFailsOthersSucceed() (+20 more)
 
-### Community 191 - "Target"
-Cohesion: 0.11
-Nodes (21): installedAgentHarness(), TestInstalledAgentHarnessMapsManagedHarnessInstalls(), displayCommand(), formatToolVersion(), requestPlanner, Target, homebrewPackageInstalled(), installMethodLabel() (+13 more)
+### Community 191 - "Service"
+Cohesion: 0.07
+Nodes (35): installedAgentHarness(), TestInstalledAgentHarnessMapsManagedHarnessInstalls(), Installer, TestAgentTargetsAreValidButPrerequisitesAreNotHarnessRows(), activeStatus(), combineOutput(), displayCommand(), formatToolVersion() (+27 more)
 
 ### Community 192 - "UsageSourceContext"
-Cohesion: 0.08
-Nodes (45): UsageSourceContext, TestParseCodexRetainsPendingSpawnWhenChildCapacityIsExceeded(), codexChunkAttributionMatches(), TestDecodeKimiRecordTime(), appendUniqueString(), boundedProviderUsage(), codexParentThreadIDFromSource(), codexProviderUsage() (+37 more)
+Cohesion: 0.05
+Nodes (59): UsageSourceContext, ObservedBillingProviderSource(), TestParseCodexRetainsPendingSpawnWhenChildCapacityIsExceeded(), codexChunkAttributionMatches(), TestDecodeKimiRecordTime(), genericTokensEqual(), matchLegacyEvents(), newLegacyReplayIndex() (+51 more)
 
 ### Community 193 - "Agent Orchestrator Architecture"
 Cohesion: 0.05
@@ -1606,19 +1562,19 @@ Nodes (18): AgentBrowserCDPBridge, physical, AgentBrowserDebugger, AgentBrowserT
 
 ### Community 195 - "BridgeService"
 Cohesion: 0.12
-Nodes (7): first(), BridgeService, GeneratePassword(), TestGeneratePasswordFormat(), NewServe(), LANController, TunnelController
+Nodes (10): first(), BridgeService, GeneratePassword(), State, Load(), TestGeneratePasswordFormat(), TestLoadMissingIsZero(), NewServe() (+2 more)
 
 ### Community 196 - "dependencies"
 Cohesion: 0.05
 Nodes (43): dependencies, expo, expo-application, expo-build-properties, expo-camera, expo-clipboard, expo-constants, expo-device (+35 more)
 
-### Community 197 - "io.Reader"
-Cohesion: 0.04
-Nodes (57): extensionMethodReader, gatedReader, legacyACPResponse, legacyACPTransport, legacyModelInfo, legacySessionModelState, lockedWriteCloser, process (+49 more)
+### Community 197 - "conn"
+Cohesion: 0.07
+Nodes (34): accountClient, process, jsonUnmarshal(), safeCodexAccountEmail(), spawnAccountAppServer(), TestSafeCodexAccountEmailRejectsControlCharacters(), isRevokedOAuthTokenError(), safeCapacityReadError() (+26 more)
 
 ### Community 198 - "ao-pi-reviewer.ts"
-Cohesion: 0.06
-Nodes (40): activeManifest(), allowedReadPath(), authorizedTask(), execute(), walk(), manifestPointer, mustEnv(), mustValue() (+32 more)
+Cohesion: 0.15
+Nodes (20): activeManifest(), allowedReadPath(), authorizedTask(), execute(), walk(), manifestPointer, mustEnv(), mustValue() (+12 more)
 
 ### Community 199 - "openAgentSwitchFailureFixture"
 Cohesion: 0.18
@@ -1636,73 +1592,73 @@ Nodes (25): canonicalTranscriptPath(), TranscriptWatcher, NewTranscriptWatcher()
 Cohesion: 0.10
 Nodes (60): codexResponseItem(), TestParseCodexCorrelatesSpawnAgentAcrossParserRestart(), TestParseCodexKeepsPendingSpawnAfterMalformedOrUnmatchedOutput(), TestParseCodexRejectsUnboundedSpawnIdentifiers(), mustJSONString(), repositoryRoot(), TestEveryWriteRatedOpenAIModelPricesBothCodexPayloadShapes(), writeRatedOpenAIModels() (+52 more)
 
-### Community 203 - "ref_node_child_process"
-Cohesion: 0.07
-Nodes (37): aoActivityExtension(), bestEffort(), nativeSessionId(), report(), Window, performanceHarness, createDevWebLaunch(), frontendDir (+29 more)
+### Community 203 - "ref_node_os"
+Cohesion: 0.05
+Nodes (62): A. Stable `$AO_DATA_DIR/bin/ao-mcp` (chosen), AO MCP Desktop Distribution Design, Approaches considered, Architecture, B. Installer PATH only, Background, C. Go `ao mcp` subcommand, Components (+54 more)
 
-### Community 204 - "Endpoints"
-Cohesion: 0.09
-Nodes (35): AdvertisedEndpoints(), Endpoints(), Endpoint, LocalEndpoints(), assertEndpoints(), TestEndpointsAppendsReadyTunnelLast(), TestEndpointsIsEmptyWhenNothingIsReachable(), TestEndpointsListsEveryLANAddress() (+27 more)
+### Community 204 - "LocalEndpoints"
+Cohesion: 0.14
+Nodes (22): AdvertisedEndpoints(), LocalEndpoints(), TestLocalEndpointsKeepsEveryCandidateFromEveryInterface(), InterfaceFingerprints(), AutopickLANIP(), AutopickTailscaleIP(), hasVirtualName(), ipv4Candidates() (+14 more)
 
 ### Community 205 - "catalogsync.go"
 Cohesion: 0.12
-Nodes (37): build(), canonicalJSON(), canonicalModel(), canonicalProvider(), checkAnthropicCacheTiers(), decodeNumber(), decodeString(), equalOptionalRate() (+29 more)
+Nodes (36): build(), canonicalJSON(), canonicalModel(), canonicalProvider(), checkAnthropicCacheTiers(), decodeNumber(), decodeString(), equalOptionalRate() (+28 more)
 
-### Community 206 - "CodexAccounts"
-Cohesion: 0.09
-Nodes (10): CodexAccountEnsureOptions, CodexAccounts, CodexDeviceReconciliation, NotImplemented(), Unavailable(), Service, CodexAccountLoginTerminalStart, CodexActiveLogin (+2 more)
+### Community 206 - "Conflict"
+Cohesion: 0.08
+Nodes (21): Error, Conflict(), Forbidden(), Kind, New(), NotImplemented(), TooManyRequests(), Unavailable() (+13 more)
 
-### Community 207 - "ownership_test.go"
-Cohesion: 0.11
-Nodes (22): TestWriteErrorOmitsUnknownReportingOwner(), TestWriteErrorSerializesWrappedReportingOwner(), WithErrorCapture(), Owner, Own(), OwnerOf(), Preserve(), TestInvalidOuterOwnerDoesNotHideValidInnerOwner() (+14 more)
+### Community 207 - "New"
+Cohesion: 0.13
+Nodes (24): BuildIssuePrompt(), CanonicalIssueID(), capIntakePrompt(), New(), discardLogger(), singleResolver(), TestBuildIssuePromptCapsLargeIssueBody(), TestCanonicalIssueIDGitLabHostDisambiguates() (+16 more)
 
 ### Community 208 - "net.Conn"
-Cohesion: 0.10
-Nodes (17): serverRequestID(), newConPTY(), newClientState(), Serve(), statusFrame(), newRenderedSurface(), TestRenderedSurfaceDrainsTerminalReplies(), TestRenderedSurfaceTracksTheVisibleAlternateScreen() (+9 more)
+Cohesion: 0.08
+Nodes (22): newConPTY(), newClientState(), Serve(), statusFrame(), newRenderedSurface(), TestRenderedSurfaceDrainsTerminalReplies(), TestRenderedSurfaceTracksTheVisibleAlternateScreen(), failPending() (+14 more)
 
-### Community 209 - "ReportRecord"
-Cohesion: 0.04
-Nodes (35): ReportOutput, ReportRecord, ReportState, TestValidateReportContent(), ValidateReportContent(), coalesceReports(), NewCoordinator(), reportKey() (+27 more)
+### Community 209 - "ProjectID"
+Cohesion: 0.01
+Nodes (212): recordingTerminalOpener, PermissionMode, DefaultProjectConfig(), ProjectConfig, RoleOverride, ReviewerHarness, TestDefaultProjectConfig(), AgentSwitch (+204 more)
 
-### Community 210 - "workspacewatch/watcher.go"
-Cohesion: 0.13
+### Community 210 - "workspacewatch/watcher_test.go"
+Cohesion: 0.12
 Nodes (35): addCreatedTree(), addInitialDirectories(), directoryDepth(), discoverGitWorkspace(), gitIgnored(), handleEvent(), hasGitMetadataComponent(), isWithin() (+27 more)
 
 ### Community 211 - "codexAccountCatalog"
 Cohesion: 0.09
-Nodes (26): accountLoginOperation, codexAccountDescriptor, codexCredentialIdentity, CodexAccountLoginOperation, CodexAccountLoginStatus, CodexAccountSnapshot, CodexAccountSource, CodexAccountUsageSummary (+18 more)
+Nodes (25): accountLoginOperation, codexAccountDescriptor, codexCredentialIdentity, CodexAccountLoginOperation, CodexAccountLoginStatus, CodexAccountSnapshot, CodexAccountSource, CodexAccountUsageSummary (+17 more)
 
-### Community 212 - "Provider"
-Cohesion: 0.07
-Nodes (32): isFailingCheckStatus(), projectPath(), approvalDecision(), canonicalRepoFromMRURL(), changesRequested(), effectiveMergeStatus(), gitlabFailedFingerprint(), Client (+24 more)
+### Community 212 - "SCMReviewRequest"
+Cohesion: 0.16
+Nodes (9): Provider, appendReviewerID(), Client, Provider, lookupUserID(), mergeRequestReviewerIDs(), SCMReviewRequest, SCMReviewRequester (+1 more)
 
 ### Community 213 - "TelemetryEvent"
-Cohesion: 0.07
-Nodes (15): NewFanoutSink(), TestLANListenerReportsOnlyAuthenticatedRequests(), TelemetryEvent, captureSink, capturingSink, telemetrySink, TelemetryLevel, captureSink (+7 more)
+Cohesion: 0.12
+Nodes (9): TelemetryEvent, captureSink, capturingSink, telemetrySink, TelemetryLevel, captureSink, recordingSink, fakeTelemetrySink (+1 more)
 
 ### Community 214 - "gitlab/tracker_test.go"
 Cohesion: 0.18
 Nodes (41): ctx(), Tracker, newFakeGL(), newHostAwareTrackerForTest(), newTrackerForTest(), TestGet_AuthFailed(), TestGet_CanonicalizesProviderOnOutput(), TestGet_DefaultHost_BackwardCompat() (+33 more)
 
-### Community 215 - ".runDoctor"
-Cohesion: 0.16
-Nodes (14): checkDataDirWritable(), checkHooksLog(), checkStore(), compareDottedVersion(), dottedVersionParts(), firstOutputLine(), commandContext, parseGitVersion() (+6 more)
+### Community 215 - "doctor.go"
+Cohesion: 0.10
+Nodes (29): checkDataDirWritable(), checkHooksLog(), checkStore(), compareDottedVersion(), dottedVersionParts(), firstOutputLine(), commandContext, commandContext (+21 more)
 
-### Community 216 - "acp_relay_test.go"
-Cohesion: 0.09
-Nodes (40): openACPPromptJournal(), TestACPPromptJournalReplaysResetsAndEnforcesQuota(), canonicalJSON(), injectMeta(), injectRawMeta(), injectResultMeta(), isCompactionPrompt(), marshalFrame() (+32 more)
+### Community 216 - "acpRelay"
+Cohesion: 0.10
+Nodes (21): openACPPromptJournal(), TestACPPromptJournalReplaysResetsAndEnforcesQuota(), canonicalJSON(), injectMeta(), injectRawMeta(), injectResultMeta(), isCompactionPrompt(), marshalFrame() (+13 more)
 
 ### Community 217 - "conpty/host_test.go"
-Cohesion: 0.16
-Nodes (21): newFakePTY(), newTestClient(), startServe(), syncResize(), TestFanOut(), TestGetOutputReq(), TestKillReq(), TestResize() (+13 more)
+Cohesion: 0.12
+Nodes (29): Runtime, nameHandle(), readUntil(), runtimeForFixture(), TestAttachReplaysScrollback(), TestAttachReportsHostedCommandExit(), TestAttachResizeReachesPTY(), TestAttachUnknownSession() (+21 more)
 
 ### Community 218 - "Event"
-Cohesion: 0.07
-Nodes (23): Broadcaster, Event, EventType, Source, chi.Router, parseEventsAfter(), sseEventName(), testCDCEvent() (+15 more)
+Cohesion: 0.08
+Nodes (18): Event, EventType, sseEventName(), testCDCEvent(), testCDCEventWithType(), TestWriteSSEEventSanitizesEventNameNewlines(), Queries, ChangeLog (+10 more)
 
-### Community 219 - ".enrollFaultTx"
-Cohesion: 0.14
-Nodes (17): AgentSwitchStackFingerprint(), AgentSwitchStackFrame, StableAgentSwitchEventID(), TestStableAgentSwitchEventIDAndStackFingerprint(), validateAgentSwitchFrames(), captureAgentSwitchFrames(), filepathFromRepository(), safeGoFrameFunction() (+9 more)
+### Community 219 - "newAuthUnderTest"
+Cohesion: 0.11
+Nodes (23): authMiddleware(), isIdentityProbe(), sourceKey(), newAuthUnderTest(), req(), reqFrom(), reqPathCookie(), reqTo() (+15 more)
 
 ### Community 220 - "deployment.py"
 Cohesion: 0.14
@@ -1724,21 +1680,21 @@ Nodes (31): isRecord(), JSONRequestOptions, MaybePromise, readJSONResponse(), th
 Cohesion: 0.10
 Nodes (28): archivePath(), build(), cachedBinary, cacheRoot, download(), downloadsRoot, fail(), frontendRoot (+20 more)
 
-### Community 225 - "TopbarOpenEditorButton.tsx"
-Cohesion: 0.08
-Nodes (33): AndroidStudioIcon(), AntigravityIcon(), CursorIcon(), JetBrainsIcon(), SublimeIcon(), VSCodeIcon(), VSCodiumIcon(), WindsurfIcon() (+25 more)
+### Community 225 - "New"
+Cohesion: 0.11
+Nodes (26): IsResolverBug(), New(), TestClassification(), TestCredentialFingerprintIsShortAndNotTheSecret(), TestCredentialFingerprintScopesCacheIdentityToProviderConfiguration(), TestEmptySecretIsNeverProbed(), TestGatewayRateLimitDoesNotProveAuthentication(), TestHeaderFollowsCredentialKind() (+18 more)
 
 ### Community 226 - "Tracker"
-Cohesion: 0.11
-Nodes (19): IsGitLabDotCom(), NormalizeHost(), DefaultTokenSource(), New(), parseGitLabID(), parseGitLabRepo(), TestNewRejectsMissingToken(), TestParseID() (+11 more)
+Cohesion: 0.17
+Nodes (12): issueFromGitLab(), parseGitLabID(), parseGitLabRepo(), TestParseID(), TestParseRepo(), validateProjectPath(), AppendIssuesWithLimit(), TestAppendIssuesWithLimit() (+4 more)
 
-### Community 227 - "github/tracker_test.go"
-Cohesion: 0.24
+### Community 227 - "newTrackerForTest"
+Cohesion: 0.20
 Nodes (32): ctx(), fakeGH, recordedReq, Tracker, newFakeGH(), newTrackerForTest(), TestGet_AuthFailed(), TestGet_CanonicalizesProviderOnOutput() (+24 more)
 
 ### Community 228 - "sentryobs.go"
 Cohesion: 0.09
-Nodes (27): applyTags(), CaptureHTTPError(), CapturePanic(), Drain(), Enabled(), enterCapture(), Flush(), sentry.Event (+19 more)
+Nodes (25): applyTags(), CaptureHTTPError(), CapturePanic(), Drain(), Enabled(), enterCapture(), Flush(), sentry.Event (+17 more)
 
 ### Community 229 - "session_manager/prompt.go"
 Cohesion: 0.12
@@ -1749,24 +1705,24 @@ Cohesion: 0.06
 Nodes (32): App state lives under `~/.ao` only, Design System, 10. Motion, transitions, and feedback, 11. Platform and responsive behavior, 12. Accessibility and resilience, 13. Explicit anti-patterns, 14. Implementation rules, 15. Design QA checklist (+24 more)
 
 ### Community 231 - "workerRequest"
-Cohesion: 0.09
-Nodes (31): Server, restoreRequest(), TestRestoreSessionNotFound(), TestRestoreSessionRejectsNonUUID(), TestRestoreSessionUnterminates(), TestWorkerGetTranscriptMissingIs404(), TestWorkerGetTranscriptReturnsBase64(), TestWorkerPutTranscriptRejectsNonBase64() (+23 more)
+Cohesion: 0.11
+Nodes (28): Server, restoreRequest(), TestRestoreSessionNotFound(), TestRestoreSessionRejectsNonUUID(), TestRestoreSessionUnterminates(), TestWorkerGetTranscriptMissingIs404(), TestWorkerGetTranscriptReturnsBase64(), TestWorkerPutTranscriptRejectsNonBase64() (+20 more)
 
 ### Community 232 - "providers.go"
-Cohesion: 0.11
-Nodes (22): Model, requestSpec, State, Credential, Result, Validator, Provider, rejectionDetail() (+14 more)
+Cohesion: 0.09
+Nodes (26): Kind, Model, requestSpec, State, authStatusFromResult(), TestOnlyTheProbeCanAuthorize(), Credential, Result (+18 more)
 
 ### Community 233 - "README.md"
 Cohesion: 0.09
 Nodes (21): Bug triage, agent-orchestrator rewrite docs, Mental model, Reference docs, A workspace for agent-driven development, Agent Orchestrator, Anonymous telemetry, Community (+13 more)
 
-### Community 234 - "steerHarness"
-Cohesion: 0.15
-Nodes (31): TestQueuedEditAttachmentChanges(), TestQueuedEditRetryAfterCommittedResponseIsLost(), newSteerRecorder(), restartSteerService(), steerHarness(), steerHarnessWithStore(), steerMarkers(), TestAcceptedSteerReplaysAfterControllerRestartWithoutProviderRedispatch() (+23 more)
+### Community 234 - "shell-env.ts"
+Cohesion: 0.16
+Nodes (23): ensureShellEnv(), lookupWindowsExecutable(), runLoginShell(), buildDaemonEnv(), devDaemonAllowedOrigins(), FALLBACK_PATH_DIRS, findGitBash(), normalizeTerm() (+15 more)
 
 ### Community 235 - "Plan"
-Cohesion: 0.18
-Nodes (16): latestCompletedRunForOtherSHA(), latestRunsByPRAndSHA(), Plan(), planPR(), TestPlanPreservesPreviousVerdictWithoutChangingCurrentHeadState(), TestPlanPreviousRunChoosesNewestQualifyingDifferentHead(), documentationPlan(), kimiLoginPlan() (+8 more)
+Cohesion: 0.15
+Nodes (20): latestCompletedRunForOtherSHA(), latestRunsByPRAndSHA(), Plan(), planPR(), TestPlanPreservesPreviousVerdictWithoutChangingCurrentHeadState(), TestPlanPreviousRunChoosesNewestQualifyingDifferentHead(), TestPlanStatuses(), withClosed() (+12 more)
 
 ### Community 236 - "browser-runtime-link.ts"
 Cohesion: 0.08
@@ -1776,29 +1732,29 @@ Nodes (23): BrowserRuntimeCancel, BrowserRuntimeCommand, BrowserRuntimeCommandEr
 Cohesion: 0.12
 Nodes (30): countJSONStrings(), jsonArrayContainsString(), readCrushConfigForTest(), TestGetAgentHooksAppliesModelOverrideWithEmptyPrompt(), TestGetAgentHooksEmptyPromptIsNoOp(), TestGetAgentHooksInfersProviderForBareModel(), TestGetAgentHooksInstallsSystemPromptContext(), TestGetAgentHooksLeavesModelUntouchedWhenNoOverride() (+22 more)
 
-### Community 238 - "New"
-Cohesion: 0.29
-Nodes (6): StaticTokenSource, TokenSource, New(), TestNewRejectsMissingToken(), newGitHubTracker(), Options
+### Community 238 - "Tracker"
+Cohesion: 0.08
+Nodes (25): StaticTokenSource, cloneIssues(), TokenSource, issueFromGH(), mapStateFromGitHub(), New(), parseGitHubID(), parseGitHubRepo() (+17 more)
 
 ### Community 239 - "TunnelRuntime"
-Cohesion: 0.08
-Nodes (18): TunnelEndpoint, NewManagedTunnel(), settleFor(), TestManagedTunnelRestartsWhenThePortChanges(), TestManagedTunnelStartIsIdempotent(), TestManagedTunnelStopBeforeStartIsHarmless(), TestManagedTunnelStopDoesNotWaitForASlowConnector(), TestManagedTunnelStopEndsTheConnectorAndClearsTheEndpoint() (+10 more)
+Cohesion: 0.11
+Nodes (9): TunnelEndpoint, TunnelStatus, hostnameOf(), fakeTunnel, EndpointInputs, ManagedTunnel, ManagedTunnelDeps, TunnelLog (+1 more)
 
-### Community 240 - "sync.Once"
-Cohesion: 0.07
-Nodes (29): cleanupStaleRuntimeAliases(), createRuntimeAlias(), Listen(), listenUnix(), TestCleanupStaleRuntimeAliasesRemovesOnlyDeadOwnedLinks(), TestListenUnixUsesShortAliasForLongDataPath(), Listen(), pipeNameFromRunFile() (+21 more)
+### Community 240 - "browserruntime/listen_unix.go"
+Cohesion: 0.11
+Nodes (23): cleanupStaleRuntimeAliases(), createRuntimeAlias(), Listen(), listenUnix(), TestCleanupStaleRuntimeAliasesRemovesOnlyDeadOwnedLinks(), TestListenUnixUsesShortAliasForLongDataPath(), Listen(), pipeNameFromRunFile() (+15 more)
 
 ### Community 241 - "ShellTerminalRecord"
-Cohesion: 0.03
-Nodes (37): codexAccountLoginTerminalService, fakeCodexLoginTerminal, AgentBinaryResolver, LaunchMode, recordingTerminalOpener, Service, startShellTerminals(), RuntimeConfig (+29 more)
+Cohesion: 0.09
+Nodes (9): ShellTerminalRecord, Store, ShellTerminal, Store, optionalSessionID(), shellTerminalFromGen(), shellTerminalsFromGen(), shellReconcileStore (+1 more)
 
 ### Community 242 - "UsageModelAggregate"
-Cohesion: 0.10
-Nodes (17): CompactSessionUsage, CompactSessionUsageAggregate, HarnessUsageSummary, SessionUsageSummary, UsageMetricTotals, UsageModelAggregate, aggregateMetric(), harnessUsageSummaries() (+9 more)
+Cohesion: 0.08
+Nodes (30): CompactSessionUsage, CompactSessionUsageAggregate, EstimatedCost, EstimatedCostProviderAttribution, HarnessUsageSummary, SessionUsageSummary, UsageCostAggregate, UsageMetricTotals (+22 more)
 
-### Community 243 - "HashPassword"
-Cohesion: 0.11
-Nodes (24): restoreMobileOnBoot(), TestRestoreAppliesServeToStartReturnedPort(), TestRestoreDisabledDoesNotStart(), TestRestoreEnabledStartsListener(), awaitResult(), awaitSignal(), TestBridgeSerializesConcurrentEnableAndDisable(), TestBridgeStatusConcurrentSecurePairing() (+16 more)
+### Community 243 - "NewLANManager"
+Cohesion: 0.09
+Nodes (29): newLockout(), decodeBody(), newLinkPreviewRig(), newLinkPreviewRigWithHandler(), TestLinkPreviewCachesSuccessAndFailure(), TestLinkPreviewFallsBackToTitleAndMetaDescription(), TestLinkPreviewFollowsRedirectAndReportsFinalURL(), TestLinkPreviewReadsOpenGraphTags() (+21 more)
 
 ### Community 244 - "ResolveLocal"
 Cohesion: 0.17
@@ -1816,21 +1772,21 @@ Nodes (31): devDependencies, app-builder-lib, electron, @electron-forge/cli, @el
 Cohesion: 0.09
 Nodes (29): AO_REVIEW_RUN_STATUSES, AO_REVIEW_STATES, AO_REVIEW_VERDICTS, AOPullRequestReviewState, AOReviewRun, AOReviewRunStatus, AOReviewState, AOReviewVerdict (+21 more)
 
-### Community 248 - "devimport/service.go"
-Cohesion: 0.11
-Nodes (21): defaultNormalDataDir(), expandHomePath(), commandContext, resolvedPath(), writeDevImportProjectsSummary(), Report, importConflict(), Store (+13 more)
+### Community 248 - "dev_test.go"
+Cohesion: 0.08
+Nodes (32): defaultNormalDataDir(), expandHomePath(), commandContext, commandContext, newDevCommand(), newDevImportProjectsCommand(), resolvedPath(), devImportServer() (+24 more)
 
 ### Community 249 - ".authStatusFor"
-Cohesion: 0.22
-Nodes (8): authStatusFromResult(), claudeAuthReportFromOutput(), Plugin, TestClaudeAuthReportRejectsMissingLoggedIn(), TestCLIReportVerdict(), TestOnlyTheProbeCanAuthorize(), claudeAuthReport, claudeProviderContext
+Cohesion: 0.26
+Nodes (6): claudeAuthReportFromOutput(), Plugin, TestClaudeAuthReportRejectsMissingLoggedIn(), TestCLIReportVerdict(), claudeAuthReport, claudeProviderContext
 
 ### Community 250 - "resolvePreviewTarget"
-Cohesion: 0.11
-Nodes (26): containsParentPathSegment(), discoverPreviewEntry(), hasURLScheme(), isAbsolutePreviewPath(), isWindowsAbsolutePath(), previewFileURL(), previewFileURLPath(), previewOriginEntry() (+18 more)
+Cohesion: 0.09
+Nodes (34): containsParentPathSegment(), discoverPreviewEntry(), hasURLScheme(), isAbsolutePreviewPath(), isWindowsAbsolutePath(), previewFileURL(), previewFileURLPath(), previewOriginEntry() (+26 more)
 
 ### Community 251 - ".Validate"
 Cohesion: 0.07
-Nodes (40): Report, actionSet(), addProjectRemoteRepositoryAction(), comparableImportPath(), containsAction(), directChildImportRepos(), directChildImportStatuses(), hasUnsupportedImportGitMetadata() (+32 more)
+Nodes (40): actionSet(), addProjectRemoteRepositoryAction(), comparableImportPath(), containsAction(), directChildImportRepos(), directChildImportStatuses(), hasUnsupportedImportGitMetadata(), importGitHubPreparationIncomplete() (+32 more)
 
 ### Community 252 - "coder-azure-vm/main.tf"
 Cohesion: 0.18
@@ -1840,13 +1796,13 @@ Nodes (26): azurerm_linux_virtual_machine.main, azurerm_managed_disk.durable, az
 Cohesion: 0.08
 Nodes (16): WorkerClient, DeleteSessionResponse, WorkerAgentTerminalResponse, WorkerCancellationResponse, WorkerCheckoutGrantResponse, WorkerCompleteTransportInput, WorkerCompleteTurnInput, WorkerCredentialResponse (+8 more)
 
-### Community 254 - "sync.Mutex"
-Cohesion: 0.02
-Nodes (103): lockedBuffer, TestLANConnPreservesReadFrom(), newReactionState(), TestOriginalBranchTUIRoundtripDoesNotInheritEditedBranchCheckpoint(), newHarnessForHarness(), TestEditedFirstMessageResumesNativeHistoryAfterTerminalHooks(), TestApproximateReplayKeepsAdversarialTranscriptOutOfSystemPrompt(), TestEditMessagePrefersNativeForkWhenReplayIsAlsoAvailable() (+95 more)
+### Community 254 - "managedPreviewExitFunc"
+Cohesion: 0.09
+Nodes (17): lockedBuffer, managedPreviewExitFunc(), fakePreviewSession(), testLogger(), TestManagedPreviewExitClearsMatchingPreviewURL(), TestManagedPreviewExitLeavesUnrelatedPreviewURLAlone(), TestManagedPreviewExitLogsGetFailureAndDoesNotClear(), TestManagedPreviewExitLogsSetPreviewFailure() (+9 more)
 
 ### Community 255 - "annotate-preload.ts"
-Cohesion: 0.09
-Nodes (39): ADJUST_ICON, adjustmentBaseline, AdjustmentDefinition, adjustmentField(), adjustmentInputValue(), AdjustmentLockName, adjustmentLocks, adjustmentPanel() (+31 more)
+Cohesion: 0.05
+Nodes (105): ADJUST_ICON, adjustIcon(), adjustmentBaseline, AdjustmentDefinition, adjustmentField(), adjustmentInputValue(), AdjustmentLockName, adjustmentLocks (+97 more)
 
 ### Community 256 - "reconciler_test.go"
 Cohesion: 0.16
@@ -1857,20 +1813,20 @@ Cohesion: 0.07
 Nodes (28): Agent Switching Failure-Only Observability Design, Atomic Store Contract, Capture-Site Stacks, Combination Coverage, Current Behavior, Definition of Complete Coverage, Delivery Semantics, Dispatcher (+20 more)
 
 ### Community 258 - "main/tray.ts"
-Cohesion: 0.08
-Nodes (30): createTrayController(), format(), createTrayLifecycle(), getContents(), isFromMainWindow(), isTrayEnabled(), fakeTrayController(), FakeWebContents (+22 more)
+Cohesion: 0.09
+Nodes (29): createTrayController(), format(), createTrayLifecycle(), getContents(), isFromMainWindow(), isTrayEnabled(), fakeTrayController(), FakeWebContents (+21 more)
 
 ### Community 259 - "cloud-client/package.json"
 Cohesion: 0.07
 Nodes (28): description, devDependencies, openapi-typescript, typescript, vitest, exports, ./schema, files (+20 more)
 
-### Community 260 - "schema"
-Cohesion: 0.23
-Nodes (12): doc(), enumUnion(), exportName(), isStringEnum(), needsPointer(), oneLine(), refName(), taggedUnion() (+4 more)
+### Community 260 - "gencodexproto/main.go"
+Cohesion: 0.05
+Nodes (70): doc(), emitSchema(), enumUnion(), exportName(), fatal(), isStringEnum(), load(), main() (+62 more)
 
-### Community 261 - "AgentSwitchFault"
-Cohesion: 0.09
-Nodes (42): AgentSwitchDedupeKey(), AgentSwitchSeverityForFault(), contains(), AgentSwitchErrorCode, AgentSwitchFault, AgentSwitchTriState, SessionMode, T (+34 more)
+### Community 261 - "stale-app-copies.ts"
+Cohesion: 0.14
+Nodes (20): AO_BUNDLE_ID, BundleMetadata, defaultDiscoveryDependencies, defaultStagingDependencies, DiscoveryDependencies, findStaleAppCopies(), formatStaleAppCopies(), isUnchangedStaleAppCopy() (+12 more)
 
 ### Community 262 - "Agent Orchestrator — Mobile"
 Cohesion: 0.08
@@ -1885,28 +1841,28 @@ Cohesion: 0.12
 Nodes (25): Tab(), Tabs(), Accordion(), Accordions(), Callout(), CALLOUT_TONE, Card(), Cards() (+17 more)
 
 ### Community 265 - "main/editor-handoff.ts"
-Cohesion: 0.13
-Nodes (24): appleScriptString(), commandSearchDirs(), createEditorHandoff(), defaultIsExecutable(), EDITOR_CANDIDATES, EditorCandidate, EditorHandoff, EditorHandoffDeps (+16 more)
+Cohesion: 0.09
+Nodes (36): appleScriptString(), commandSearchDirs(), createEditorHandoff(), defaultIsExecutable(), EDITOR_CANDIDATES, EditorCandidate, EditorHandoff, EditorHandoffDeps (+28 more)
 
 ### Community 266 - "Service"
 Cohesion: 0.17
 Nodes (8): Report, Requirement, New(), reportFor(), fakeSystemChecker, GitHubAuthTerminalOpener, HarnessCatalog, Service
 
-### Community 267 - "mountTelemetry"
-Cohesion: 0.08
-Nodes (18): DeviceRoster, LiveSet, MobileDevicesController, writeRegistryUnavailable(), MobileController, withWarning(), chi.Router, localControlRequest() (+10 more)
+### Community 267 - "MobileDevicesController"
+Cohesion: 0.26
+Nodes (4): DeviceRoster, LiveSet, MobileDevicesController, writeRegistryUnavailable()
 
-### Community 268 - "Service"
-Cohesion: 0.11
-Nodes (14): Installer, activeStatus(), combineOutput(), AgentOperation, AgentPlan, Job, Service, AgentInstallerCatalogResponse (+6 more)
+### Community 268 - "remove_test.go"
+Cohesion: 0.19
+Nodes (22): TestDestroyDefersRemovalFailureWhenTheDirectoryStillExists(), TestDestroyDoesNotDeferPermanentRemovalFailure(), TestDestroySerializesGitCommandsPerRepository(), TestDiscardKeepsGoingWhenThePostPruneProbeFails(), TestForceDestroyKeepsTheWorktreeWhenPruneFails(), TestForceRemovalDoesNotPromiseDeferredCleanup(), removeAllWithRetry(), shrinkRemoveAllRetry() (+14 more)
 
 ### Community 269 - "RuntimeCleanupOutcome"
 Cohesion: 0.11
-Nodes (7): conptyPartialCreateFailure(), RuntimeCleanupOutcome, RuntimeEffectOutcome, runtimeEffectFailure, RuntimeEffectError, switchRuntimeEffectError, runtimeEffectFailure
+Nodes (7): tmuxPossibleCreateFailure(), RuntimeCleanupOutcome, RuntimeEffectOutcome, runtimeEffectFailure, RuntimeEffectError, switchRuntimeEffectError, runtimeEffectFailure
 
 ### Community 270 - ".GetAgentHooks"
-Cohesion: 0.06
-Nodes (42): cursorDataDir(), countCursorHookCommand(), TestAugmentRuntimeEnvUsesAODataDir(), TestCleanupWorkspaceRemovesOnlyAOManagedTrustMarker(), TestCleanupWorkspaceUsesRecordedTrustPathWhenEnvChanges(), TestCursorWorkspaceProjectName(), TestGetAgentHooksInstallsCursorHooks(), TestGetAgentHooksMigratesLegacyPermissionCallbacksWithoutRewritingUserHooks() (+34 more)
+Cohesion: 0.16
+Nodes (16): cursorHookCommandIndex(), cursorHooksPath(), cursorManagedEvents(), Plugin, groupCursorHooksByEvent(), isCursorManagedHook(), marshalCursorHookEvent(), newCursorHookEntry() (+8 more)
 
 ### Community 271 - "compilerOptions"
 Cohesion: 0.08
@@ -1920,61 +1876,65 @@ Nodes (35): Entry, nowRFC3339(), setupHome(), TestAtomicWriteProducesValidJSON()
 Cohesion: 0.11
 Nodes (14): accountReconcileCall, codexAccountLocalFailure, codexCredentialMatch, TestBootstrapStorageFailureClassifiesPreservedIOCause(), cleanupPendingCredentialHomes(), createPendingCredentialHome(), accountStoreFailure(), accountStoreStorageFailure() (+6 more)
 
-### Community 274 - "AgentSwitchEventMetadata"
-Cohesion: 0.08
-Nodes (28): agentSwitchEventMetadata(), AgentSwitchFailureCode(), AgentSwitchIssueFingerprint(), AgentSwitchChannel, AgentSwitchElapsedTimeBucket, AgentSwitchEnvironment, AgentSwitchEventBuildInput, AgentSwitchEventMetadata (+20 more)
+### Community 274 - "CommandPalette.test.tsx"
+Cohesion: 0.10
+Nodes (16): choosePathMock, createProjectFlowMock, ctx, drillIntoTest(), getMock, navigateMock, openComposer(), openExternalMock (+8 more)
 
-### Community 275 - "daemon"
+### Community 275 - "workspaceRoute"
+Cohesion: 0.20
+Nodes (5): Server, workspaceRoute(), Server, reviewScopeQuery(), validReviewScope()
+
+### Community 276 - "index.tsx"
 Cohesion: 0.23
-Nodes (5): rollback(), harnessWithoutChatDriver(), setPermissions(), apiError, daemon
-
-### Community 276 - "e2e/harness_test.go"
-Cohesion: 0.15
-Nodes (19): buildDaemon(), codexBinary(), freePort(), uniqueSuffix(), forkHandoffHistory(), accountState, diffFile, mcpServerState (+11 more)
+Nodes (16): FleetScreen(), makeStyles(), tunnelMayHaveRotated(), BoardRow, ALL_WORKER_PROJECTS, filterWorkersByProject(), makeStyles(), WorkerControlsSheet() (+8 more)
 
 ### Community 277 - "withTempHome"
-Cohesion: 0.18
-Nodes (22): kimchiConfigAuthStatus(), kimchiExtractAPIKey(), clearKimchiAuthEnv(), TestAuthStatusAuthorizedFromConfig(), TestAuthStatusAuthorizedFromEnvVar(), TestAuthStatusContextCanceled(), TestAuthStatusEnvVarPrecedenceOverConfig(), TestAuthStatusUnknownFromConfigWithoutKey() (+14 more)
+Cohesion: 0.15
+Nodes (24): Plugin, kimchiConfigAuthStatus(), kimchiExtractAPIKey(), kimchiGlobalConfigPath(), clearKimchiAuthEnv(), TestAuthStatusAuthorizedFromConfig(), TestAuthStatusAuthorizedFromEnvVar(), TestAuthStatusContextCanceled() (+16 more)
 
 ### Community 278 - "ThreadItem"
 Cohesion: 0.06
 Nodes (32): ThreadItem, CollabAgentState, CollabAgentStatus, CommandAction, CommandActionType, CommandExecutionRequestApprovalParams, CommandExecutionSource, DynamicToolCallOutputContentItem (+24 more)
 
 ### Community 279 - "gitlab/cache.go"
-Cohesion: 0.31
-Nodes (8): forkProjectKey(), getCacheEntry(), T, mrKey(), setCacheEntry(), cache, cacheEntry, restApprovals
-
-### Community 281 - "operation"
-Cohesion: 0.16
-Nodes (24): agentOperations(), browserOperations(), devOperations(), endpointsOperations(), eventOperations(), fsOperations(), identityOperations(), importOperations() (+16 more)
-
-### Community 282 - "buildProjectConfig"
 Cohesion: 0.17
-Nodes (17): buildAgentConfig(), buildProjectConfig(), buildRoleOverride(), legacyStringValue(), mapHarness(), mapPermission(), nonNilNode(), stringNode() (+9 more)
+Nodes (17): forkProjectKey(), getCacheEntry(), T, mrKey(), newCache(), setCacheEntry(), TestCache_ConcurrentAccess(), TestCache_SetGetWithinTTL() (+9 more)
 
-### Community 283 - "EncodeMessage"
-Cohesion: 0.16
-Nodes (19): Runtime, EncodeMessage(), NewMessageParser(), collect(), TestEncodeMessage(), TestEncodeMessageZeroPayload(), TestParserByteAtATime(), TestParserInterleavedTypes() (+11 more)
+### Community 280 - "acp_relay_test.go"
+Cohesion: 0.37
+Nodes (19): TestACPRelayNullPromptResultStillCarriesReceipt(), TestACPRelayRejectsPromptUntilPreviousCompletionIsAcknowledged(), TestACPRelayReplacementDoesNotReuseDurableIdentities(), TestACPRelayReusedWireIDKeepsNewRequestAtItsCausalPosition(), frameID(), frameMetaString(), frameResultString(), newTestACPRelay() (+11 more)
 
-### Community 284 - "New"
-Cohesion: 0.28
-Nodes (13): New(), assertPreviewErrorCode(), crashConfiguration(), helperConfiguration(), TestManagerDoesNotFireOnExitWhenStoppedByUser(), TestManagerFiresOnExitWhenServerCrashesAfterLaunch(), TestManagerKeepsConcurrentSessionServersIsolated(), TestManagerRejectsMissingConfigAndNonLoopbackURL() (+5 more)
+### Community 281 - "SessionUUID"
+Cohesion: 0.14
+Nodes (12): SessionUUID(), New(), containsSubsequence(), flagValue(), TestReviewCommandEmitsPersistedNativeSessionID(), TestReviewRestoreCommandDetectsExistingTranscript(), TestReviewRestoreCommandEmitsResumeWithPolicySystemPromptAndTask(), TestReviewRestoreCommandFallsBackWhenPersistedConversationIsMissing() (+4 more)
+
+### Community 282 - "buildProjectRecord"
+Cohesion: 0.09
+Nodes (28): loadPreferences(), loadRegistered(), preferencesPath(), registeredPath(), buildAgentConfig(), buildProjectConfig(), buildProjectRecord(), buildRoleOverride() (+20 more)
+
+### Community 283 - ".InspectTerminalSurface"
+Cohesion: 0.12
+Nodes (15): claudeComposerState(), codexActiveStatusLine(), codexComposerState(), codexConfirmationFrame(), codexConfirmationHint(), codexInitialComposer(), codexNumberedOption(), codexPromptFooter() (+7 more)
+
+### Community 284 - "previewserver/process_unix_test.go"
+Cohesion: 0.18
+Nodes (21): New(), assertPreviewErrorCode(), crashConfiguration(), helperConfiguration(), TestManagerDoesNotFireOnExitWhenStoppedByUser(), TestManagerFiresOnExitWhenServerCrashesAfterLaunch(), TestManagerKeepsConcurrentSessionServersIsolated(), TestManagerRejectsMissingConfigAndNonLoopbackURL() (+13 more)
 
 ### Community 285 - "Run"
-Cohesion: 0.07
-Nodes (33): confirm(), commandContext, writeImportSummary(), loadLegacyConfig(), loadPreferences(), loadRegistered(), appendPrefixed(), Options (+25 more)
+Cohesion: 0.10
+Nodes (24): confirm(), commandContext, writeImportSummary(), loadLegacyConfig(), appendPrefixed(), Options, Report, Store (+16 more)
 
-### Community 286 - "listDirs"
-Cohesion: 0.33
-Nodes (9): listDirs(), newFSRig(), padName(), TestListDirsCapsEntries(), TestListDirsDefaultsToHome(), TestListDirsRejectsPermissionDenied(), TestListDirsRejectsRelativeAndMissingPaths(), TestListDirsShowsDirectoriesOnlyWithGitDetection() (+1 more)
+### Community 286 - "copilotLocalAuthStatus"
+Cohesion: 0.13
+Nodes (18): copilotBYOKConfigured(), copilotConfigAuthStatus(), copilotGHAuthStatus(), copilotHomeDir(), copilotLocalAuthStatus(), copilotLoggedInUser(), copilotUsableToken(), Plugin (+10 more)
 
 ### Community 287 - "workertransport/workspace_review_test.go"
 Cohesion: 0.27
 Nodes (24): TestWorkspaceReviewDispatchHandlesEveryOperation(), TestWorkspaceReviewDispatchMapsStaleSnapshot(), openWorkspace(), containsReviewPath(), containsReviewRename(), containsTreePath(), gitWorkspaceOutput(), TestWorkspaceReviewDiffsHonorEveryScopeAndCommit() (+16 more)
 
 ### Community 288 - "README.zh-CN.md"
-Cohesion: 0.08
-Nodes (23): Adding new commands, AO CLI, Claiming upstream PRs from a fork, Claiming workspace PRs, Configuration, Manual smoke test, Agent Orchestrator, Worker 执行专注、明确的任务 (+15 more)
+Cohesion: 0.11
+Nodes (17): Agent Orchestrator, Worker 执行专注、明确的任务, 产品亮点, 从想法到合并，一套完整工作流, 关注 AO 的进展, 匿名遥测, 安装, 开发与贡献 (+9 more)
 
 ### Community 289 - "product-ui/package.json"
 Cohesion: 0.08
@@ -1985,8 +1945,8 @@ Cohesion: 0.17
 Nodes (18): Env, Kind, kindForToken(), readKeychain(), Validator, Provider, claudeConfigDir(), envTruthy() (+10 more)
 
 ### Community 291 - "NotificationsController"
-Cohesion: 0.08
-Nodes (23): optionalTime(), chi.Router, NotificationsController, NotificationService, NotificationStream, notificationResponse(), notificationResponseFromRecord(), notificationResponses() (+15 more)
+Cohesion: 0.06
+Nodes (30): optionalTime(), chi.Router, NotificationsController, NotificationService, NotificationStream, notificationResponse(), notificationResponseFromRecord(), notificationResponses() (+22 more)
 
 ### Community 292 - "qwenAuthStatusFromSettings"
 Cohesion: 0.10
@@ -1996,17 +1956,17 @@ Nodes (24): containsQwenAPIKey(), containsQwenEnvName(), qwenAuthStatusFromSetti
 Cohesion: 0.22
 Nodes (19): TestE2E_DaemonClosedOutputPipeShutdownRemovesRunFile(), asExit(), freePort(), httpClient(), httpGet(), mustContain(), mustNotContain(), newEnv() (+11 more)
 
-### Community 294 - "cli/spawn_test.go"
-Cohesion: 0.11
-Nodes (34): TestAgentListEnsuresDisplayReadinessByDefault(), TestAgentListJSONEmitsRawCatalog(), TestAgentListRefreshAndStatuses(), appendPrimaryRequest(), requestLogEntry(), authorizedAgentsJSON(), readinessAgentsJSON(), TestSpawnAOSessionIDFailureRequiresProject() (+26 more)
+### Community 294 - "cursorDataDir"
+Cohesion: 0.15
+Nodes (18): cursorDataDir(), countCursorHookCommand(), TestAugmentRuntimeEnvUsesAODataDir(), TestCleanupWorkspaceRemovesOnlyAOManagedTrustMarker(), TestCleanupWorkspaceUsesRecordedTrustPathWhenEnvChanges(), TestCursorWorkspaceProjectName(), TestGetAgentHooksInstallsCursorHooks(), TestGetAgentHooksMigratesLegacyPermissionCallbacksWithoutRewritingUserHooks() (+10 more)
 
 ### Community 295 - "linkpreview/service.go"
-Cohesion: 0.12
-Nodes (29): applyLink(), applyMeta(), cleanText(), entryTTL(), firstNonEmpty(), Preview, headRegion(), indexFold() (+21 more)
+Cohesion: 0.08
+Nodes (44): applyLink(), applyMeta(), cleanText(), entryTTL(), firstNonEmpty(), Preview, headRegion(), indexFold() (+36 more)
 
 ### Community 296 - "ao-mcp/package.json"
-Cohesion: 0.06
-Nodes (34): bin, ao-mcp, import, types, dependencies, @modelcontextprotocol/sdk, zod, description (+26 more)
+Cohesion: 0.11
+Nodes (18): bin, ao-mcp, description, engines, node, files, @types/node, typescript (+10 more)
 
 ### Community 297 - "dev-connect-agent-credential.py"
 Cohesion: 0.13
@@ -2018,71 +1978,71 @@ Nodes (31): armRetryTimer(), transcriptWatcher, NewCoordinator(), stopTimer(), c
 
 ### Community 299 - "NewPolicyCoordinator"
 Cohesion: 0.26
-Nodes (20): PolicyStore, New(), NewPolicyCoordinator(), boolPtr(), TestApplyPolicyTreatsBodyAsHintAndCannotForgeEnablement(), TestClosedGateKeepsHonouringTheStoredChoiceAsTheHint(), TestDisabledApplyAcknowledgesOnlyAfterAtomicStoreCommit(), TestDisabledApplyAcknowledgesOnlyAfterProviderDrain() (+12 more)
+Nodes (21): codexFileInfoWithSystem, New(), NewPolicyCoordinator(), boolPtr(), TestApplyPolicyTreatsBodyAsHintAndCannotForgeEnablement(), TestClosedGateKeepsHonouringTheStoredChoiceAsTheHint(), TestDisabledApplyAcknowledgesOnlyAfterAtomicStoreCommit(), TestDisabledApplyAcknowledgesOnlyAfterProviderDrain() (+13 more)
 
-### Community 300 - "DeliveryResult"
-Cohesion: 0.22
-Nodes (15): dispatcherObserverFake, AgentSwitchFailureEvent, agentSwitchQuotaScope(), canonicalAgentSwitchEventID(), classifyAgentSwitchHTTPStatus(), encodeAgentSwitchEnvelope(), EncodeAgentSwitchEnvelopeV1(), parseAgentSwitchRetryAfter() (+7 more)
+### Community 300 - "menu-focus.ts"
+Cohesion: 0.18
+Nodes (13): clearPending(), composeMenuCloseAutoFocus(), handleFocusRelease(), keepFocusOnOpenedSurface(), MenuTeardownDetail, MenuTeardownListener, publishMenuTeardownComplete(), returnFocusWhenSurfaceCloses() (+5 more)
 
-### Community 301 - "agent/copilot/copilot_test.go"
-Cohesion: 0.02
-Nodes (112): ResolveAiderBinary(), TestResolveAiderBinaryFallback(), TestGetAgentHooksInstallsExecutableAuggieHooks(), defaultFNMDir(), TestDefaultFNMDirDarwin(), TestDefaultFNMDirPrefersXDGDataHome(), TestUnixNodeManagerBinCandidatesHonorsCancellation(), TestUnixNodeManagerBinCandidatesPreferNVMDefaultAlias() (+104 more)
+### Community 301 - ".GetAgentHooks"
+Cohesion: 0.15
+Nodes (20): TestClineHookScriptNameIsPlatformAware(), TestGetAgentHooksInstallsClineHooks(), TestGetAgentHooksMigratesLegacyScripts(), TestGetAgentHooksWritesPlatformScriptNames(), TestRenderBashClineHookScript(), TestRenderClineHookScriptFollowsPlatform(), TestRenderPowerShellClineHookScript(), TestUninstallHooksRemovesClineHooks() (+12 more)
 
 ### Community 302 - "catalogsync_test.go"
 Cohesion: 0.14
-Nodes (26): main(), run(), runSync(), runValidate(), Sync(), blobRates(), Source, optionalRateString() (+18 more)
+Nodes (26): main(), run(), runSync(), runValidate(), findProvider(), Sync(), blobRates(), Source (+18 more)
 
 ### Community 303 - "Service"
-Cohesion: 0.09
-Nodes (19): GitHubPATService, expiryFrom(), firstNonEmpty(), Repo, New(), newWithClient(), githubClient(), Service (+11 more)
+Cohesion: 0.20
+Nodes (5): expiryFrom(), firstNonEmpty(), Repo, Service, storedPAT
 
-### Community 304 - "host_conpty_linux.go"
-Cohesion: 0.18
+### Community 304 - "linuxPTYConn"
+Cohesion: 0.15
 Nodes (13): linuxFindSessionProcesses(), newConPTY(), processAliveWithIdentity(), readLinuxProcInfo(), signalProcessGroupIfIdentityMatches(), signalProcessIfIdentityMatches(), signalValidatedSessionProcs(), TestLinuxPTYCloseDoesNotKillRecycledPIDDuringGracePeriod() (+5 more)
 
-### Community 305 - "newReadinessCoordinator"
-Cohesion: 0.08
-Nodes (41): readinessWaitContext, Build(), Harnessed(), ensureAgentBinary(), hasLine(), TestEveryHarnessReportsAuthStatus(), TestEveryProductionHarnessReportsModelOrModeConfig(), TestGetAgentHooksFootprintIsGitignored() (+33 more)
+### Community 305 - "provider-auth-flow.ts"
+Cohesion: 0.18
+Nodes (12): claudeAuthFlow, codexAuthFlow, extractClaudeOAuthToken(), findCodexAuthFile(), firstExecutable(), flows, githubAuthFlow, knownBinDirs() (+4 more)
 
 ### Community 306 - "SCMMergeRequest"
-Cohesion: 0.15
-Nodes (15): Provider, Provider, NewMerger(), TestMerger_PropagatesProviderError(), TestMerger_RoutesBothProviders(), TestMerger_RoutesByProvider(), TestMerger_SingleProviderFallback(), TestMerger_UnknownProviderReturnsError() (+7 more)
+Cohesion: 0.16
+Nodes (13): Provider, Provider, NewMerger(), TestMerger_PropagatesProviderError(), TestMerger_RoutesBothProviders(), TestMerger_RoutesByProvider(), TestMerger_SingleProviderFallback(), TestMerger_UnknownProviderReturnsError() (+5 more)
 
-### Community 307 - "root_test.go"
-Cohesion: 0.11
-Nodes (30): TestDevImportProjectsRefusesSameSourceAndTargetDataDir(), TestImportCommand_ImportsProjectJSON(), TestImportCommand_RefusesWhenDaemonRunning(), writeLegacyProject(), closedPort(), jsonResponse(), serverPort(), TestChatHostRejectsMalformedInternalArgumentsAsUsage() (+22 more)
+### Community 307 - "cli.mdx"
+Cohesion: 0.12
+Nodes (15): `ao agent ls`, `ao browser`, `ao orchestrator ls`, `ao preview [url]`, `ao project`, `ao send`, `ao session`, `ao spawn` (+7 more)
 
 ### Community 308 - "observe/observer_test.go"
-Cohesion: 0.18
-Nodes (18): CacheDelete(), CacheSet(), CheckCredentialsOnce(), V, quietLogger(), TestCacheDelete_MissingKeyIsNoop(), TestCacheDelete_RemovesKeyAndOrderSlot(), TestCacheSet_EvictsOldestPastMax() (+10 more)
+Cohesion: 0.17
+Nodes (19): CacheDelete(), CacheSet(), CheckCredentialsOnce(), V, StartPollLoop(), quietLogger(), TestCacheDelete_MissingKeyIsNoop(), TestCacheDelete_RemovesKeyAndOrderSlot() (+11 more)
 
-### Community 309 - "WorkspaceConfig"
-Cohesion: 0.11
-Nodes (20): TestObserveWorkspaceReturnsBoundedGitFacts(), assetPathWithin(), cleanRelativePath(), copyWorkspaceAssets(), copyWorkspaceAssetTree(), defaultSessionBranchName(), firstNonEmpty(), hasWorkspaceManagedComponent() (+12 more)
+### Community 309 - ".destroy"
+Cohesion: 0.13
+Nodes (9): worktreeForceRemoveArgs(), worktreePruneArgs(), TestRepoTeardownLockCanonicalizesRepositoryPath(), TestObserveWorkspaceReturnsBoundedGitFacts(), isLockedWorktreeRemoveError(), pathWithin(), physicalAbs(), repoTeardownLock() (+1 more)
 
 ### Community 310 - "MigrationDetails"
 Cohesion: 0.10
 Nodes (22): CommandMigration, ExternalAgentConfigDetectResponse, ExternalAgentConfigImportCompletedNotification, ExternalAgentConfigImportHistoriesReadResponse, ExternalAgentConfigImportHistory, ExternalAgentConfigImportHistoryRecordParams, ExternalAgentConfigImportItemTypeFailure, ExternalAgentConfigImportItemTypeSuccess (+14 more)
 
-### Community 311 - "github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store"
-Cohesion: 0.16
-Nodes (24): activeCodexRolloutPath(), codexRolloutFixture(), latestUsageSource(), newCodexSubagentFixture(), onlyUsageBinding(), seedCodexRolloutSession(), TestCodexChildCheckpointMismatchReconcilesValidatedGeneration(), TestCodexChildCheckpointMismatchRevalidatesIdentityAndParent() (+16 more)
+### Community 311 - "codexSubagentFixture"
+Cohesion: 0.23
+Nodes (17): activeCodexRolloutPath(), codexRolloutFixture(), newCodexSubagentFixture(), onlyUsageBinding(), seedCodexRolloutSession(), TestCodexChildCheckpointMismatchReconcilesValidatedGeneration(), TestCodexChildCheckpointMismatchRevalidatesIdentityAndParent(), TestCodexChildReplacementDoesNotChangeDurableDirectParent() (+9 more)
 
-### Community 312 - "newCodexLaunchReadinessFixture"
-Cohesion: 0.22
-Nodes (14): codexLaunchReadinessFixture, codexReadCall, codexAccountManager, Service, newCodexLaunchReadinessFixture(), TestAuthorizedInactiveAccountDoesNotMaskTheActiveAccount(), TestExternallyReplacedCredentialsDoNotGetAttributedToOldActiveSlot(), TestLaunchFallsBackToNativeReadinessOnTransientProtectedFailure() (+6 more)
+### Community 312 - "CodexAccounts"
+Cohesion: 0.12
+Nodes (20): CodexAccountEnsureOptions, CodexAccounts, codexLaunchReadinessFixture, codexReadCall, CodexDeviceReconciliation, codexAccountManager, Service, newCodexLaunchReadinessFixture() (+12 more)
 
 ### Community 313 - "cli/review.go"
-Cohesion: 0.16
-Nodes (20): commandContext, commandContext, newReviewCancelCommand(), newReviewCommand(), newReviewListCommand(), newReviewSubmitCommand(), newReviewTriggerCommand(), readReviewItems() (+12 more)
+Cohesion: 0.17
+Nodes (19): commandContext, commandContext, newReviewCancelCommand(), newReviewCommand(), newReviewListCommand(), newReviewSubmitCommand(), newReviewTriggerCommand(), readReviewItems() (+11 more)
 
-### Community 314 - "Coordinator"
-Cohesion: 0.14
-Nodes (7): authorityRead, Coordinator, AgentSwitchReportingAuthorization, AgentSwitchFailurePolicyAcknowledgement, fixedAgentSwitchReportingPolicy, policyControlFake, staticAgentSwitchReportingPolicy
+### Community 314 - "kimiWorkdirKey"
+Cohesion: 0.17
+Nodes (13): kimiCodeHomeDir(), TestAugmentRuntimeEnvUsesAODataDir(), ensureKimiWorkspaceTrusted(), EnsureWorkspaceTrusted(), Plugin, kimiWorkdirKey(), kimiWorkdirSlug(), TestEnsureWorkspaceTrustedHonorsKimiCodeHomeEnv() (+5 more)
 
 ### Community 315 - "PushDevice"
-Cohesion: 0.17
-Nodes (9): carryOver(), PushDevice, mergeIdentities(), TestValidPushToken(), ValidPushToken(), DeviceRegistry, pushDevicesFile, removedDevice (+1 more)
+Cohesion: 0.05
+Nodes (25): stubDeviceRoster, carryOver(), PushDevice, mergeIdentities(), TestValidPushToken(), ValidPushToken(), messageFor(), isRetryable() (+17 more)
 
 ### Community 316 - "lookPathFound"
 Cohesion: 0.18
@@ -2106,30 +2066,30 @@ Nodes (16): Push a file fix to GitHub via API and create a PR. Usage: python3…
 
 ### Community 321 - "backend/internal/skillassets/skillassets_test.go"
 Cohesion: 0.11
-Nodes (24): Plugin, installUsingAOSkill(), isAOManagedPlugin(), isAOManagedSkill(), opencodePluginPath(), opencodeSkillDir(), opencodeSkillMarkerPath(), opencodeSkillsDir() (+16 more)
+Nodes (25): ensureSkillTreeGitignored(), Plugin, installUsingAOSkill(), isAOManagedPlugin(), isAOManagedSkill(), opencodePluginPath(), opencodeSkillDir(), opencodeSkillMarkerPath() (+17 more)
 
 ### Community 322 - "verifyCheckpointTranscript"
-Cohesion: 0.18
-Nodes (18): checkpointContent(), checkpointToolResults(), checkpointUnsettled(), checkpointEvidence(), checkpointFixture(), TestNativeCheckpointIgnoresUnrelatedStringAttachmentContent(), TestNativeCheckpointQueuedSubmissionAndDelayedStops(), TestNativeCheckpointRejectsUnprovenAncestry() (+10 more)
+Cohesion: 0.11
+Nodes (25): checkpointContent(), checkpointToolResults(), checkpointUnsettled(), checkpointEvidence(), checkpointFixture(), TestNativeCheckpointIgnoresUnrelatedStringAttachmentContent(), TestNativeCheckpointRejectsUnprovenAncestry(), TestNativeCheckpointTurnCompanionIsNotAUserBoundary() (+17 more)
 
-### Community 323 - "start_test.go"
-Cohesion: 0.14
-Nodes (24): makeBundle(), swapPreferredAppPath(), swapScanLocations(), TestAssetArchMapping(), TestAssetName_PerOS(), TestDownload_IgnoresShortClientTimeout(), TestDownload_NoContentLengthOmitsSize(), TestDownload_NonTTYProgress() (+16 more)
+### Community 323 - "Endpoints"
+Cohesion: 0.21
+Nodes (13): Endpoints(), Endpoint, assertEndpoints(), TestEndpointsAppendsReadyTunnelLast(), TestEndpointsIsEmptyWhenNothingIsReachable(), TestEndpointsListsEveryLANAddress(), TestEndpointsOmitsTunnelThatIsNotReady(), TestEndpointsOmitsTunnelWithoutHostname() (+5 more)
 
 ### Community 324 - "Dispatcher"
-Cohesion: 0.10
-Nodes (12): Dispatcher, DispatcherConfig, PolicyCoordinator, newAgentSwitchFailureDispatcher(), dispatcherCancellationResult(), dispatcherRetryDelay(), NewDispatcher(), stopTimer() (+4 more)
+Cohesion: 0.07
+Nodes (41): Dispatcher, DispatcherConfig, dispatcherObserverFake, newAgentSwitchFailureDispatcher(), AgentSwitchFailureEvent, dispatcherCancellationResult(), dispatcherRetryDelay(), NewDispatcher() (+33 more)
 
 ### Community 325 - "SCMRepo"
-Cohesion: 0.05
-Nodes (38): firstNonEmptyHeader(), commitCheckRunsFingerprint(), decodeRestCheckRunsPage(), failedSCMChecks(), githubFailedFingerprint(), Provider, isGitHubHost(), makeGitHubRepo() (+30 more)
+Cohesion: 0.03
+Nodes (69): firstNonEmptyHeader(), commitCheckRunsFingerprint(), decodeRestCheckRunsPage(), failedSCMChecks(), githubFailedFingerprint(), Provider, isGitHubHost(), makeGitHubRepo() (+61 more)
 
 ### Community 326 - "Workspace"
-Cohesion: 0.14
-Nodes (13): fetchBranchArgs(), remoteListArgs(), parseWorktreePorcelain(), findWorktreeByBranch(), commandRunner, Workspace, isMissingRegisteredWorktreeError(), registeredWorktreeDirMissing() (+5 more)
+Cohesion: 0.11
+Nodes (24): worktreeAddBranchArgs(), parseWorktreePorcelain(), cleanRelativePath(), defaultSessionBranchName(), findWorktree(), findWorktreeByBranch(), firstNonEmpty(), commandRunner (+16 more)
 
 ### Community 327 - "fixtureAgentSwitchEvent"
-Cohesion: 0.07
+Cohesion: 0.08
 Nodes (29): fixtureAgentSwitchEvent(), AgentSwitchDestination, loadAgentSwitchFixture(), newTestSender(), oversizedCanonicalEvent(), parseServerDestination(), TestAgentSwitchSenderAcknowledgesOnlyProvider2xx(), TestAgentSwitchSenderBoundsResponseHeadersAndBody() (+21 more)
 
 ### Community 328 - "ParseRepositoryIdentity"
@@ -2138,7 +2098,7 @@ Nodes (14): ProjectConfig, ParseRepositoryIdentity(), RepositoryProvider(), norm
 
 ### Community 329 - "scripts"
 Cohesion: 0.10
-Nodes (20): scripts, api:ts, browser-runtime:prepare, build, build:acp-runtime, build:daemon, build:tmux, dev (+12 more)
+Nodes (21): scripts, api:ts, browser-runtime:prepare, build, build:acp-runtime, build:ao-mcp, build:daemon, build:tmux (+13 more)
 
 ### Community 330 - "compilerOptions"
 Cohesion: 0.10
@@ -2146,15 +2106,15 @@ Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModu
 
 ### Community 331 - "ui.tsx"
 Cohesion: 0.04
-Nodes (93): makeStyles(), OnboardingScreen(), skip(), makeStyles(), ProjectScreen(), FleetScreen(), makeStyles(), Filter (+85 more)
+Nodes (122): makeStyles(), OnboardingScreen(), skip(), makeStyles(), ProjectScreen(), SettingsScreen(), AgentSheetRoute(), onRefresh() (+114 more)
 
 ### Community 332 - "ao-cloud-agent/main.go"
 Cohesion: 0.29
 Nodes (17): client, pullRequest, session, listChildren(), main(), newIdempotencyKey(), pokeCheckpoint(), printUsage() (+9 more)
 
 ### Community 333 - "CommandRunner"
-Cohesion: 0.16
-Nodes (12): CommandRunner, ExecutableFinder, New(), NewWithDeps(), Target, NewVerifier(), TestVerifierBoundsVersionProbe(), TestVerifierUsesAdapterResolvedBinaryWithoutAuthProbe() (+4 more)
+Cohesion: 0.20
+Nodes (9): CommandRunner, ExecutableFinder, New(), NewWithDeps(), Target, Deps, HarnessVerifier, Verifier (+1 more)
 
 ### Community 334 - "Cloud Workspace Review Parity Implementation Plan"
 Cohesion: 0.11
@@ -2176,25 +2136,25 @@ Nodes (18): compilerOptions, declaration, declarationMap, lib, module, moduleRes
 Cohesion: 0.11
 Nodes (18): compilerOptions, forceConsistentCasingInFileNames, isolatedModules, jsx, lib, module, moduleResolution, noEmit (+10 more)
 
-### Community 339 - "build_test.go"
-Cohesion: 0.17
-Nodes (19): main(), Build(), buildSchemas(), normalizeYAML(), schemaAllowsNull(), schemaContainsRef(), TestBuild_CodexSwitchContractIsRedactedAndOnlyMountedRoutesAreDocumented(), TestBuild_DelegateAgentEnumIncludesPrimeAgent() (+11 more)
+### Community 339 - ".InspectTerminalSurface"
+Cohesion: 0.21
+Nodes (11): claudeActiveFrameVisible(), claudeConfirmationFrameVisible(), claudeHorizontalRule(), claudeNavigationMenuFrameVisible(), claudeNumberedOption(), Plugin, previousClaudeSurfaceLine(), terminalSurfaceLines() (+3 more)
 
-### Community 340 - "NewTracker"
-Cohesion: 0.13
-Nodes (18): normalizeAPIDeps(), TestListDevicesFallsBackToPresenceWhenDeviceLiveOmitted(), TestNormalizeAPIDepsDefaultsDeviceLiveToPresence(), TestNormalizeAPIDepsDoesNotOverrideExplicitDeviceLive(), TestNormalizeAPIDepsNoWarnWhenPresenceCoversRoster(), TestNormalizeAPIDepsNoWarnWithoutRoster(), TestNormalizeAPIDepsWarnsWhenRosterHasNoLiveness(), presenceMiddleware() (+10 more)
+### Community 340 - "lineDelta"
+Cohesion: 0.20
+Nodes (12): diffFileFromSnapshot(), lineDelta(), longestCommonSubsequenceLen(), splitLines(), lines(), strPtr(), TestLineDeltaAddedAndDeletedFiles(), TestLineDeltaAppendOnly() (+4 more)
 
 ### Community 341 - "aoActivity"
 Cohesion: 0.16
 Nodes (13): aoActivity(), callHookSync(), hookCmd(), logHookFailure(), readCreatedSessionID(), readSessionID(), reportUserPrompt(), aoActivity() (+5 more)
 
 ### Community 342 - "Queries"
-Cohesion: 0.08
-Nodes (15): Queries, Report, AcknowledgeReportBatchParams, AcknowledgeReportParams, AssignPendingReportsToBatchParams, ClaimPendingReportsByBatchParams, ClaimReportParams, CreateReportOutputParams (+7 more)
+Cohesion: 0.01
+Nodes (193): AgentModelCatalog, AgentSwitchFailurePolicy, Queries, Queries, Queries, Queries, Queries, AgentInstallJob (+185 more)
 
-### Community 343 - "broker_test.go"
-Cohesion: 0.13
-Nodes (18): failPending(), New(), browserRuntimeTestTimeout(), newPauseAfterFirstWriteConn(), TestBrokerCancellationSendsCancelFrame(), TestBrokerExecuteRoundTrip(), TestBrokerMapsRuntimeError(), TestBrokerRejectsInvalidRuntimeToken() (+10 more)
+### Community 343 - "installReviewerConfig"
+Cohesion: 0.23
+Nodes (12): cursorAuthInfoHasIdentity(), hostCursorAuthInfo(), installReviewerConfig(), reviewerAllowList(), reviewerProfileDir(), New(), reviewerConfig, readReviewerConfig() (+4 more)
 
 ### Community 344 - "Backend Code Structure"
 Cohesion: 0.11
@@ -2206,15 +2166,15 @@ Nodes (17): aliases, components, hooks, lib, ui, utils, iconLibrary, rsc (+9 mor
 
 ### Community 346 - "ref_vitest"
 Cohesion: 0.01
-Nodes (245): Global Constraints, Session Kill State Isolation Implementation Plan, Task 1: Isolate topbar kill state by session, Design, Intended Behavior, Problem, Session Kill State Isolation, Testing (+237 more)
+Nodes (185): frontend_assets_ao_logo, computeNightlyVersion(), now, readUiSettings(), readUiSettingsUnlocked(), runSettingsOperation(), settingsOperationQueue, UI_SETTINGS_FILE_NAME (+177 more)
 
 ### Community 347 - "build-acp-runtime.mjs"
-Cohesion: 0.10
-Nodes (23): anthropicDir, buildSignature, expectedAdapter, frontendRoot, BIN_BUILD_TOOLS, BUILD_ONLY_CONTENT, createWorkDirectory(), npmInvocation() (+15 more)
+Cohesion: 0.09
+Nodes (25): anthropicDir, buildSignature, expectedAdapter, frontendRoot, BIN_BUILD_TOOLS, BUILD_ONLY_CONTENT, createWorkDirectory(), moveDirectorySync() (+17 more)
 
 ### Community 348 - "ao-phone-proxy.js"
-Cohesion: 0.13
-Nodes (16): fs, path, target, fs, net, norm(), os, pair() (+8 more)
+Cohesion: 0.09
+Nodes (21): fs, path, target, config, { getDefaultConfig }, localModules, path, workspaceRoot (+13 more)
 
 ### Community 349 - "README.de.md"
 Cohesion: 0.11
@@ -2225,8 +2185,8 @@ Cohesion: 0.11
 Nodes (17): Agent Orchestrator, Agentes compatibles, Comunidad, Desarrollar y contribuir, Documentación, El Kanban hace que el sistema sea comprensible, El orquestador planifica a escala de proyecto, Funciones destacadas (+9 more)
 
 ### Community 351 - "README.fr.md"
-Cohesion: 0.11
-Nodes (17): Agent Orchestrator, Agents pris en charge, Communauté, Documentation, Développer et contribuer, Installation, L'orchestrateur planifie à l'échelle du projet, Le Kanban rend le système lisible (+9 more)
+Cohesion: 0.08
+Nodes (23): Adding new commands, AO CLI, Claiming upstream PRs from a fork, Claiming workspace PRs, Configuration, Manual smoke test, Agent Orchestrator, Agents pris en charge (+15 more)
 
 ### Community 352 - "README.ja.md"
 Cohesion: 0.11
@@ -2240,25 +2200,25 @@ Nodes (17): Agent Orchestrator, AO의 여정 팔로우하기, Kanban이 전체 �
 Cohesion: 0.11
 Nodes (17): Acompanhe a jornada, Agent Orchestrator, Agentes compatíveis, Comunidade, Desenvolver e contribuir, Destaques do produto, Documentação, Instalação (+9 more)
 
-### Community 355 - "coordinatorCredentialFake"
-Cohesion: 0.27
-Nodes (4): coordinatorCredentialFake, CodexAccountSwitchInstallationState, CodexAccountSwitchSource, CodexAccountSwitchSourceKind
+### Community 355 - "selfupdate_test.go"
+Cohesion: 0.29
+Nodes (11): copyExecutable(), downloadVerifyReplace(), fileHashDiffers(), healHelper(), parseAttempt(), selfUpdateIfStale(), hashHex(), TestDownloadVerifyReplace() (+3 more)
 
-### Community 356 - "RateLimitSnapshot"
-Cohesion: 0.12
-Nodes (17): RateLimitResetCreditsSummary, Account, AccountRateLimitsUpdatedNotification, AccountType, AccountUpdatedNotification, AuthMode, CreditsSnapshot, GetAccountRateLimitsResponse (+9 more)
+### Community 356 - "capacityObservationFromEnvelope"
+Cohesion: 0.07
+Nodes (32): capacityObservationFromEnvelope(), normalizeCapacityBucket(), normalizeCapacityWindow(), normalizeResetCredits(), safeCapacityText(), safeOptionalCapacityText(), TestCapacityNormalizationIncludesBucketsAndRejectsMalformedWindows(), TestCapacityNormalizationRejectsNonFinitePercent() (+24 more)
 
-### Community 357 - "SCMIdentity"
-Cohesion: 0.11
-Nodes (14): cache, Client, Provider, TokenSource, hostMatchesRESTBase(), SCMIdentity, ClientOptions, ProviderOptions (+6 more)
+### Community 357 - "Provider"
+Cohesion: 0.14
+Nodes (14): IsGitLabDotCom(), NormalizeHost(), cache, Client, Provider, TokenSource, hostMatchesRESTBase(), DefaultTokenSource() (+6 more)
 
 ### Community 358 - "MobileStatusResponse"
-Cohesion: 0.18
-Nodes (4): MobileStatusResponse, mobileBridge, SecurePairingStatus, fakeMobileBridge
+Cohesion: 0.14
+Nodes (6): MobileStatusResponse, TestStartRemoteAccessWhileDisabledDoesNothing(), fakeBridge, mobileBridge, SecurePairingStatus, fakeMobileBridge
 
-### Community 359 - "fakeSender"
-Cohesion: 0.21
-Nodes (8): messageFor(), isRetryable(), sync.Cond, ExpoClient, fakeSender, Message, Receipt, Ticket
+### Community 359 - "extensionMethodReader"
+Cohesion: 0.22
+Nodes (8): extensionMethodReader, wireResponse, readWireResponse(), TestExtensionMethodReaderRoutesOnlyConfiguredLegacyMethodsThroughSDK(), newExtensionMethodReader(), readFrame(), trimEOL(), bufio.Reader
 
 ### Community 360 - "session_switch_test.go"
 Cohesion: 0.27
@@ -2281,8 +2241,8 @@ Cohesion: 0.13
 Nodes (17): HookCompletedNotification, HookErrorInfo, HookEventName, HookExecutionMode, HookHandlerType, HookMetadata, HookOutputEntry, HookOutputEntryKind (+9 more)
 
 ### Community 365 - "Status"
-Cohesion: 0.13
-Nodes (13): Authority, Result, Status, BrowserService, New(), apiErrorCode(), TestServiceRequiresOwningCapabilityAndLiveSession(), TestServiceRotationRejectsOldBearerAndDispatchesNewBearer() (+5 more)
+Cohesion: 0.15
+Nodes (12): Authority, Result, Status, New(), apiErrorCode(), TestServiceRequiresOwningCapabilityAndLiveSession(), TestServiceRotationRejectsOldBearerAndDispatchesNewBearer(), fakeRuntime (+4 more)
 
 ### Community 366 - "ao/package.json"
 Cohesion: 0.12
@@ -2292,21 +2252,21 @@ Nodes (16): bin, ao, description, files, license, name, optionalDependencies, @a
 Cohesion: 0.38
 Nodes (16): background(), brand(), callout(), caption(), feature_graphic(), fit(), font(), main() (+8 more)
 
-### Community 368 - "describe"
+### Community 368 - "Reviewer"
 Cohesion: 0.20
-Nodes (14): commandDetail(), commandWithOutput(), TestChatCommandOutputIsRecordedAndLabelled(), activitiesOfKind(), detailFiles(), detailString(), TestChatE2EProviderStateFromOneTurn(), TestChatE2EReloadMCPServers() (+6 more)
+Nodes (5): codexReadOnlyArgs(), firstNonEmpty(), insertBeforeLastArg(), insertBeforePrompt(), Reviewer
 
 ### Community 369 - "CodexAccountCapabilities"
-Cohesion: 0.05
-Nodes (39): fakeCodexAccountFactory, codexCapability(), accountClient, process, inspectCodexSchemaDirectory(), jsonUnmarshal(), NewAccountFactory(), NewAccountFactoryWithResolver() (+31 more)
+Cohesion: 0.14
+Nodes (18): fakeCodexAccountFactory, codexCapability(), inspectCodexSchemaDirectory(), NewAccountFactoryWithResolver(), probeCodexCLISurface(), TestInspectCodexSchemaDirectoryMapsSupportedUnsupportedAndUnreadable(), unknownCodexCapabilities(), CodexAccountCapabilities (+10 more)
 
 ### Community 370 - "darwinPTYConn"
 Cohesion: 0.17
 Nodes (5): darwinProcessGroupAlive(), newConPTY(), TestDarwinPTYCloseReapsTermIgnoringProcessGroup(), waitForDarwinProcessGroupExit(), darwinPTYConn
 
-### Community 371 - "newPreviewCommand"
-Cohesion: 0.32
-Nodes (8): commandContext, commandContext, newPreviewCommand(), previewServerHeaders(), previewServerPath(), sessionPreviewPath(), writePreviewServerStatus(), previewServerStatusDTO
+### Community 371 - "newAdapter"
+Cohesion: 0.25
+Nodes (11): httpHandler(), TestNewUsesAODataDir(), TestRunInstallScriptAllowsFiveHTTPSRedirects(), TestRunInstallScriptCancellationCleansUp(), TestRunInstallScriptCleansUpAfterExecutionFailure(), TestRunInstallScriptDownloadsExecutesAndCleansUp(), TestRunInstallScriptRejectsTooManyOrInsecureRedirects(), TestRunInstallScriptRejectsUnsafeDownloads() (+3 more)
 
 ### Community 372 - "coder/main.tf"
 Cohesion: 0.31
@@ -2329,12 +2289,12 @@ Cohesion: 0.12
 Nodes (15): Case Study: the Rename Bug Cluster, Changes, Component Map, Durable-State Invariants, How PR Facts Enter the System, Non-Goals, PR Identity Before #4090: Five Independent Derivations, SCM Observer Architecture (+7 more)
 
 ### Community 377 - "New"
-Cohesion: 0.18
-Nodes (18): New(), record(), TestGuard_ClosedInputGateSuppressesBeforePaneWrite(), TestGuard_CoordinationUnderMutationCheckedRejectsBeforeRuntimeWrite(), TestGuard_CoordinationUnderMutationRechecksActivityAndBypassesInputGate(), TestGuard_DeliverPostWriteRunsBeforeInputLeaseRelease(), TestGuard_DeliverUnderMutationBypassesInputGateButKeepsSafetyChecks(), TestGuard_InputLeaseCoversActualPaneWrite() (+10 more)
+Cohesion: 0.19
+Nodes (17): New(), record(), TestGuard_ClosedInputGateSuppressesBeforePaneWrite(), TestGuard_CoordinationUnderMutationCheckedRejectsBeforeRuntimeWrite(), TestGuard_CoordinationUnderMutationRechecksActivityAndBypassesInputGate(), TestGuard_DeliverPostWriteRunsBeforeInputLeaseRelease(), TestGuard_DeliverUnderMutationBypassesInputGateButKeepsSafetyChecks(), TestGuard_InputLeaseCoversActualPaneWrite() (+9 more)
 
 ### Community 378 - "CreateProjectFlow.tsx"
-Cohesion: 0.01
-Nodes (250): Make preparation recovery explicit, 2.5 — Agent step in cloud create flow, reusing `CreateProjectAgentSheet` (finding 6), chooseDirectory(), frontend_src_renderer_assets_agents_agy, frontend_src_renderer_assets_agents_aider, frontend_src_renderer_assets_agents_amp, frontend_src_renderer_assets_agents_auggie, frontend_src_renderer_assets_agents_autohand (+242 more)
+Cohesion: 0.02
+Nodes (181): Changes in PR #5126, Consolidate orchestrator startup and errors, Desktop project onboarding contract review, Distinguish registration from launch readiness, Further findings and design direction, Make preparation recovery explicit, One branch-selection policy across entry points, Root cause across stages (+173 more)
 
 ### Community 379 - "gitdefault/resolver.go"
 Cohesion: 0.22
@@ -2352,21 +2312,21 @@ Nodes (15): draw_brand(), draw_caption(), draw_gradient(), font(), landscape(), 
 Cohesion: 0.13
 Nodes (13): AO Desktop Dev, Choose the data mode, Common mistakes, Completion report, Confirm the correct app is ready, Isolated mode, Launch the app, Preflight (+5 more)
 
-### Community 383 - "previewserver/process_unix.go"
-Cohesion: 0.20
-Nodes (14): replaceGooseTestEnv(), TestGooseIdentityPipeHolder(), defaultRepoOriginURL(), resolveGitOriginURL(), forceKillPreviewPID(), forceKillPreviewProcess(), previewCommand(), previewGroupHasMembers() (+6 more)
+### Community 383 - ".putPAT"
+Cohesion: 0.25
+Nodes (3): chi.Router, GitHubController, GitHubPATService
 
 ### Community 384 - "primeLocalAuthStatus"
 Cohesion: 0.15
 Nodes (15): primeAWSCredentialEnvConfigured(), primeConfigDir(), primeCredentialJSONStatus(), primeGoogleCredentialConfigured(), primeJSONHasCredential(), primeLocalAuthStatus(), primeNonEmptyRegularFile(), clearPrimeCredentialEnv() (+7 more)
 
-### Community 385 - ".get"
-Cohesion: 0.28
-Nodes (14): decodeBody(), newLinkPreviewRig(), newLinkPreviewRigWithHandler(), TestLinkPreviewCachesSuccessAndFailure(), TestLinkPreviewFallsBackToTitleAndMetaDescription(), TestLinkPreviewFollowsRedirectAndReportsFinalURL(), TestLinkPreviewReadsOpenGraphTags(), TestLinkPreviewRejectsInvalidURLs() (+6 more)
+### Community 385 - ".setCloudOffering"
+Cohesion: 0.31
+Nodes (3): chi.Router, SettingsController, SettingsService
 
 ### Community 386 - "LANManager"
-Cohesion: 0.12
-Nodes (5): net/http.Server, lanConn, lanListener, LANManager, Server
+Cohesion: 0.11
+Nodes (7): RemoveIfOwned(), TestRemoveIfOwnedDoesNotDeleteSuccessorRunfile(), net/http.Server, lanConn, lanListener, LANManager, Server
 
 ### Community 387 - "systemexec/process_windows.go"
 Cohesion: 0.23
@@ -2376,9 +2336,9 @@ Nodes (11): commandContext(), configureProcessGroup(), killProcessTree(), mergeW
 Cohesion: 0.25
 Nodes (14): nonNilReviews(), toAOReviewRunResponse(), toPullRequestSummaryResponse(), aoPullRequestReviewStateResponse, aoReviewRunResponse, pullRequestCISummaryResponse, pullRequestConflictFileResponse, pullRequestFailingCheckResponse (+6 more)
 
-### Community 389 - "terminalStreams"
-Cohesion: 0.22
-Nodes (4): Server, terminalRelayOutput, terminalStreams, workerTerminalStream
+### Community 389 - "NewManagedTunnel"
+Cohesion: 0.29
+Nodes (9): NewManagedTunnel(), settleFor(), TestManagedTunnelRestartsWhenThePortChanges(), TestManagedTunnelStartIsIdempotent(), TestManagedTunnelStopBeforeStartIsHarmless(), TestManagedTunnelStopDoesNotWaitForASlowConnector(), TestManagedTunnelStopEndsTheConnectorAndClearsTheEndpoint(), TestManagedTunnelStopWithdrawsTheEndpointBeforeReturning() (+1 more)
 
 ### Community 390 - "dependencies"
 Cohesion: 0.13
@@ -2388,37 +2348,37 @@ Nodes (15): dependencies, fumadocs-core, fumadocs-mdx, @fumadocs/satteri, fumado
 Cohesion: 0.26
 Nodes (13): ActCandidate, ActMatchResult, ARIA_ROLES, ARTICLES, LEADING_VERBS, matchInstruction(), nameScore(), parseInstruction() (+5 more)
 
-### Community 392 - "containsSubsequence"
-Cohesion: 0.10
-Nodes (24): canonicalTempDir(), contains(), containsSubsequence(), sessionHookFlags(), TestAppendWorkspaceTrustFlagCoversLiteralAndResolvedPaths(), TestCodexTOMLBasicStringEscapes(), TestGetLaunchCommandAppendsConfiguredEffort(), TestGetLaunchCommandAppendsConfiguredModel() (+16 more)
+### Community 392 - "vibeLocalAuthStatus"
+Cohesion: 0.20
+Nodes (9): containsString(), Plugin, vibeAPIKeyEnvVars(), vibeEnvFileAuthStatus(), vibeLocalAuthStatus(), TestVibeAPIKeyEnvVarsReadsConfig(), TestVibeEnvFileAuthStatusAuthorized(), TestVibeEnvFileAuthStatusUnknownForEmptyValue() (+1 more)
 
 ### Community 393 - "aiderLocalAuthStatus"
 Cohesion: 0.20
 Nodes (13): aiderAuthStatusFromFile(), aiderConfigPaths(), aiderLocalAuthStatus(), fileContainsAPIKey(), Plugin, clearAiderAuthEnv(), TestAiderLocalAuthStatusAuthorizedWithConfigFile(), TestAiderLocalAuthStatusAuthorizedWithDocumentedAPIKeyList() (+5 more)
 
 ### Community 394 - "autohandHookEntry"
-Cohesion: 0.29
-Nodes (7): autohandHookEntry, autohandConfigPath(), autohandHookCommandExists(), Plugin, isAutohandManagedHook(), readAutohandHooks(), writeAutohandHooks()
+Cohesion: 0.20
+Nodes (12): autohandHookEntry, countCommand(), mustReadHooks(), TestGetAgentHooksCreatesConfigWhenAbsent(), TestGetAgentHooksInstallsAndPreservesConfig(), TestUninstallHooksRemovesOnlyAOHooks(), autohandConfigPath(), autohandHookCommandExists() (+4 more)
 
-### Community 395 - "runACPTurnSurvivesDaemonRestart"
-Cohesion: 0.26
-Nodes (12): runACPTurnSurvivesDaemonRestart(), TestClaudeACPTurnSurvivesDaemonSIGKILL(), TestClaudeACPTurnSurvivesGracefulDaemonRestart(), TestCursorACPTurnSurvivesDaemonSIGKILL(), TestCursorACPTurnSurvivesGracefulDaemonRestart(), TestOpenCodeACPTurnSurvivesDaemonSIGKILL(), TestOpenCodeACPTurnSurvivesGracefulDaemonRestart(), turnHasAnswer() (+4 more)
+### Community 395 - "termtheme.go"
+Cohesion: 0.33
+Nodes (8): Apply(), colorFgBg(), Read(), TestApplyDarkHint(), TestApplyPreservesExplicitOverrides(), TestApplySetsHintsFromFile(), TestReadRejectsMissingAndJunk(), Scheme
 
 ### Community 396 - "removeLegacyWorkspaceHooks"
-Cohesion: 0.20
-Nodes (11): codexHooksPath(), countCodexHooks(), Plugin, isCodexManagedHook(), readCodexHooks(), removeCodexManagedHooks(), removeLegacyWorkspaceHooks(), writeCodexHooks() (+3 more)
+Cohesion: 0.15
+Nodes (15): countCodexHookCommand(), legacyHooksJSON(), TestGetAgentHooksStripsLegacyAOEntries(), TestUninstallHooksRemovesLegacyCodexHooks(), codexHooksPath(), countCodexHooks(), Plugin, isCodexManagedHook() (+7 more)
 
 ### Community 397 - "fakeLAN"
 Cohesion: 0.13
 Nodes (5): TestMobileRestoreOnBootRollsBackHashWhenStartFails(), fakeLAN, portOverrideLAN, startErrorLAN, stopErrorLAN
 
-### Community 398 - "buildProgressiveTargetContinuationBody"
-Cohesion: 0.16
-Nodes (24): boundedConversationFact(), boundedString(), buildProgressiveTargetContinuationBody(), buildProgressiveTargetContinuationMessage(), buildTargetContinuationMessageBody(), buildTargetContinuationMessageWithLimit(), compactContinuationFact(), compactCoordinationReference() (+16 more)
+### Community 398 - "Amp, Pi, and Auggie Kanban Status Design"
+Cohesion: 0.20
+Nodes (9): Amp, Amp, Pi, and Auggie Kanban Status Design, Architecture, Auggie, Failure Handling, Goal, Pi, Scope (+1 more)
 
-### Community 399 - "mustDispatcher"
-Cohesion: 0.16
-Nodes (16): dispatcherPolicyFake, boolPointer(), dispatcherTestClaim(), mustDispatcher(), newDispatcherPolicyFake(), TestDispatcherBindsTransientThrottleToLaterRetryDeadlineAndTTL(), TestDispatcherCallsObserverOnlyAfterWinningFinalAttemptCAS(), TestDispatcherClaimUsesThirtySecondLeaseAndAttemptBeginsAfterGate() (+8 more)
+### Community 399 - "Invitation"
+Cohesion: 0.42
+Nodes (5): CreateInvitation, Invitation, pgx.Row, Store, scanInvitation()
 
 ### Community 400 - "Persistent ACP Chat hosts: findings and verification"
 Cohesion: 0.14
@@ -2436,29 +2396,25 @@ Nodes (14): result, byteIdentical, differentialError, expectedSha512, fallback, 
 Cohesion: 0.20
 Nodes (8): binaryPath, delay(), downloadText(), fetchWithRetry(), licenseVersionPath, OUTPUT_DIR, quiet, TARGETS
 
-### Community 404 - "composerSuggestions.ts"
-Cohesion: 0.15
-Nodes (20): ChatComposer(), makeStyles(), ComposerDeliveryIntent, composerDeliveryPresentation(), composerDeliveryRoute(), composerPrimaryAction(), ComposerPickerCatalog, ComposerSuggestion (+12 more)
+### Community 405 - "io.Reader"
+Cohesion: 0.08
+Nodes (29): contextReader, RunProvider(), readTail(), commandContext, commandContext, newClaudeLoginCommand(), TestClaudeLoginMenuListsEverySupportedMethod(), TestClaudeLoginRunsEverySupportedLoginMethod() (+21 more)
 
-### Community 405 - ".runCodexLogin"
-Cohesion: 0.15
-Nodes (16): commandContext, TestClaudeLoginMenuListsEverySupportedMethod(), writeClaudeLoginMenu(), commandContext, commandContext, newCodexLoginCommand(), newCodexLoginStyle(), readCodexLoginSelection() (+8 more)
-
-### Community 406 - "session_switch.go"
-Cohesion: 0.16
-Nodes (19): agentSwitchTerminal(), commandContext, commandContext, newSessionAgentSwitchCommand(), newSessionAgentSwitchListCommand(), newSessionHandoffCommand(), newSessionHandoffSubmitCommand(), switchAgentWaitError() (+11 more)
+### Community 406 - "Save"
+Cohesion: 0.43
+Nodes (8): restoreMobileOnBoot(), TestRestoreAppliesServeToStartReturnedPort(), TestRestoreDisabledDoesNotStart(), TestRestoreEnabledStartsListener(), TestBridgeStatusConcurrentSecurePairing(), Path(), Save(), TestSaveLoadRoundTrip()
 
 ### Community 407 - "resolveWindowsShell"
-Cohesion: 0.23
-Nodes (13): gitBashCandidates(), resolveAutomaticWindowsShell(), resolveGitBash(), resolveKnownWindowsShell(), resolveUserLoginShell(), resolveWindowsShell(), TestResolveWindowsShellCmdHonorsComSpecWhenCmdIsNotOnPath(), TestResolveWindowsShellFallsBackWhenSelectionIsUnavailable() (+5 more)
+Cohesion: 0.26
+Nodes (12): gitBashCandidates(), resolveAutomaticWindowsShell(), resolveGitBash(), resolveKnownWindowsShell(), resolveWindowsShell(), TestResolveWindowsShellCmdHonorsComSpecWhenCmdIsNotOnPath(), TestResolveWindowsShellFallsBackWhenSelectionIsUnavailable(), TestResolveWindowsShellFindsGitBashFromGitInstall() (+4 more)
 
 ### Community 408 - "PostHogSink"
-Cohesion: 0.19
-Nodes (6): remoteEventName(), versionChannel(), TestVersionChannel(), DenylistSink, postHogClient, PostHogSink
+Cohesion: 0.24
+Nodes (6): remoteEventName(), versionChannel(), TestVersionChannel(), sync.WaitGroup, postHogClient, PostHogSink
 
-### Community 409 - "resolveTarget"
-Cohesion: 0.20
-Nodes (22): applyAllAdjustments(), baselineValue(), clearOpenDraft(), cssEscape(), discardAll(), discardSelected(), emitState(), emptyAdjustmentLocks() (+14 more)
+### Community 409 - "AgentAvailability"
+Cohesion: 0.29
+Nodes (8): HasAgentCapability(), TestHasAgentCapability(), AgentAuthenticationState, AgentAvailability, AgentCapability, AgentInstallationState, AgentOrganizationPolicy, AgentProfile
 
 ### Community 410 - "Turn"
 Cohesion: 0.12
@@ -2469,8 +2425,8 @@ Cohesion: 0.15
 Nodes (12): 1. Approval is not a draft, 2. Output requires a commit-and-replay barrier, Claude Agent ACP, Codex app-server and Codex ACP, Concrete application to PR #3953, Design boundary, First-party connector evidence, Interface handoff: patterns from Superset, ACP, Claude, and Codex (+4 more)
 
 ### Community 412 - "Cloud Workspace Review Parity Design"
-Cohesion: 0.15
-Nodes (12): 1. Cloud-only review contract, 2. Worker-owned Git and filesystem behavior, 3. Stable comparison base, 4. Workspace consistency, Architecture, Cloud Workspace Review Parity Design, Delivery sequencing, Error handling (+4 more)
+Cohesion: 0.14
+Nodes (13): 1. Cloud-only review contract, 2. Worker-owned Git and filesystem behavior, 3. Stable comparison base, 4. Workspace consistency, 5. Cloud-only frontend, Architecture, Cloud Workspace Review Parity Design, Delivery sequencing (+5 more)
 
 ### Community 413 - "evidence.json"
 Cohesion: 0.15
@@ -2484,21 +2440,21 @@ Nodes (8): dynamic, GET, search, Page(), source, ref_collections_server, fumadoc
 Cohesion: 0.22
 Nodes (10): ImageAttachment, ImageAttachmentPayload, isImageType(), MAX_ATTACHMENT_BYTES, MAX_ATTACHMENTS, MAX_ATTACHMENTS_BYTES, mb(), readImageFile() (+2 more)
 
-### Community 416 - "syntaxHighlight.ts"
-Cohesion: 0.27
-Nodes (7): diffTokens(), highlightCode(), KEYWORDS, LANGUAGE_ALIASES, SUPPORTED, SyntaxToken, SyntaxTokenKind
+### Community 416 - "HighlightedCodeText.tsx"
+Cohesion: 0.24
+Nodes (9): HighlightedCodeText, tokenColor(), diffTokens(), highlightCode(), KEYWORDS, LANGUAGE_ALIASES, SUPPORTED, SyntaxToken (+1 more)
 
 ### Community 417 - "devDependencies"
 Cohesion: 0.15
 Nodes (13): devDependencies, jsdom, motion, react, react-dom, @testing-library/jest-dom, @testing-library/react, @types/node (+5 more)
 
-### Community 418 - "Plugin"
-Cohesion: 0.13
-Nodes (6): appendReasoningEffortFlag(), appendTerminalCompatibilityFlags(), canonicalCodexThreadID(), codexRolloutNameMatches(), Plugin, appendSessionHookFlags()
+### Community 418 - "useSidebarUpdateDismissal.ts"
+Cohesion: 0.46
+Nodes (6): DismissedSidebarUpdate, readDismissal(), removeDismissal(), SIDEBAR_UPDATE_DISMISSAL_MS, SIDEBAR_UPDATE_DISMISSAL_STORAGE_KEY, useSidebarUpdateDismissal()
 
 ### Community 419 - "Process"
-Cohesion: 0.24
-Nodes (7): Process, ProcessConfig, ProcessResult, StartProcess(), TestProcessContextCancellationStopsGroup(), TestProcessWaitReturnsExitResult(), TestProcessWaitTimeoutDoesNotStopProcess()
+Cohesion: 0.09
+Nodes (20): Process, ProcessConfig, ProcessResult, StartProcess(), TestProcessContextCancellationStopsGroup(), TestProcessWaitReturnsExitResult(), TestProcessWaitTimeoutDoesNotStopProcess(), killProcessGroup() (+12 more)
 
 ### Community 420 - "ampLocalAuthStatus"
 Cohesion: 0.18
@@ -2513,20 +2469,20 @@ Cohesion: 0.17
 Nodes (12): BrowserUseRequirements, ComputerUseRequirements, ConfigRequirements, ConfigRequirementsReadResponse, FeedbackRequirements, ModelsRequirements, NewThreadModelDefaults, ResidencyRequirement (+4 more)
 
 ### Community 423 - "LocalSQLiteSink"
-Cohesion: 0.29
-Nodes (4): NewLocalSQLiteSink(), sync.WaitGroup, LocalSQLiteSink, localStore
+Cohesion: 0.33
+Nodes (3): NewLocalSQLiteSink(), LocalSQLiteSink, localStore
 
 ### Community 424 - "NewPoller"
-Cohesion: 0.17
-Nodes (31): FileURL(), normalizedBaseURL(), previewHost(), SessionIDFromHost(), mustFileURL(), TestFileURLPreservesLeadingAndTrailingSpacesInEntryPath(), TestFileURLPreservesSpecialCharactersInEntryPath(), TestFileURLRejectsHostnameOverDNSLimit() (+23 more)
+Cohesion: 0.21
+Nodes (27): SessionIDFromHost(), mustFileURL(), TestFileURLPreservesLeadingAndTrailingSpacesInEntryPath(), TestFileURLPreservesSpecialCharactersInEntryPath(), TestFileURLUsesIsolatedLocalhostOrigin(), TestSessionIDFromHostRejectsHostnameOverDNSLimit(), TestSessionIDFromHostRejectsOrdinaryHosts(), TestSessionIDFromHostSupportsLongUnicodeIDs() (+19 more)
 
-### Community 425 - "gateway_test.go"
-Cohesion: 0.11
-Nodes (25): Reviewer, readActiveManifest(), testInvocation(), TestReviewCommandIsInteractiveAndIsolated(), TestReviewCommandPreflightShapeNeedsNoPromptRoot(), testReviewer(), TestReviewMessageAndEscapeCancel(), TestReviewPreflightRequiresIsolationFlags() (+17 more)
+### Community 425 - "PrepareEnvironment"
+Cohesion: 0.17
+Nodes (13): activateManifest(), ensurePrivateDir(), Environment, Manifest, PrepareEnvironment(), PrepareHostTrustedEnvironment(), testManifest(), TestPrepareEnvironmentRejectsTraversalAndInvalidAuthorization() (+5 more)
 
 ### Community 426 - "PullRequestSummary"
-Cohesion: 0.18
-Nodes (12): CIState, ReviewDecision, PRCheckStatus, PullRequestCISummary, PullRequestConflictFile, PullRequestFailingCheck, PullRequestMergeabilitySummary, PullRequestReviewCommentLink (+4 more)
+Cohesion: 0.22
+Nodes (10): CIState, ReviewDecision, PRCheckStatus, PullRequestCISummary, PullRequestFailingCheck, PullRequestReviewCommentLink, PullRequestReviewSummary, PullRequestSubmittedReview (+2 more)
 
 ### Community 427 - "cloud-staging.sh"
 Cohesion: 0.17
@@ -2564,9 +2520,9 @@ Nodes (11): Add the repository, Create a worker, Follow the session, Give feedba
 Cohesion: 0.26
 Nodes (7): Layout(), frontend_src_docs_src_app_global, metadata, COMPANY, baseOptions(), fumadocs-ui, geist
 
-### Community 436 - "cli/browser_test.go"
-Cohesion: 0.26
-Nodes (19): browserCLIServer(), setBrowserIdentity(), TestBrowserActForwardsExplicitEmptyValue(), TestBrowserClickAndWaitArguments(), TestBrowserCoreInteractionArguments(), TestBrowserDevToolsCommands(), TestBrowserExpandedWaitArguments(), TestBrowserHumanPointerAndAnnotateFlags() (+11 more)
+### Community 436 - "contains"
+Cohesion: 0.29
+Nodes (7): bashSegmentCovered(), compoundCommandCovered(), contains(), splitPipedCommand(), TestAllowlistCoversPromptRequiredPipedCommands(), TestReviewCommandLaunchesReadOnlyOffBypass(), TestReviewRestoreCommandUsesNativeSessionIDAndReadOnlyPolicy()
 
 ### Community 437 - "piAuthJSONStatus"
 Cohesion: 0.27
@@ -2576,17 +2532,13 @@ Nodes (11): piAuthEntryIsOAuth(), piAuthJSONStatus(), piAuthKeyIsResolved(), Tes
 Cohesion: 0.29
 Nodes (8): parseCursorVersion(), requireMinimumCursorVersion(), TestCursorVersionFloor(), TestParseCursorVersion(), TestParseCursorVersionRejectsUnknownOutput(), TestVersionProbeUsesStandardInstallerSymlinkWithoutLaunchingCLI(), versionProbe(), cursorVersion
 
-### Community 439 - "previewserver/process_unix_test.go"
-Cohesion: 0.56
-Nodes (8): sleeperRunning(), startSleeper(), TestReapPersistedProcessesKillsVerifiedProcess(), TestReapPersistedProcessesRefusesMismatchedIdentity(), TestReapPersistedProcessesSkipsLegacyEntriesWithoutStartTime(), TestSignalPreviewGroupKillsVerifiedGroup(), TestSignalPreviewGroupRefusesMismatchedStartTime(), waitUntil()
+### Community 439 - "InstallScriptCommand"
+Cohesion: 0.38
+Nodes (4): Adapter, InstallScriptCommand, InstallScriptResult, InstallScriptRunner
 
-### Community 440 - "cli_test.go"
-Cohesion: 0.16
-Nodes (15): shouldEmitCLIInvocation(), TestShouldEmitCLIInvocationSkipsNonUsageAndRoutineInternalCommands(), TestTelemetryMetaClassifiesRegisteredCommandPaths(), cliInvokedReservationKey(), telemetryUTCDate(), CLIActorType(), IsRoutineInternalCLICommand(), NormalizeCommandPath() (+7 more)
-
-### Community 441 - "RetentionJanitor"
-Cohesion: 0.27
-Nodes (6): NewRetentionJanitor(), TestRetentionJanitorRunOncePrunesAgeAndSizeUntilStable(), TestRetentionJanitorRunOnceReturnsStoreError(), RetentionConfig, RetentionJanitor, RetentionStore
+### Community 441 - "McpServerStatus"
+Cohesion: 0.29
+Nodes (7): ListMcpServerStatusResponse, McpAuthStatus, McpServerInfo, McpServerStatus, Resource, ResourceTemplate, Tool
 
 ### Community 442 - "writeLegacyRoot"
 Cohesion: 0.27
@@ -2640,29 +2592,25 @@ Nodes (9): API contract changes, Coding conventions, Commands, Desktop lab (runn
 Cohesion: 0.22
 Nodes (8): Spec, Default(), New(), TestDefaultLoadsEmbeddedSpec(), TestOperation_InheritsPathParameters(), TestOperation_MissingMethod(), TestOperation_MissingPath(), TestRouteSpecParity()
 
-### Community 455 - "droidFactoryAuthStatus"
-Cohesion: 0.20
-Nodes (9): droidConfiguredSecret(), droidFactoryAuthStatus(), droidLocalAuthStatus(), droidSettingsAuthStatus(), Plugin, TestDroidFactoryAuthStatusAuthorizedFromCustomModelAPIKey(), TestDroidFactoryAuthStatusDoesNotTreatUnresolvedEnvPlaceholderAsKey(), TestDroidFactoryAuthStatusIgnoresUndocumentedAuthFiles() (+1 more)
-
-### Community 456 - "sortedVersionedBinMatches"
-Cohesion: 0.28
-Nodes (9): compareNodeVersions(), normalizeNodeVersion(), parseNodeVersion(), preferVersion(), readVersionAlias(), sortedVersionedBinMatches(), unixNVMNodeBinCandidates(), versionDirName() (+1 more)
+### Community 456 - "WorkerGitHubPAT"
+Cohesion: 0.40
+Nodes (4): WorkerGitHubPAT, Store, patServerStore, workerGitHubPATStore
 
 ### Community 457 - "UserInput"
 Cohesion: 0.20
 Nodes (10): UserInput, ByteRange, ContentItem, ContentItemType, FunctionCallOutputContentItem, FunctionCallOutputContentItemType, ImageDetail, TextElement (+2 more)
 
-### Community 458 - "newReaper"
-Cohesion: 0.18
-Nodes (18): New(), handledSession(), newReaper(), probableSession(), quietLogger(), TestTick_MassDeathPassIsReportedAsInconclusive(), TestTick_MinorityDeadPassesThroughBreaker(), TestTick_ReportsAliveProbe() (+10 more)
+### Community 458 - "scripts"
+Cohesion: 0.33
+Nodes (6): scripts, build, smoke, start, test, typecheck
 
-### Community 459 - ".Start"
-Cohesion: 0.15
-Nodes (16): interpolatePort(), isLoopbackHost(), loadConfiguration(), previewEnvironment(), readyTimeout(), reservePort(), resolveTargetURL(), resolveWorkingDirectory() (+8 more)
+### Community 459 - "copyWorkspaceAssets"
+Cohesion: 0.60
+Nodes (5): assetPathWithin(), copyWorkspaceAssets(), copyWorkspaceAssetTree(), hasWorkspaceManagedComponent(), relativeOrEmpty()
 
-### Community 460 - "Service"
-Cohesion: 0.16
-Nodes (7): Snapshot, New(), settingsStore, ChatCapability, Service, Snapshot, Store
+### Community 460 - "decodeSpawnAttachments"
+Cohesion: 0.60
+Nodes (5): decodeAttachment(), decodeAttachments(), decodeSpawnAttachments(), extensionForMimeType(), attachmentError
 
 ### Community 461 - "Consequences"
 Cohesion: 0.20
@@ -2693,12 +2641,12 @@ Cohesion: 0.31
 Nodes (6): Spec, ReadAndRemove(), WriteTemp(), envKeyEqual(), commandContext, withoutLaunchSpecEnv()
 
 ### Community 468 - "github.com/aoagents/agent-orchestrator/backend/internal/ports.PermissionMode"
-Cohesion: 0.03
-Nodes (100): SessionOption, appendApprovalFlags(), normalizePermissionMode(), EvaluatePermission(), permissionRequired(), TestEvaluatePermission(), droidAutonomyLevel(), PrepareRuntimeSettingsArgs() (+92 more)
+Cohesion: 0.04
+Nodes (75): Config, PermissionPolicy, SessionOption, TurnSettingsValidator, appendApprovalFlags(), normalizePermissionMode(), EvaluatePermission(), permissionRequired() (+67 more)
 
-### Community 469 - "versionProbe"
-Cohesion: 0.28
-Nodes (6): parseSemver(), TestParseSemver(), TestParseSemverFailsOnGarbage(), TestSemverLess(), versionProbe(), semver
+### Community 469 - "stubbornAliveRuntime"
+Cohesion: 0.40
+Nodes (3): fakeRuntime, deadlineAwareRuntime, stubbornAliveRuntime
 
 ### Community 470 - "validateVersionOutput"
 Cohesion: 0.28
@@ -2713,12 +2661,8 @@ Cohesion: 0.31
 Nodes (5): tenureBucketFor(), TestTenureBucketBoundaries(), TenureBucket, tenureState, tenureTracker
 
 ### Community 473 - "queryTailscale"
-Cohesion: 0.22
-Nodes (10): execTailscale(), TailscaleInfo, QueryTailscale(), queryTailscale(), fixedRunner(), TestQueryTailscaleCertsDisabled(), TestQueryTailscaleFailuresYieldZero(), TestQueryTailscaleParsesNameAndCerts() (+2 more)
-
-### Community 474 - "codex_secure_fs_unix.go"
-Cohesion: 0.12
-Nodes (18): cachedGooseBinaryStillValid(), Plugin, managedHomePrivate(), TestPrivateDirectoryValidationChecksBeyondFirstRootOwnedAncestor(), TestPrivateFileReadRejectsUnsafeModeHardLinkAndOwner(), codexFileOwnerID(), codexPrivateFileMode(), currentCodexUID() (+10 more)
+Cohesion: 0.36
+Nodes (8): TailscaleInfo, QueryTailscale(), queryTailscale(), fixedRunner(), TestQueryTailscaleCertsDisabled(), TestQueryTailscaleFailuresYieldZero(), TestQueryTailscaleParsesNameAndCerts(), TailscaleRunner
 
 ### Community 475 - "ao preview"
 Cohesion: 0.22
@@ -2728,9 +2672,9 @@ Nodes (9): ao preview, ao preview (bare form), ao preview clear, ao preview star
 Cohesion: 0.22
 Nodes (8): ao project, ao project add, ao project get, ao project ls, ao project rm, ao project set-config, Subcommands, Syntax
 
-### Community 477 - "ensureOverlay"
-Cohesion: 0.18
-Nodes (20): annotationTarget(), captureScreenshot(), cleanupOverlay(), closeComposer(), copyRect(), ensureOverlay(), handleClick(), handleKeyDown() (+12 more)
+### Community 477 - "Desktop and daemon"
+Cohesion: 0.40
+Nodes (5): `ao doctor`, `ao start`, `ao status`, `ao stop`, Desktop and daemon
 
 ### Community 478 - "Coder flow on Azure"
 Cohesion: 0.22
@@ -2784,25 +2728,25 @@ Nodes (19): compilerOptions, declaration, declarationMap, lib, module, moduleRes
 Cohesion: 0.25
 Nodes (7): auggieLocalAuthStatus(), auggieSessionAuthStatus(), auggieSessionHasToken(), Plugin, stringSetting(), TestAuggieLocalAuthStatusAuthorizedWithSessionEnv(), TestAuggieSessionAuthStatusAuthorizedWithStoredSession()
 
-### Community 491 - "TestChatSteerKeepsTheTurnAndItsWork"
-Cohesion: 0.43
-Nodes (7): runningTurn(), steerDetailOf(), steerMarkers(), TestChatSteerKeepsTheTurnAndItsWork(), TestChatSteerWithNoTurnInFlightIsRefusedAndChangesNothing(), steerAccepted, steerDetail
+### Community 491 - "devDependencies"
+Cohesion: 0.40
+Nodes (5): devDependencies, esbuild, @types/node, typescript, vitest
 
-### Community 492 - "New"
-Cohesion: 0.04
-Nodes (73): Kind, claudeConfigAuthStatus(), claudeLocalAuthStatus(), InvalidateAuthCache(), ProviderModels(), clearClaudeCredentialEnv(), TestAuthStatusDoesNotTrustUnvalidatedAPIKey(), TestAuthStatusPrefersCLIOverStaleUserID() (+65 more)
+### Community 492 - "clearClaudeCredentialEnv"
+Cohesion: 0.12
+Nodes (34): claudeConfigAuthStatus(), claudeLocalAuthStatus(), InvalidateAuthCache(), ProviderModels(), clearClaudeCredentialEnv(), TestAuthStatusDoesNotTrustUnvalidatedAPIKey(), TestAuthStatusPrefersCLIOverStaleUserID(), TestClaudeAuthReportIgnoresStderrJSON() (+26 more)
 
-### Community 493 - "CachedAgentModelCatalog"
-Cohesion: 0.16
-Nodes (8): Deps, fakeModelCache, SessionUsageLookup, AgentModelCatalogCache, CachedAgentModelCatalog, cachedAgentModelCatalog(), Store, AgentModelCatalogScopeCache
+### Community 493 - "sync.RWMutex"
+Cohesion: 0.09
+Nodes (14): fakeModelCache, newModeAwareMessenger(), AgentModelCatalogCache, CachedAgentModelCatalog, Tracker, fakeStore, AgentModelCatalog, cachedAgentModelCatalog() (+6 more)
 
-### Community 494 - "sanitizeRemoteValue"
-Cohesion: 0.25
+### Community 494 - "sanitize_command_test.go"
+Cohesion: 0.28
 Nodes (8): isAllowedCommandValue(), sanitizeRemotePayload(), sanitizeRemoteValue(), sha256String(), TestSanitizeRemotePayloadDropsUnlistedReviewKeys(), TestSanitizeRemoteValueDoesNotApplyCommandValidationToOtherKeys(), TestSanitizeRemoteValueHashesInvalidCommandValues(), TestSanitizeRemoteValuePreservesValidCommands()
 
-### Community 495 - "agentruntime/process_windows.go"
-Cohesion: 0.27
-Nodes (9): killProcessGroup(), signalProcessGroup(), terminationSignal(), configureProcessGroup(), killProcessGroup(), signalProcessGroup(), terminationSignal(), os.Process (+1 more)
+### Community 495 - "@aoagents/ao-mcp"
+Cohesion: 0.40
+Nodes (4): @aoagents/ao-mcp, Development, Production setup, Wake (optional)
 
 ### Community 496 - "backend/internal/skillassets/using-ao/SKILL.md"
 Cohesion: 0.29
@@ -2816,17 +2760,9 @@ Nodes (18): New(), configureGit(), gitOutput(), localRepo(), remoteRepo(), run()
 Cohesion: 0.54
 Nodes (3): validate_service(), healthy_service(), ServiceValidationTests
 
-### Community 499 - "ConfigLayerSource"
-Cohesion: 0.29
-Nodes (8): ConfigLayer, ConfigLayerMetadata, ConfigLayerSource, ConfigLayerSourceType, ConfigReadResponse, ConfigWriteResponse, OverriddenMetadata, WriteStatus
-
 ### Community 500 - "Cloud development"
 Cohesion: 0.25
 Nodes (8): Cloud development, Environment modes, Foundation implemented in public AO, Private implementation status, Private implementation still required, Recommended implementation order, TL;DR, Using the private checkout
-
-### Community 501 - "Cloud-shared refactor"
-Cohesion: 0.25
-Nodes (8): Behavior that must not regress, Cloud-shared refactor, Explicitly deferred/private, File map, Import rules, Public boundaries, Shared readiness, Verification
 
 ### Community 502 - "Constraints"
 Cohesion: 0.25
@@ -2869,24 +2805,24 @@ Cohesion: 0.25
 Nodes (8): devDependencies, tailwindcss, @tailwindcss/postcss, @types/mdx, @types/node, @types/react, @types/react-dom, typescript
 
 ### Community 512 - "diff-selection.ts"
-Cohesion: 0.16
-Nodes (15): DiffSelectionMenu(), DiffSelectionMenuProps, postMock, SAMPLE_LINES, writeTextMock, compactText(), deriveLineRange(), DiffSelectionLine (+7 more)
+Cohesion: 0.17
+Nodes (14): DiffSelectionMenuProps, postMock, SAMPLE_LINES, writeTextMock, compactText(), deriveLineRange(), DiffSelectionLine, DiffSelectionLineKind (+6 more)
 
 ### Community 513 - "renderer/lib/hosts.ts"
 Cohesion: 0.43
 Nodes (6): HostId, isLocal(), LOCAL_HOST, parseRefKey(), Ref, refKey()
 
-### Community 514 - "writeJSON"
-Cohesion: 0.14
-Nodes (15): writeJSON(), commandContext, formatUptime(), commandContext, commandContext, newStatusCommand(), verifyProbeOwner(), writeStatus() (+7 more)
+### Community 514 - ".inspectDaemon"
+Cohesion: 0.19
+Nodes (11): formatUptime(), commandContext, commandContext, newStatusCommand(), verifyProbeOwner(), writeStatus(), commandContext, newStopCommand() (+3 more)
 
 ### Community 515 - "enrich"
 Cohesion: 0.43
 Nodes (8): bodyForIntent(), enrich(), Intent, prLabel(), sessionLabel(), TestEnrichReadyToMergeFallsBackWithoutPRTitle(), TestEnrichReadyToMergePrioritizesPRContext(), titleForIntent()
 
 ### Community 516 - ".openCanonicalSession"
-Cohesion: 0.27
-Nodes (11): Store, openChildDir(), openRegularFile(), validateName(), validateSessionID(), validNamePart(), writeReaderAtomicRoot(), writeReaderAtomicUnder() (+3 more)
+Cohesion: 0.23
+Nodes (13): Store, NameFromWorkspacePath(), openChildDir(), openRegularFile(), TestNameFromWorkspacePathRejectsTraversal(), validateName(), validateSessionID(), validNamePart() (+5 more)
 
 ### Community 517 - "ao-darwin-arm64/package.json"
 Cohesion: 0.25
@@ -2913,20 +2849,16 @@ Cohesion: 0.25
 Nodes (4): fakeAgent, emptyComposerReadyAgent, terminalReadyAgent, waitingInputComposerReadyAgent
 
 ### Community 523 - "New"
-Cohesion: 0.18
-Nodes (16): New(), ghIssue(), glIssue(), TestErrUnknownProvider_MessageIsDescriptive(), TestGet_PropagatesSubTrackerError(), TestGet_RoutesByProvider(), TestGet_UnknownProviderReturnsError(), TestList_PropagatesSubTrackerError() (+8 more)
+Cohesion: 0.19
+Nodes (15): New(), ghIssue(), glIssue(), TestErrUnknownProvider_MessageIsDescriptive(), TestGet_PropagatesSubTrackerError(), TestGet_RoutesByProvider(), TestGet_UnknownProviderReturnsError(), TestList_PropagatesSubTrackerError() (+7 more)
 
 ### Community 524 - "ContextMeter.tsx"
-Cohesion: 0.17
-Nodes (14): ContextMeter(), ContextReadout(), contextSeverity(), FILL, formatCost(), formatResetIn(), formatTokens(), quotaSeverity() (+6 more)
+Cohesion: 0.12
+Nodes (20): ao browser, Commands, Core workflow, ContextMeter(), ContextReadout(), contextSeverity(), FILL, formatCost() (+12 more)
 
 ### Community 525 - "crushLocalAuthStatus"
 Cohesion: 0.29
 Nodes (6): crushGoogleCredentialConfigured(), crushLocalAuthStatus(), crushNonEmptyRegularFile(), Plugin, TestCrushLocalAuthStatusAuthorizedWithDocumentedEnv(), TestCrushLocalAuthStatusDoesNotUseProviderCatalog()
-
-### Community 526 - "spawn"
-Cohesion: 0.33
-Nodes (6): TestChatModeSpawnPrecedenceAndDefaultIsolation(), TestChatSpawnForUnsupportedAgentLeavesNothingBehind(), TestChatSpawnPromptProducesAnAnsweredTurn(), TestChatSteerIsRefusedForATerminalSession(), spawn(), spawned
 
 ### Community 527 - "TrackerIntakeConfig"
 Cohesion: 0.29
@@ -2979,10 +2911,6 @@ Nodes (6): Bug triage, Check for duplicates, Clarify the observation, Gather rel
 ### Community 540 - "configuredClineProvider"
 Cohesion: 0.40
 Nodes (6): configuredClineProvider(), providerAuthorized(), clineProvider, clineProviderAuth, clineProviderSettings, clineProvidersFile
-
-### Community 541 - "windowsCommandLineUTF16Len"
-Cohesion: 0.47
-Nodes (6): appendWindowsEscapedArg(), TestValidateWindowsCommandLineQuoteBoundary(), TestWindowsCommandLineUTF16LenEscapesQuotesAndBackslashes(), validateWindowsCommandLine(), windowsCommandLine(), windowsCommandLineUTF16Len()
 
 ### Community 542 - "planFrom"
 Cohesion: 0.33
@@ -3060,17 +2988,17 @@ Nodes (5): compilerOptions, strict, types, extends, expo/tsconfig.base
 Cohesion: 0.29
 Nodes (6): Plugin, gooseAuthStatusFromConfig(), gooseConfigHasCredential(), gooseConfigPaths(), gooseLocalAuthStatus(), TestGooseLocalAuthStatusReadsSecretsFile()
 
-### Community 561 - "report-problem.ts"
-Cohesion: 0.24
-Nodes (16): collectReportProblemDiagnostics(), currentRoutePath(), formatDiagnostics(), formatEmailBody(), formatReportProblemDraft(), normalizeInput(), reportProblemDestinationUrl(), ReportProblemDiagnostics (+8 more)
+### Community 561 - "TestAliveReportsZombieAsDead"
+Cohesion: 0.50
+Nodes (3): Alive(), isZombie(), TestAliveReportsZombieAsDead()
 
-### Community 562 - "agentruntime/command_test.go"
-Cohesion: 0.18
-Nodes (14): SessionMode, BuildRestoreCommand(), ClaudeSessionID(), PermissionPolicyForMode(), RestoreIdentity(), TestBuildLaunchCommands(), TestBuildRestoreCommandAppliesModel(), TestBuildRestoreCommands() (+6 more)
+### Community 562 - "BuildLaunchCommand"
+Cohesion: 0.25
+Nodes (5): BuildLaunchCommand(), TestBuildLaunchCommands(), TestClaudeEffortFlag(), TestClaudeNativeSessionIDValidation(), writeTestFile()
 
-### Community 563 - "formatIssueContext"
-Cohesion: 0.67
-Nodes (3): formatIssueContext(), truncateIssueBody(), writeIssueLine()
+### Community 563 - "gatedServer"
+Cohesion: 0.50
+Nodes (4): gatedServer(), Server, TestOrgAllowsProvider(), TestProvidersForOrg()
 
 ### Community 564 - "museLocalAuthStatus"
 Cohesion: 0.18
@@ -3140,10 +3068,6 @@ Nodes (4): Choose Chat or Terminal UI, Configure roles, Project rules, Start an 
 Cohesion: 0.40
 Nodes (5): scripts, build, prepack, test, typecheck
 
-### Community 582 - "AgentInstallJobRecord"
-Cohesion: 0.18
-Nodes (5): AgentInstallJobRecord, AgentInstallJobStore, Store, mapAgentInstallJob(), installJobStoreFake
-
 ### Community 583 - "install-check.sh"
 Cohesion: 0.50
 Nodes (4): AO_DATA_DIR, AO_RUN_FILE, fail(), install-check.sh script
@@ -3152,21 +3076,17 @@ Nodes (4): AO_DATA_DIR, AO_RUN_FILE, fail(), install-check.sh script
 Cohesion: 0.60
 Nodes (4): AO_APP_BIN, fail_app(), fail_infra(), boot-real.sh script
 
-### Community 586 - "Queries"
-Cohesion: 0.17
-Nodes (5): Queries, AcknowledgeSessionInterfaceTransitionNoticeParams, EnqueueSessionInterfaceTransitionMessageParams, MarkSessionInterfaceTransitionMessageDeliveredParams, SessionInterfaceTransition
-
-### Community 587 - "TestChatCompactionIsRefusedWhileATurnIsInFlight"
-Cohesion: 0.60
-Nodes (4): compactionMarkers(), TestChatCompactionIsRefusedWhileATurnIsInFlight(), compactAccepted, compactionDetail
+### Community 586 - "./client"
+Cohesion: 0.50
+Nodes (4): import, types, exports, ./client
 
 ### Community 588 - "parsePolicy"
 Cohesion: 0.67
 Nodes (3): parsePolicy(), TestReviewCommandUsesRestrictedPersistentPolicy(), parsedPolicy
 
-### Community 589 - "ReviewerChatStart"
-Cohesion: 0.16
-Nodes (4): github.com/aoagents/agent-orchestrator/backend/internal/session_manager.ChatStart, github.com/aoagents/agent-orchestrator/backend/internal/session_manager.ChatStarted, ReviewerChatStart, sqliteReviewChatController
+### Community 589 - "newCodexSwitchResponse"
+Cohesion: 1.00
+Nodes (3): newCodexSwitchResponse(), CodexAccountSwitchPhase, CodexAccountSwitchResponse
 
 ### Community 590 - "resolveDataDir"
 Cohesion: 0.67
@@ -3188,10 +3108,6 @@ Nodes (4): ClientRequest, ClientRequestType, ServerRequestResolvedNotification, 
 Cohesion: 0.14
 Nodes (9): Bounds, clickPage(), electronMocks, elementPrototypeSpies, fontMocks, MockFontFace, motionMocks, openAdjust() (+1 more)
 
-### Community 596 - "Plugin"
-Cohesion: 0.14
-Nodes (7): Plugin, ResolveClaudeBinary(), resolveNativeWindowsClaude(), TestResolveClaudeBinaryFindsLocalAppDataNPMShimOnWindows(), TestResolveNativeWindowsClaudeFindsNPMExecutable(), TestWindowsNativeClaudeCandidatesForNPMShim(), windowsNativeClaudeCandidatesForShim()
-
 ### Community 597 - "TerminalActivityDetector"
 Cohesion: 0.33
 Nodes (3): ContinuousTerminalActivityDetector, TerminalActivityDetector, WaitingTerminalActivityDetector
@@ -3201,12 +3117,12 @@ Cohesion: 0.50
 Nodes (3): Daemon surfaces, Domain Glossary, Mobile connectivity
 
 ### Community 599 - ".GetAgentHooks"
-Cohesion: 0.23
-Nodes (12): Plugin, groupKiroHooksByEvent(), isKiroManagedHook(), kiroHookCommandExists(), kiroManagedEvents(), marshalKiroHookEvent(), parseKiroHookEvent(), readKiroHooks() (+4 more)
+Cohesion: 0.20
+Nodes (14): Plugin, groupKiroHooksByEvent(), isKiroManagedHook(), kiroHookCommandExists(), kiroManagedEvents(), marshalKiroHookEvent(), parseKiroHookEvent(), readKiroHooks() (+6 more)
 
-### Community 600 - "cli/agent.go"
-Cohesion: 0.24
-Nodes (14): agentInfoByID(), commandContext, newAgentCommand(), newAgentListCommand(), readinessInventory(), TestReadinessInventoryProjectsAuthNotApplicableAsLegacyAuthorized(), writeAgentList(), agentInfo (+6 more)
+### Community 600 - "DynamicToolSpec"
+Cohesion: 0.67
+Nodes (3): DynamicToolSpec, DynamicToolSpecType, DynamicToolNamespaceTool
 
 ### Community 602 - "Pi"
 Cohesion: 0.50
@@ -3260,17 +3176,13 @@ Nodes (4): repository, directory, type, url
 Cohesion: 0.67
 Nodes (3): nonNullableSlices(), validNullableReferenceUnions(), github.com/swaggest/jsonschema-go.InterceptNullabilityParams
 
-### Community 617 - "net/url.URL"
-Cohesion: 0.26
-Nodes (14): hasSensitiveImportRemoteQuery(), invalidImportRemoteURL(), TestValidImportRemoteURLPreservesSupportedCredentialFreeForms(), validateImportRemoteURL(), validateURL(), browserFetchShim(), browserProxyBaseURL(), browserProxyPrefix() (+6 more)
+### Community 617 - "dependencies"
+Cohesion: 0.67
+Nodes (3): dependencies, @modelcontextprotocol/sdk, zod
 
-### Community 618 - "LaunchConfig"
+### Community 618 - "Driver"
 Cohesion: 0.05
-Nodes (59): Config, Launch, LaunchConfig, TestIsACPAuthRequiredIgnoresUnrelatedFailures(), TestIsACPAuthRequiredRecognizesProtocolAuthCodes(), TestIsACPAuthRequiredUnwrapsWrappedErrors(), TestNormalizeACPErrorMarksAuthRejectionsForReauth(), conversationCapabilities() (+51 more)
-
-### Community 627 - "ChangeLog"
-Cohesion: 0.13
-Nodes (7): Queries, ChangeLog, changeLogEventFromGen(), Store, PruneChangeLogBeforeParams, PruneChangeLogToMaxRowsParams, ReadChangeLogAfterParams
+Nodes (50): gatedReader, Launch, process, TestIsACPAuthRequiredIgnoresUnrelatedFailures(), TestIsACPAuthRequiredRecognizesProtocolAuthCodes(), TestIsACPAuthRequiredUnwrapsWrappedErrors(), TestNormalizeACPErrorMarksAuthRejectionsForReauth(), conversationCapabilities() (+42 more)
 
 ### Community 640 - "dependencies"
 Cohesion: 0.67
@@ -3280,29 +3192,25 @@ Nodes (3): dependencies, clsx, tailwind-merge
 Cohesion: 0.70
 Nodes (4): brand(), expectBrandClearsCluster(), isTruncated(), overlaps()
 
-### Community 650 - "Dispatcher"
-Cohesion: 0.24
-Nodes (5): DeviceStore, Dispatcher, Sender, sentTicket, Subscriber
+### Community 652 - "ShellTerminal"
+Cohesion: 0.10
+Nodes (8): CodexAccountLoginTerminalStart, CodexAccountService, ShellTerminalService, shellTerminalResponse(), shellTerminalResponses(), ShellTerminal, fakeShellTerminalService, OpenShellTerminalInput
 
-### Community 653 - "Plugin"
-Cohesion: 0.19
-Nodes (7): appendPermissionFlags(), Plugin, ResolveKimchiBinary(), resolveRestoreSystemPrompt(), sanitizePrompt(), TestResolveKimchiBinaryContextCanceled(), TestSanitizePrompt()
-
-### Community 654 - "writeConversationError"
-Cohesion: 0.09
-Nodes (22): ConversationsController, writeQueuedTurnMutationError(), configOptionsPayload(), conversationContent(), conversationModelsResponse(), conversationRequestID(), decodeConversationBody(), chi.Router (+14 more)
+### Community 654 - "net/http.Request"
+Cohesion: 0.06
+Nodes (31): ServeYAML(), TestServeYAML(), bearerToken(), connectionToken(), maybeSetPreviewAuthCookie(), previewFilesCookiePath(), ConversationsController, writeQueuedTurnMutationError() (+23 more)
 
 ### Community 656 - "newStore"
 Cohesion: 0.26
 Nodes (14): newStore(), testProject(), TestRunArchivedTargetSameIDConflictsWithoutReactivating(), TestRunCopiesWorkspaceChildRepos(), TestRunDryRunArchivedTargetSameIDConflicts(), TestRunDryRunDetectsSourcePathConflictAgainstPlannedInsert(), TestRunIgnoresArchivedSourceProjects(), TestRunImportsIntoEmptyTarget() (+6 more)
 
 ### Community 657 - "vite.renderer.config.ts"
-Cohesion: 0.14
-Nodes (8): CLOUD_CP_WS_ORIGINS, injectCspMeta, POSTHOG_ORIGINS, productUiReactBoundary, @tailwindcss/vite, @tanstack/router-plugin, ref_vite, @vitejs/plugin-react
+Cohesion: 0.12
+Nodes (10): DEFAULT_POSTHOG_HOST, DEFAULT_POSTHOG_PROJECT_KEY, CLOUD_CP_WS_ORIGINS, injectCspMeta, POSTHOG_ORIGINS, productUiReactBoundary, @tailwindcss/vite, @tanstack/router-plugin (+2 more)
 
-### Community 658 - "kiroAgentPath"
-Cohesion: 0.27
-Nodes (13): kiroAgentPath(), countKiroHookCommand(), kiroPromptFile(), kiroPromptURI(), TestGetAgentHooksClearsStaleModelWhenConfigRemoved(), TestGetAgentHooksCreatesNamedKiroAgentFile(), TestGetAgentHooksInstallsKiroHooks(), TestGetAgentHooksOverwritesStaleConfiguredModel() (+5 more)
+### Community 658 - "agent/kiro/kiro_test.go"
+Cohesion: 0.08
+Nodes (41): kiroAgentPath(), ResolveKiroBinary(), contains(), containsSubsequence(), countKiroHookCommand(), kiroPromptFile(), kiroPromptURI(), stubKiroAuthRunner() (+33 more)
 
 ### Community 659 - "autohandConfigAuthStatus"
 Cohesion: 0.21
@@ -3312,193 +3220,69 @@ Nodes (11): autohandCloudAuthReady(), autohandConfigAuthStatus(), Plugin, TestAu
 Cohesion: 0.26
 Nodes (6): Entry, stateFor(), entryState, Poller, previewSetter, sessionPreviewSource
 
-### Community 662 - "animateAdjustmentPanel"
-Cohesion: 0.32
-Nodes (12): adjustmentPanelHeightCap(), animateAdjustmentPanel(), applyAdjustmentPanelLayout(), composerMaxHeight(), composerPlacement(), composerWidth(), measureAdjustmentPanelHeight(), panelInlineHeight() (+4 more)
-
 ### Community 663 - ".GetAgentHooks"
 Cohesion: 0.31
 Nodes (8): agyHookEntry, agyMatcherGroup, agyNamedHook, agyHooksPath(), Plugin, managedAgyHook(), readAgyHooks(), writeAgyHooks()
 
-### Community 664 - "gencodexproto/main.go"
-Cohesion: 0.29
-Nodes (9): emitSchema(), fatal(), load(), main(), providerVersion(), sameShape(), stripDocs(), method (+1 more)
-
-### Community 666 - ".Merge"
-Cohesion: 0.25
-Nodes (7): TestMergeInheritsDaemonEnvironmentAndAppliesOverlay(), TestMergeWindowsPATHExecutesBundledAO(), TestMergePreservesVariableSpellingForBash(), fakePRService, MergeRequest, MergeResult, ResolveResult
-
-### Community 722 - "orchestrator.go"
-Cohesion: 0.29
-Nodes (9): filterAndSortOrchestrators(), commandContext, commandContext, newOrchestratorCommand(), newOrchestratorListCommand(), orchestratorLineParts(), writeOrchestratorList(), orchestratorListOptions (+1 more)
-
-### Community 724 - "aggregateReviewState"
-Cohesion: 1.00
-Nodes (3): aggregateReviewState(), reviewAfter(), PullRequestReview
-
-### Community 725 - "estimatedCost"
-Cohesion: 0.27
-Nodes (11): EstimatedCost, EstimatedCostProviderAttribution, UsageCostAggregate, estimatedCostResponse(), checkedUsageAdd(), estimatedCost(), estimatedCostProviderAttribution(), knownComponent() (+3 more)
-
-### Community 726 - "TunnelRunner"
-Cohesion: 0.29
-Nodes (6): CloudflaredArgs(), newTunnelPIDOwner(), freeLoopbackPort(), TestCloudflaredArgsTargetLoopback(), TestTunnelPIDOwnersForTheSamePathAreSerializedTogether(), TunnelRunner
-
-### Community 728 - "prstatus.go"
-Cohesion: 0.38
-Nodes (6): PullRequestRef, New(), GitHub, Options, Scanner, Store
+### Community 683 - "tokenInvalidator"
+Cohesion: 0.20
+Nodes (3): tokenInvalidator, SubmitActivitySignaler, WaitingInputComposerReadiness
 
 ### Community 729 - "CLIStatus"
-Cohesion: 0.20
-Nodes (8): CLIStatus(), TestCLIStatus_Mocked(), TestCLIStatusRequiresExplicitCommands(), TestCLIStatusTimeoutDegradesToUnknown(), cursorCLIAuthStatus(), Plugin, Plugin, kiroWhoamiAuthStatus()
-
-### Community 730 - "BinarySpec"
-Cohesion: 0.27
-Nodes (10): appendUniqueCandidate(), binaryFallbackCandidates(), candidateKey(), executableNames(), BinarySpec, joinAll(), namesForPlatform(), resolveBinaryCandidates() (+2 more)
-
-### Community 731 - "kilocodePluginPath"
-Cohesion: 0.29
-Nodes (7): Plugin, isAOManagedPlugin(), kilocodePluginPath(), TestGetAgentHooksInstallsPlugin(), TestGetAgentHooksRefusesToClobberForeignFile(), TestUninstallHooksLeavesForeignFile(), TestUninstallHooksRemovesPlugin()
-
-### Community 732 - "cli/pr.go"
-Cohesion: 0.36
-Nodes (9): commandContext, newPRCommand(), newPRMergeCommand(), newPRResolveCommentsCommand(), normalizePRNumber(), usageArgs(), mergePRResponse, resolveCommentsRequest (+1 more)
-
-### Community 733 - "relocation.ts"
-Cohesion: 0.33
-Nodes (7): decideRelocation(), inspectInstalledBundle(), installedBundlePath(), readBundleVersion(), RelocationAction, RelocationInputs, BASE
-
-### Community 734 - "PolicyOptions"
-Cohesion: 0.22
-Nodes (6): PolicyOptions, validTimestamp(), AgentSwitchFailureAuthorityReader, AgentSwitchFailureAuthoritySnapshot, diskRecord, Reader
-
-### Community 735 - "client_transport_test.go"
-Cohesion: 0.28
-Nodes (8): commandContext, TestReviewSubmitBatchRejectsEmptyEntries(), TestReviewSubmitRejectsEmptyResult(), TestSpawnRejectsEmptySessionID(), TestTransportDistinguishesEmptyResponses(), transportContext(), transportServer(), testConfig
-
-### Community 736 - "expo_test.go"
-Cohesion: 0.39
-Nodes (8): NewExpoClient(), TestExpoClientChunksBatches(), TestExpoClientDoesNotRetry4xx(), TestExpoClientErrorsOnNon2xx(), TestExpoClientGetReceipts(), TestExpoClientNoAuthHeaderWhenTokenEmpty(), TestExpoClientRetriesTransientThenSucceeds(), TestExpoClientSendBuildsRequestAndParsesTickets()
+Cohesion: 0.14
+Nodes (12): CLIStatus(), TestCLIStatus_Mocked(), TestCLIStatusRequiresExplicitCommands(), TestCLIStatusTimeoutDegradesToUnknown(), cursorCLIAuthStatus(), Plugin, stubCursorAuthCommand(), TestCursorCLIAuthStatusAuthorizedFromStatus() (+4 more)
 
 ### Community 737 - "reconcileHook"
 Cohesion: 0.32
 Nodes (7): addHook(), matchersEqual(), reconcileHook(), TestReconcileHookDeduplicatesCommandAcrossGroups(), TestReconcileHookDropsGroupsEmptiedByMove(), TestReconcileHookMovesCommandToDeclaredMatcher(), HookEntry
 
-### Community 738 - "validateAndCanonicalizeSourceSemanticHandoff"
-Cohesion: 0.25
-Nodes (8): TestWriteAgentHandoffFileIsPrivateAtomicAndImmutable(), decodeSemanticHandoffObject(), TestValidateAndCanonicalizeSourceSemanticHandoffEnforcesBounds(), TestValidateAndCanonicalizeSourceSemanticHandoffPreservesCompleteV1AndUnknownFields(), TestValidateAndCanonicalizeSourceSemanticHandoffRejectsInvalidContract(), validateAndCanonicalizeSourceSemanticHandoff(), validateSemanticHandoffField(), semanticHandoffFieldKind
-
-### Community 739 - "renderComposer"
-Cohesion: 0.36
-Nodes (8): adjustIcon(), applyComposerMode(), demoteComposer(), icon(), promoteAdjustmentPanel(), renderComposer(), syncComposerAddButton(), toggleAdjustmentMode()
-
-### Community 743 - "DoctorLaunchProbes"
+### Community 742 - "ClaudeSessionID"
 Cohesion: 0.29
-Nodes (7): appendHideRateLimitNudgeFlag(), appendHookTrustBypassFlag(), appendNoUpdateCheckFlag(), DoctorLaunchProbes(), TestDoctorLaunchProbesMirrorLaunchFlags(), appendSessionHookFlagsForExecutable(), shellQuoteHookExecutable()
+Nodes (5): transcriptResolver, ClaudeSessionID(), TestBuildRestoreCommandAppliesModel(), TestBuildRestoreCommands(), TestClaudeResolverLocatesDeterministicTranscript()
+
+### Community 743 - ".GetRestoreCommand"
+Cohesion: 0.18
+Nodes (12): appendHideRateLimitNudgeFlag(), appendHookTrustBypassFlag(), appendNoUpdateCheckFlag(), appendReasoningEffortFlag(), appendTerminalCompatibilityFlags(), DoctorLaunchProbes(), TestAppendWorkspaceTrustFlagCoversLiteralAndResolvedPaths(), TestDoctorLaunchProbesMirrorLaunchFlags() (+4 more)
 
 ### Community 744 - ".DetectTerminalActivity"
 Cohesion: 0.43
 Nodes (4): continueIdleComposerAt(), continueQuestionPickerAt(), continueTerminalLines(), Plugin
 
-### Community 745 - ".authStatus"
-Cohesion: 0.38
-Nodes (4): codexAuthFilePresent(), credentialStatus(), envSet(), Plugin
-
-### Community 746 - ".ObserveWorkspace"
-Cohesion: 0.33
-Nodes (6): TestParseObservedWorkspaceChanges(), parseObservedWorkspaceChanges(), parseObservedWorkspaceCommits(), WorkspaceChange, WorkspaceCommit, switchWorkspaceFact
+### Community 746 - "WorkspaceInfo"
+Cohesion: 0.03
+Nodes (42): TestParseObservedWorkspaceChanges(), parseObservedWorkspaceChanges(), parseObservedWorkspaceCommits(), ProjectStore, New(), TestRouterDelegatesCreateByProjectKind(), TestRouterDelegatesLifecycleMethodsByProjectKind(), TestRouterPreservesWorkspaceProjectDelegation() (+34 more)
 
 ### Community 747 - "TestRestoreReviewerClaimsNewLaunchBeforeRestoreHooksWithFencedStore"
 Cohesion: 0.52
 Nodes (5): newSQLiteReviewStore(), seedReviewWorker(), TestRestoreReviewerClaimsNewLaunchBeforeRestoreHooksWithFencedStore(), TestTriggerClaimsNewLaunchBeforeSpawnHooksWithFencedStore(), TestTriggerPersistsChatModeBeforeCreatingReviewerConversation()
 
-### Community 748 - "desktop-version-floor.ts"
-Cohesion: 0.43
-Nodes (5): checkDesktopVersionFloor(), Floor, isBelow(), importModule(), usableVersion()
-
-### Community 749 - ".Run"
-Cohesion: 0.33
-Nodes (5): isUnsupportedMatcher(), sessionsHaveProcesses(), signalSessions(), stableRunDir(), execRunner
-
-### Community 750 - "mergeabilityObservationFromLocal"
-Cohesion: 0.40
-Nodes (6): mergeabilityObservation(), TestMergeabilityObservation_UnstableOutranksBlockers(), mergeabilityFromProviderFacts(), mergeabilityObservationFromLocal(), mergeBlockersFromLocal(), SCMMergeabilityObservation
-
-### Community 751 - ".report"
-Cohesion: 0.33
-Nodes (5): commandContext, legacyReportStatus(), IsGitHubPullRequestURL(), TestIsGitHubPullRequestURL(), reportOptions
-
-### Community 752 - ".Cancel"
-Cohesion: 0.33
-Nodes (5): TestCancelDoesNotInterruptIdleReviewer(), TestCancelInterruptsReviewerAndCancelsRunningRuns(), TestCancelKeepsRunsRunningWhenReviewerCancelFailsAndHandleIsAlive(), TestCancelMarksRunsCancelledWhenReviewerHandleIsGone(), TestCancelTargetsRunningReviewerHarness()
-
-### Community 753 - "browser-annotation-overlay.ts"
-Cohesion: 0.47
-Nodes (4): AnnotationPromptViewport, AnnotationRectLike, clamp(), promptPositionForRect()
-
 ### Community 754 - "StatusFromText"
 Cohesion: 0.40
 Nodes (5): compact(), hasAny(), StatusFromText(), TestStatusFromTextExplicitFalseKeys(), TestStatusFromTextExplicitTrueKeys()
-
-### Community 755 - "qwenWorkerRemoteInputCommand"
-Cohesion: 0.40
-Nodes (5): qwenShellQuote(), qwenWorkerRemoteInputCommand(), safeQwenSessionKey(), TestGetLaunchCommandWorkerStartsInteractive(), TestSafeQwenSessionKeyDisambiguatesSanitizedCollisions()
-
-### Community 756 - "SCMReviewRequest"
-Cohesion: 0.50
-Nodes (3): Provider, SCMReviewRequest, fakeReviewRequester
-
-### Community 757 - "InstallCapabilities"
-Cohesion: 0.40
-Nodes (4): InstallCapabilities, InstallCapabilityProbe, HomebrewInstallCapabilities, NPMInstallCapabilities
-
-### Community 758 - "toSessionChildResponse"
-Cohesion: 0.50
-Nodes (4): toSessionChildResponse(), sessionChildResponse, sessionPRFactsResponse, sessionResponse
-
-### Community 761 - "TestGetAgentHooksStripsLegacyAOEntries"
-Cohesion: 0.67
-Nodes (4): countCodexHookCommand(), legacyHooksJSON(), TestGetAgentHooksStripsLegacyAOEntries(), TestUninstallHooksRemovesLegacyCodexHooks()
-
-### Community 764 - "ConfiguredHookHandler"
-Cohesion: 0.50
-Nodes (4): ConfiguredHookHandler, ConfiguredHookHandlerType, ConfiguredHookMatcherGroup, ManagedHooksRequirements
 
 ### Community 765 - "ThreadTokenUsage"
 Cohesion: 0.50
 Nodes (4): RawResponseCompletedNotification, ThreadTokenUsage, ThreadTokenUsageUpdatedNotification, TokenUsageBreakdown
 
-### Community 766 - "WebSearchToolConfig"
-Cohesion: 0.50
-Nodes (4): ToolsV2, WebSearchContextSize, WebSearchLocation, WebSearchToolConfig
-
-### Community 771 - "detachSysProcAttr"
-Cohesion: 0.67
-Nodes (3): detachSysProcAttr(), detachSysProcAttr(), syscall.SysProcAttr
-
-### Community 774 - "McpElicitationSchema"
-Cohesion: 0.67
-Nodes (3): McpElicitationObjectType, McpElicitationSchema, McpElicitationPrimitiveSchema
-
 ## Knowledge Gaps
-- **4122 isolated node(s):** `window`, `compactAccepted`, `steerAccepted`, `github.com/aoagents/agent-orchestrator/backend`, `DeriveFunc` (+4117 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 6169 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **114 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4166 isolated node(s):** `window`, `compactAccepted`, `steerAccepted`, `github.com/aoagents/agent-orchestrator/backend`, `DeriveFunc` (+4161 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 6221 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **113 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `SessionID` connect `SessionID` to `go_pkg_context`, `testing.T`, `context.Context`, `time.Time`, `.openCanonicalSession`, `fakePreviewSessions`, `AgentSwitch`, `SCMObservation`, `SessionRecord`, `PullRequest`, `Observer`, `ptyregistry_test.go`, `.string`, `writeConversationError`, `ReviewInvocation`, `session_manager/manager_test.go`, `Poller`, `controllers/dto.go`, `net/http.Request`, `New`, `New`, `newTestStore`, `session/service_test.go`, `newFakeConversation`, `NotificationsController`, `NewPoller`, `gateway_test.go`, `.cancel`, `newChatManager`, `SessionInterfaceTransition`, `Manager`, `RuntimeHandle`, `NotificationRecord`, `WorkspaceConfig`, `github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store`, `log/slog.Logger`, `EventSink`, `interface_transition_test.go`, `APIDeps`, `newHarness`, `UsageSourceContext`, `lifecycle/manager_test.go`, `ActivityState`, `project/service_test.go`, `acp/driver_test.go`, `NotFound`, `scm/observer_test.go`, `newReaper`, `.Start`, `Service`, `session_manager/agent_switching_test.go`, `Queries`, `ReviewerChatStart`, `tmux_test.go`, `ReportRecord`, `github.com/aoagents/agent-orchestrator/backend/internal/ports.PermissionMode`, `TelemetryEvent`, `broker_test.go`, `New`, `fakeSessionLifecycle`, `Collector`, `context.CancelFunc`, `shellterm/service_test.go`, `mustNoError`, `conversation`, `LaunchConfig`, `TestRestoreReviewerClaimsNewLaunchBeforeRestoreHooksWithFencedStore`, `Status`, `ShellTerminalRecord`, `UsageModelAggregate`, `mustNoError`, `ChangeLog`, `New`, `resolvePreviewTarget`, `sync.Mutex`?**
+- **Why does `SessionID` connect `SessionID` to `go_pkg_context`, `testing.T`, `context.Context`, `time.Time`, `.openCanonicalSession`, `AgentSwitch`, `SessionRecord`, `PullRequest`, `scm/observer.go`, `doRequest`, `session_manager/manager_test.go`, `controllers/dto.go`, `net/http.ResponseWriter`, `session/service_test.go`, `newTestStore`, `.cancel`, `SessionInterfaceTransition`, `RuntimeHandle`, `NotificationRecord`, `log/slog.Logger`, `interface_transition_test.go`, `APIDeps`, `controller_test.go`, `lifecycle/manager_test.go`, `ReviewInvocation`, `Manager`, `project/service_test.go`, `acp/driver_test.go`, `workspace_files.go`, `scm/observer_test.go`, `runtimeMessageSender`, `session_manager/agent_switching_test.go`, `Service`, `ChatConversation`, `tmux_test.go`, `LaunchSpec`, `workspace_integration_test.go`, `Collector`, `ChatUserMessage`, `CodexAccountSwitch`, `internal/review/review_test.go`, `shellterm/service_test.go`, `github.com/aoagents/agent-orchestrator/backend/internal/storage/sqlite.Store`, `mustNoError`, `context.CancelFunc`, `ShellTerminal`, `net/http.Request`, `ChatInputResponse`, `SCMObservation`, `Poller`, `conpty/runtime_test.go`, `Manager`, `EventSink`, `New`, `UsageSourceContext`, `net.Conn`, `ProjectID`, `TelemetryEvent`, `Event`, `WorkspaceInfo`, `TestRestoreReviewerClaimsNewLaunchBeforeRestoreHooksWithFencedStore`, `ShellTerminalRecord`, `UsageModelAggregate`, `resolvePreviewTarget`, `managedPreviewExitFunc`, `ptyregistry_test.go`, `previewserver/process_unix_test.go`, `NotificationsController`, `codexSubagentFixture`, `Workspace`, `Queries`, `Status`, `New`, `NewPoller`, `PrepareEnvironment`, `stubbornAliveRuntime`, `sync.RWMutex`?**
   _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **Why does `AgentSwitchSourceTranscriptStatus` connect `AgentSwitch` to `go_pkg_context`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `connState` connect `context.CancelFunc` to `go_pkg_context`, `context.Context`, `sync.Mutex`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `schemaMap()` connect `fakeAgent` to `go_pkg_context`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `window`, `compactAccepted`, `steerAccepted` to the rest of the system?**
-  _4122 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _4166 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `go_pkg_context` be split into smaller, more focused modules?**
-  _Cohesion score 0.05303111399008766 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05361749303130832 - nodes in this community are weakly interconnected._
 - **Should `testing.T` be split into smaller, more focused modules?**
-  _Cohesion score 0.0021223687254221606 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.002150504218655313 - nodes in this community are weakly interconnected._
 - **Should `context.Context` be split into smaller, more focused modules?**
-  _Cohesion score 0.00453904013395992 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0049317476080137455 - nodes in this community are weakly interconnected._

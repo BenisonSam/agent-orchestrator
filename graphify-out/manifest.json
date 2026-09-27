@@ -10050,9 +10050,9 @@
     "semantic_hash": ""
   },
   "frontend/forge.config.ts": {
-    "mtime": 1790341949.6516807,
-    "seen": 1790362732.2614238,
-    "ast_hash": "cc8f140a03e431f814b1d796d08eb633",
+    "mtime": 1790468110.6504314,
+    "seen": 1790469944.5263033,
+    "ast_hash": "b005862807958e10235fcb29ce6f1388",
     "semantic_hash": ""
   },
   "frontend/makers/macho-archs.test.ts": {
@@ -10128,9 +10128,9 @@
     "semantic_hash": ""
   },
   "frontend/package.json": {
-    "mtime": 1790341949.7815664,
-    "seen": 1790362732.2614238,
-    "ast_hash": "df3ecd70e685ce44341b79e94ed2d4d0",
+    "mtime": 1790468118.8787076,
+    "seen": 1790469944.5305629,
+    "ast_hash": "8955c0553e83690afd8522608b60b5c0",
     "semantic_hash": ""
   },
   "frontend/playwright.config.ts": {
@@ -10164,21 +10164,21 @@
     "semantic_hash": ""
   },
   "frontend/scripts/build-acp-runtime-helpers.mjs": {
-    "mtime": 1790341949.8238332,
-    "seen": 1790362732.2614238,
-    "ast_hash": "7ff173247e23f5c31e28a82c90908947",
+    "mtime": 1790443293.0632868,
+    "seen": 1790469944.531564,
+    "ast_hash": "e5da386623e1604f99d0c74a382fa850",
     "semantic_hash": ""
   },
   "frontend/scripts/build-acp-runtime-helpers.test.mjs": {
-    "mtime": 1790341949.8309782,
-    "seen": 1790362732.2614238,
-    "ast_hash": "b2d4bdee68371dfc3e5452b4d4cfc050",
+    "mtime": 1790443293.0632868,
+    "seen": 1790469944.531564,
+    "ast_hash": "81da3e2307d0a2c48788a68c269c062c",
     "semantic_hash": ""
   },
   "frontend/scripts/build-acp-runtime.mjs": {
-    "mtime": 1790341949.8369422,
-    "seen": 1790362732.2614238,
-    "ast_hash": "84df669e92d999daedca4bcb7d847031",
+    "mtime": 1790443293.040418,
+    "seen": 1790469944.531564,
+    "ast_hash": "f053082eff196cdf9d5f1c1e16e1e6ee",
     "semantic_hash": ""
   },
   "frontend/scripts/build-daemon.mjs": {
@@ -10530,9 +10530,9 @@
     "semantic_hash": ""
   },
   "frontend/src/main.ts": {
-    "mtime": 1790341950.9941285,
-    "seen": 1790362732.2614238,
-    "ast_hash": "e713123f92e16ec142a34d229a7c1b64",
+    "mtime": 1790468659.0832088,
+    "seen": 1790469944.5480366,
+    "ast_hash": "606b57d9e91a994b0473fdd5d5e7ebd3",
     "semantic_hash": ""
   },
   "frontend/src/main/agent-browser-cdp-bridge.test.ts": {
@@ -11190,9 +11190,9 @@
     "semantic_hash": ""
   },
   "frontend/src/preload.ts": {
-    "mtime": 1790341951.9961007,
-    "seen": 1790362732.2624238,
-    "ast_hash": "dc5dff201871a93bd938e49656563f8b",
+    "mtime": 1790468711.3325362,
+    "seen": 1790469944.5746276,
+    "ast_hash": "b1a73a3463fc6c3e66dfe8fc82323f44",
     "semantic_hash": ""
   },
   "frontend/src/renderer/__tests__/_shell-create-project-config.test.tsx": {
@@ -11526,9 +11526,9 @@
     "semantic_hash": ""
   },
   "frontend/src/renderer/components/GlobalSettingsForm.test.tsx": {
-    "mtime": 1790341952.560624,
-    "seen": 1790362732.2624238,
-    "ast_hash": "3be9e8799933fe007f5f8d4d84b6d679",
+    "mtime": 1790468915.4401844,
+    "seen": 1790469944.5961998,
+    "ast_hash": "9a36af0e55d7690b34df7a1a90b13d47",
     "semantic_hash": ""
   },
   "frontend/src/renderer/components/GlobalSettingsForm.tsx": {
@@ -12798,9 +12798,9 @@
     "semantic_hash": ""
   },
   "frontend/src/renderer/components/settings/GeneralSettingsSection.tsx": {
-    "mtime": 1790341954.3707874,
-    "seen": 1790362732.2624238,
-    "ast_hash": "e7f91633f983709edf01f15d8858caab",
+    "mtime": 1790468795.9112945,
+    "seen": 1790469944.650196,
+    "ast_hash": "7a04a4913d6a43da7e418f0918a82147",
     "semantic_hash": ""
   },
   "frontend/src/renderer/components/settings/HarnessSettingsSection.test.tsx": {
@@ -13836,9 +13836,9 @@
     "semantic_hash": ""
   },
   "frontend/src/renderer/i18n/en.json": {
-    "mtime": 1790341956.0288181,
-    "seen": 1790362732.2624238,
-    "ast_hash": "9f484e9b85f4232ee6794e45fd1f67a6",
+    "mtime": 1790468717.4081883,
+    "seen": 1790469944.6994052,
+    "ast_hash": "1511cc43e891ccbfd0fa781534315282",
     "semantic_hash": ""
   },
   "frontend/src/renderer/i18n/es.json": {
@@ -14016,9 +14016,9 @@
     "semantic_hash": ""
   },
   "frontend/src/renderer/lib/bridge.ts": {
-    "mtime": 1790341956.2495923,
-    "seen": 1790362732.2630196,
-    "ast_hash": "9dbf0db35739ffb453f83633bd293d49",
+    "mtime": 1790468715.1024666,
+    "seen": 1790469944.7044084,
+    "ast_hash": "7259c282a1e92db9a8b3a888fa44971c",
     "semantic_hash": ""
   },
   "frontend/src/renderer/lib/browser-tab-label.test.ts": {
@@ -15102,9 +15102,9 @@
     "semantic_hash": ""
   },
   "frontend/src/renderer/test/setup.ts": {
-    "mtime": 1790341957.454525,
-    "seen": 1790362732.2630196,
-    "ast_hash": "9ee90fd4674dd2a372259e231f58d6cf",
+    "mtime": 1790468836.5314233,
+    "seen": 1790469944.7567172,
+    "ast_hash": "c5ad6f23da3868e9721d20fdc8fa87ab",
     "semantic_hash": ""
   },
   "frontend/src/renderer/test/shell-new-session-shortcut.test.tsx": {
@@ -20508,15 +20508,15 @@
     "semantic_hash": ""
   },
   "packages/ao-mcp/mcp.example.json": {
-    "mtime": 1790382304.5337217,
-    "seen": 1790382443.8464074,
-    "ast_hash": "ec192c870d8d0af2234f0c45238ba4c6",
+    "mtime": 1790468804.1747148,
+    "seen": 1790469944.778176,
+    "ast_hash": "768953909107e0bd265e2eafbb9868bd",
     "semantic_hash": ""
   },
   "packages/ao-mcp/package.json": {
-    "mtime": 1790382304.7261117,
-    "seen": 1790382443.8464074,
-    "ast_hash": "49ed078287923bd18deab09529d43f6d",
+    "mtime": 1790468119.9559143,
+    "seen": 1790469944.778176,
+    "ast_hash": "1c0e6ddec0f16611c21e212c6597d5da",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/client.test.ts": {
@@ -20526,27 +20526,27 @@
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/client.ts": {
-    "mtime": 1790382306.428105,
-    "seen": 1790382443.8464074,
-    "ast_hash": "5c5e0b567581f464d45a67165d03a321",
+    "mtime": 1790467861.0318625,
+    "seen": 1790469944.778176,
+    "ast_hash": "378e65706c7a7421c85b063875d41dcf",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/index.ts": {
-    "mtime": 1790382305.3960698,
-    "seen": 1790382443.8464074,
-    "ast_hash": "b897e5167f2b9551ec7c867b06e6fc3d",
+    "mtime": 1790467840.133835,
+    "seen": 1790469944.778176,
+    "ast_hash": "ec9b2cd984625951d627ac2af823a786",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/runfile.test.ts": {
-    "mtime": 1790382305.3960698,
-    "seen": 1790382443.8464074,
-    "ast_hash": "e656d501145d67ec9a53bdb8a4269f1f",
+    "mtime": 1790447320.3581855,
+    "seen": 1790469944.778176,
+    "ast_hash": "85c75c7407f8b196ab8aa3c793c92fe4",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/runfile.ts": {
-    "mtime": 1790382306.428105,
-    "seen": 1790382443.8464074,
-    "ast_hash": "53c93a469aec387bd754bd0017279929",
+    "mtime": 1790447320.3443484,
+    "seen": 1790469944.778176,
+    "ast_hash": "b3a3648e3f8a59337865f55dca92f0d3",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/server.ts": {
@@ -20556,9 +20556,9 @@
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/smoke.ts": {
-    "mtime": 1790382305.4112737,
-    "seen": 1790382443.8464074,
-    "ast_hash": "79859ec727ebaddd2f7f88814dd77532",
+    "mtime": 1790447320.3503883,
+    "seen": 1790469944.7791753,
+    "ast_hash": "c32f3da6a0f57f80977fe665c299c3a7",
     "semantic_hash": ""
   },
   "packages/ao-mcp/src/tools.ts": {
@@ -20577,6 +20577,96 @@
     "mtime": 1790382304.4539363,
     "seen": 1790382443.8464074,
     "ast_hash": "294cd42544648f5284b355f38a810295",
+    "semantic_hash": ""
+  },
+  "frontend/scripts/build-ao-mcp.mjs": {
+    "mtime": 1790468384.3878903,
+    "seen": 1790469944.531564,
+    "ast_hash": "5819d16f776ffac8880ef0297f97c855",
+    "semantic_hash": ""
+  },
+  "frontend/scripts/build-ao-mcp.test.mjs": {
+    "mtime": 1790468425.1160553,
+    "seen": 1790469944.531564,
+    "ast_hash": "f01fcd64f4fdebc515d592f00c31cfc8",
+    "semantic_hash": ""
+  },
+  "frontend/src/main/mcp-bin-install.test.ts": {
+    "mtime": 1790468331.6219409,
+    "seen": 1790469944.5673969,
+    "ast_hash": "3cba834b81bb866ab65e806e8cbd54da",
+    "semantic_hash": ""
+  },
+  "frontend/src/main/mcp-bin-install.ts": {
+    "mtime": 1790468646.5401258,
+    "seen": 1790469944.5673969,
+    "ast_hash": "5233030cb42fb0c2baa8525e0f18d020",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/app-locations.test.ts": {
+    "mtime": 1790467785.809311,
+    "seen": 1790469944.778176,
+    "ast_hash": "46b83bc0505158dd5a0f69cf53e853f7",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/app-locations.ts": {
+    "mtime": 1790467906.4616313,
+    "seen": 1790469944.778176,
+    "ast_hash": "a1d7ecdab39296d5f10da73027b8f8f9",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/cli.test.ts": {
+    "mtime": 1790467774.548689,
+    "seen": 1790469944.778176,
+    "ast_hash": "9c2e2d4a978beec528499cfa3e744397",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/cli.ts": {
+    "mtime": 1790467903.1823676,
+    "seen": 1790469944.778176,
+    "ast_hash": "349864e08262b0c217935647fb564202",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/print-config.test.ts": {
+    "mtime": 1790467777.8545952,
+    "seen": 1790469944.778176,
+    "ast_hash": "977f98ebf900da46d9cd2c23c0218856",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/print-config.ts": {
+    "mtime": 1790467772.0749683,
+    "seen": 1790469944.778176,
+    "ast_hash": "346cf1251b7143897571693e64d0287f",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/wake.test.ts": {
+    "mtime": 1790467818.514398,
+    "seen": 1790469944.7791753,
+    "ast_hash": "6b33c1dfa9d6546640c26c45e1d7fb98",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/src/wake.ts": {
+    "mtime": 1790467812.377205,
+    "seen": 1790469944.7791753,
+    "ast_hash": "9d12b7e450f4b090a8c66f590add6270",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/plans/2026-09-27-ao-mcp-desktop.md": {
+    "mtime": 1790467572.8022738,
+    "seen": 1790469944.9588177,
+    "ast_hash": "fd5e5451487d67addc5c010193cb1d11",
+    "semantic_hash": ""
+  },
+  "docs/superpowers/specs/2026-09-27-ao-mcp-desktop-design.md": {
+    "mtime": 1790461730.4720755,
+    "seen": 1790469944.960816,
+    "ast_hash": "e5ca6ccb810bbc600ae1461e8b740f50",
+    "semantic_hash": ""
+  },
+  "packages/ao-mcp/README.md": {
+    "mtime": 1790468786.4656444,
+    "seen": 1790469944.97302,
+    "ast_hash": "9aab1722207823b2c6cf5dd1bad868b0",
     "semantic_hash": ""
   }
 }
