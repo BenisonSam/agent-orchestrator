@@ -65,6 +65,7 @@ export function extraResourcesForPlatform(platform: NodeJS.Platform): string[] {
 		"daemon",
 		"agent-browser",
 		"resources/acp-runtime",
+		"resources/ao-mcp",
 		...(platform === "darwin" ? ["update-helper"] : []),
 		...(platform === "darwin" || platform === "linux" ? ["tmux"] : []),
 		"assets/icon.png",

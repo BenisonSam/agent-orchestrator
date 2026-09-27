@@ -99,6 +99,8 @@ if (typeof window !== "undefined") {
 	window.ao = {
 		app: {
 			getVersion: async () => "0.0.0-test",
+			getMcpConfigSnippet: async () =>
+				'{"mcpServers":{"ao":{"command":"/test/.ao/bin/ao-mcp"}}}\n',
 			chooseDirectory: async () => null,
 			checkGitRepository: async () => true,
 			openExternal: async () => undefined,

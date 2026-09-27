@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "ao": {
-      "command": "<absolute-path-to-home>/.ao/bin/ao-mcp"
+      "command": "<HOME>/.ao/bin/ao-mcp"
     }
   }
 }

@@ -36,6 +36,7 @@ const {
 	navigateMock,
 	writeText,
 	openExternal,
+	getMcpConfigSnippet,
 	featListBuilds,
 	featGetActive,
 	getKeybindings,
@@ -58,6 +59,7 @@ const {
 	updInstall: vi.fn(),
 	updOnStatus: vi.fn(),
 	getVersion: vi.fn(),
+	getMcpConfigSnippet: vi.fn(),
 	getDaemonStatus: vi.fn(),
 	navigateMock: vi.fn(),
 	writeText: vi.fn(),
@@ -92,7 +94,7 @@ vi.mock("../lib/platform", async (importOriginal) => {
 
 vi.mock("../lib/bridge", () => ({
 	aoBridge: {
-		app: { getVersion, openExternal },
+		app: { getVersion, getMcpConfigSnippet, openExternal },
 		clipboard: { writeText },
 		daemon: { getStatus: getDaemonStatus },
 		updateSettings: {
@@ -179,6 +181,9 @@ beforeEach(async () => {
 	updInstall.mockResolvedValue(undefined);
 	updOnStatus.mockReturnValue(() => undefined);
 	getVersion.mockResolvedValue("1.4.0");
+	getMcpConfigSnippet.mockResolvedValue(
+		'{"mcpServers":{"ao":{"command":"C:\\\\Users\\\\x\\\\.ao\\\\bin\\\\ao-mcp.cmd"}}}\n',
+	);
 	getDaemonStatus.mockResolvedValue({ state: "ready" });
 	writeText.mockResolvedValue(undefined);
 	openExternal.mockResolvedValue(undefined);

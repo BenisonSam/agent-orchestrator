@@ -8,6 +8,18 @@ export const aoBridge: AoBridge =
 	({
 		app: {
 			getVersion: async () => "0.0.0-preview",
+			getMcpConfigSnippet: async (wake?: boolean) =>
+				JSON.stringify(
+					{
+						mcpServers: {
+							ao: wake
+								? { command: "/preview/.ao/bin/ao-mcp", args: ["--wake"] }
+								: { command: "/preview/.ao/bin/ao-mcp" },
+						},
+					},
+					null,
+					2,
+				) + "\n",
 			chooseDirectory: async () => null,
 			checkGitRepository: async () => true,
 			openExternal: async (url: string) => {

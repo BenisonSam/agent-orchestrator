@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Check, Copy } from "lucide-react";
 import type { ThemePreference, ThemeStyle } from "../../lib/theme";
 import type { AppLocale } from "../../i18n";
 import { useLocaleStore } from "../../stores/locale-store";
@@ -12,7 +13,9 @@ import { SettingsOptionMenu, type SettingsOption } from "./SettingsOptionMenu";
 import { SettingsInputRow, SettingsRow } from "./SettingsRow";
 import { SettingsSection } from "./SettingsSection";
 import { Switch } from "../ui/switch";
+import { Button } from "../ui/button";
 import { cn } from "../../lib/utils";
+import { aoBridge } from "../../lib/bridge";
 import { useSettings, useUpdateCloudOffering, useUpdateSessionInterface } from "../../hooks/useSettings";
 import type { SessionMode } from "../../types/workspace";
 import type { TerminalShellKind } from "../../../shared/ui-locale";
@@ -262,8 +265,58 @@ export function GeneralSettingsSection({
 					/>
 				</SettingsRow>
 				{developerMode && <CloudOfferingRow />}
+				<McpConfigRow />
 			</SettingsSection>
 		</>
+	);
+}
+
+function McpConfigRow() {
+	const { t } = useTranslation();
+	const [copied, setCopied] = useState(false);
+	const [error, setError] = useState<string | null>(null);
+	const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
+
+	useEffect(() => () => clearTimeout(timer.current), []);
+
+	const copy = () => {
+		setError(null);
+		void aoBridge.app
+			.getMcpConfigSnippet(false)
+			.then((snippet) => aoBridge.clipboard.writeText(snippet))
+			.then(() => {
+				setCopied(true);
+				clearTimeout(timer.current);
+				timer.current = setTimeout(() => setCopied(false), 1_400);
+			})
+			.catch(() => {
+				setError(t("settings.mcpConfig.copyFailed"));
+			});
+	};
+
+	return (
+		<div className="flex w-full flex-col" data-testid="settings-mcp-config">
+			<SettingsRow label={t("settings.mcpConfig")}>
+				<Button
+					type="button"
+					size="sm"
+					variant="outline"
+					aria-label={copied ? t("settings.mcpConfig.copied") : t("settings.mcpConfig.copy")}
+					onClick={copy}
+				>
+					{copied ? <Check aria-hidden="true" /> : <Copy aria-hidden="true" />}
+					{copied ? t("settings.mcpConfig.copied") : t("settings.mcpConfig.copy")}
+				</Button>
+			</SettingsRow>
+			<p className="px-3 pb-2 text-xs leading-relaxed text-muted-foreground">
+				{t("settings.mcpConfig.description")}
+			</p>
+			{error ? (
+				<p role="alert" className="px-3 pb-2 text-caption text-error">
+					{error}
+				</p>
+			) : null}
+		</div>
 	);
 }
 

@@ -84,6 +84,12 @@ import {
 import { createTrayController, type TrayController } from "./main/tray";
 import { createTrayLifecycle, isTrayEnabled } from "./main/tray-lifecycle";
 import {
+	formatMcpConfigSnippet,
+	installMcpBin,
+	mcpShimPath,
+	resolveMcpResourcePaths,
+} from "./main/mcp-bin-install";
+import {
 	TRAY_RENDERER_READY_CHANNEL,
 	TRAY_SET_ATTENTION_STATE_CHANNEL,
 } from "./shared/tray";
@@ -1993,6 +1999,10 @@ ipcMain.handle("editorHandoff:open", (event, input) => {
 	return editorHandoff.open(input && typeof input === "object" ? input : { sessionId: "" });
 });
 ipcMain.handle("app:getVersion", () => app.getVersion());
+ipcMain.handle("mcp:getConfigSnippet", (_event, wake?: unknown) => {
+	const command = mcpShimPath(os.homedir(), process.platform);
+	return formatMcpConfigSnippet(command, wake === true);
+});
 ipcMain.handle("app:openExternal", async (_event, url: string) => {
 	await openAllowedAppExternalURL(url, shell);
 });
@@ -2740,6 +2750,28 @@ app.whenReady().then(async () => {
 		await checkDesktopVersionFloor().catch((err) =>
 			console.warn("desktop version floor check failed:", err),
 		);
+		try {
+			const resourcesRoot = process.resourcesPath;
+			const { nodePath, scriptPath } = resolveMcpResourcePaths({
+				resourcesRoot,
+				platform: process.platform,
+			});
+			if (existsSync(nodePath) && existsSync(scriptPath)) {
+				await installMcpBin({
+					homeDir: os.homedir(),
+					nodePath,
+					scriptPath,
+					platform: process.platform,
+				});
+			} else {
+				console.warn(
+					"mcp bin install skipped: missing packaged node or ao-mcp bundle",
+					{ nodePath, scriptPath },
+				);
+			}
+		} catch (err) {
+			console.warn("mcp bin install failed:", err);
+		}
 	}
 	void refreshGitHubOwners();
 	const visibilityKillSwitched = (process.env.AO_TELEMETRY_DISABLED_EVENTS ?? "").split(",").some((name) => name.trim() === "ao.agent_switch.visibility_failure");
