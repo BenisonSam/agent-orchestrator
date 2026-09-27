@@ -1,8 +1,7 @@
 {
   "mcpServers": {
     "ao": {
-      "command": "node",
-      "args": ["<absolute-path-to-repo>/packages/ao-mcp/dist/index.js"]
+      "command": "<absolute-path-to-home>/.ao/bin/ao-mcp"
     }
   }
 }

@@ -1,8 +1,4 @@
-import {
-  candidateRunfilePaths,
-  discoverRunfile,
-  noDaemonMessage,
-} from "./runfile.js";
+import { ensureDaemonReady } from "./wake.js";
 
 export type ApiErrorBody = {
   error?: string;
@@ -101,6 +97,8 @@ type DaemonClientOptions = {
   baseUrl?: string;
   env?: NodeJS.ProcessEnv;
   fetchImpl?: typeof fetch;
+  /** When true, launch the installed desktop app if the daemon is down. */
+  wake?: boolean;
 };
 
 /**
@@ -111,21 +109,29 @@ export class DaemonClient {
   private readonly env: NodeJS.ProcessEnv;
   private readonly fetchImpl: typeof fetch;
   private readonly fixedBaseUrl?: string;
+  private readonly wake: boolean;
+  private readyPromise?: Promise<string>;
 
   constructor(options: DaemonClientOptions = {}) {
     this.env = options.env ?? process.env;
     this.fetchImpl = options.fetchImpl ?? fetch;
     this.fixedBaseUrl =
       options.baseUrl ?? this.env.AO_BASE_URL?.replace(/\/+$/, "");
+    this.wake = options.wake === true;
   }
 
   async baseUrl(): Promise<string> {
     if (this.fixedBaseUrl) return this.fixedBaseUrl;
-    const found = await discoverRunfile(this.env);
-    if (!found) {
-      throw new Error(noDaemonMessage(candidateRunfilePaths(this.env)));
+    if (!this.readyPromise) {
+      this.readyPromise = ensureDaemonReady(this.wake, {
+        env: this.env,
+        fetchImpl: this.fetchImpl,
+      }).catch((err) => {
+        this.readyPromise = undefined;
+        throw err;
+      });
     }
-    return `http://127.0.0.1:${found.info.port}`;
+    return this.readyPromise;
   }
 
   async listTasks(input: ListTasksInput = {}): Promise<TaskSummary[]> {
